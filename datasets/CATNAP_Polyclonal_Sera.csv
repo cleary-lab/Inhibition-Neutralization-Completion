@@ -1,0 +1,2490 @@
+Serum,Virus,Study,ID50 (Neutralization Titer)
+polyclonal N152,0013095_2_11,Huang2014,1930
+polyclonal NIH45,0013095_2_11,Wu2010,65
+polyclonal PC64-M35,0013095_2_11,Landais2017_dataset1,76
+Polyclonal AIIMS_329 102-months,001428_2_42,Mishra2019_dataset1,465
+Polyclonal AIIMS_329 112-months,001428_2_42,Mishra2019_dataset1,325
+Polyclonal AIIMS_329 117-months,001428_2_42,Mishra2019_dataset1,242
+Polyclonal AIIMS_329 124-months,001428_2_42,Mishra2019_dataset1,67
+Polyclonal AIIMS_329 131-months,001428_2_42,Mishra2019_dataset1,69
+Polyclonal AIIMS_329 138-months,001428_2_42,Mishra2019_dataset1,129
+Polyclonal AIIMS_329 78-months,001428_2_42,Mishra2019_dataset1,659
+Polyclonal AIIMS_329 82-months,001428_2_42,Mishra2019_dataset1,954
+Polyclonal AIIMS_329 90-months,001428_2_42,Mishra2019_dataset1,645
+Polyclonal AIIMS_330 102-months,001428_2_42,Mishra2019_dataset1,1123
+Polyclonal AIIMS_330 112-months,001428_2_42,Mishra2019_dataset1,2532
+Polyclonal AIIMS_330 117-months,001428_2_42,Mishra2019_dataset1,2149
+Polyclonal AIIMS_330 124-months,001428_2_42,Mishra2019_dataset1,1652
+Polyclonal AIIMS_330 131-months,001428_2_42,Mishra2019_dataset1,2498
+Polyclonal AIIMS_330 138-months,001428_2_42,Mishra2019_dataset1,1587
+Polyclonal AIIMS_330 78-months,001428_2_42,Mishra2019_dataset1,548
+Polyclonal AIIMS_330 82-months,001428_2_42,Mishra2019_dataset1,612
+Polyclonal AIIMS_330 90-months,001428_2_42,Mishra2019_dataset1,759
+polyclonal N152,001428_2_42,Huang2014,2688
+polyclonal NIH45,001428_2_42,Wu2010,26
+polyclonal PC64-M35,001428_2_42,Landais2017_dataset1,<50
+polyclonal N152,0077_V1_C16,Huang2014,1658
+Polyclonal AIIMS_329 102-months,00836_2_5,Mishra2019_dataset1,231
+Polyclonal AIIMS_329 112-months,00836_2_5,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 117-months,00836_2_5,Mishra2019_dataset1,72
+Polyclonal AIIMS_329 124-months,00836_2_5,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,00836_2_5,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,00836_2_5,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,00836_2_5,Mishra2019_dataset1,248
+Polyclonal AIIMS_329 82-months,00836_2_5,Mishra2019_dataset1,245
+Polyclonal AIIMS_329 90-months,00836_2_5,Mishra2019_dataset1,261
+Polyclonal AIIMS_330 102-months,00836_2_5,Mishra2019_dataset1,91
+Polyclonal AIIMS_330 112-months,00836_2_5,Mishra2019_dataset1,477
+Polyclonal AIIMS_330 117-months,00836_2_5,Mishra2019_dataset1,264
+Polyclonal AIIMS_330 124-months,00836_2_5,Mishra2019_dataset1,365
+Polyclonal AIIMS_330 131-months,00836_2_5,Mishra2019_dataset1,547
+Polyclonal AIIMS_330 138-months,00836_2_5,Mishra2019_dataset1,241
+Polyclonal AIIMS_330 78-months,00836_2_5,Mishra2019_dataset1,78
+Polyclonal AIIMS_330 82-months,00836_2_5,Mishra2019_dataset1,81
+Polyclonal AIIMS_330 90-months,00836_2_5,Mishra2019_dataset1,86
+polyclonal N152,00836_2_5,Huang2014,265
+polyclonal Donor 31,0260_V5_C36,Falkowska2014,127
+polyclonal N152,0260_V5_C36,Huang2014,3906
+polyclonal PC64-M35,0260_V5_C36,Landais2017_dataset1,<50
+polyclonal N152,0330_V4_C3,Huang2014,9263
+polyclonal NIH45,0330_V4_C3,Wu2010,152
+polyclonal PC64-M35,0330_V4_C3,Landais2017_dataset1,2922
+polyclonal N152,0439_V5_C1,Huang2014,4111
+polyclonal N152,0815_V3_C3,Huang2014,465
+polyclonal PC64-M35,0815_V3_C3,Landais2017_dataset1,<50
+polyclonal N152,0921_V2_C14,Huang2014,46
+polyclonal CH0457 wk8,1006_11_C3_1601,Moody2015,39
+polyclonal CH0457 wk96,1006_11_C3_1601,Moody2015,58
+polyclonal NIH45,1006_11_C3_1601,Wu2010,70
+polyclonal PC64-M35,1006_11_C3_1601,Landais2017_dataset1,312
+polyclonal NIH45,1012_11_TC21_3257,Wu2010,35
+polyclonal PC64-M35,1012_11_TC21_3257,Landais2017_dataset1,70
+polyclonal CH0457 wk8,1054_07_TC4_1499,Moody2015,78
+polyclonal CH0457 wk96,1054_07_TC4_1499,Moody2015,178
+polyclonal NIH45,1054_07_TC4_1499,Wu2010,134
+polyclonal PC64-M35,1054_07_TC4_1499,Landais2017_dataset1,241
+polyclonal NIH45,1056_10_TA11_1826,Wu2010,266
+polyclonal PC64-M35,1056_10_TA11_1826,Landais2017_dataset1,53
+polyclonal CH0457 wk8,1394_C9G1,Moody2015,<20
+polyclonal CH0457 wk96,1394_C9G1,Moody2015,68
+polyclonal PC64-M35,1394_C9G1,Landais2017_dataset1,2989
+Polyclonal AIIMS_329 102-months,16055_2_3,Mishra2019_dataset1,659
+Polyclonal AIIMS_329 112-months,16055_2_3,Mishra2019_dataset1,284
+Polyclonal AIIMS_329 117-months,16055_2_3,Mishra2019_dataset1,124
+Polyclonal AIIMS_329 124-months,16055_2_3,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 131-months,16055_2_3,Mishra2019_dataset1,101
+Polyclonal AIIMS_329 138-months,16055_2_3,Mishra2019_dataset1,68
+Polyclonal AIIMS_329 78-months,16055_2_3,Mishra2019_dataset1,1248
+Polyclonal AIIMS_329 82-months,16055_2_3,Mishra2019_dataset1,1456
+Polyclonal AIIMS_329 90-months,16055_2_3,Mishra2019_dataset1,1413
+Polyclonal AIIMS_330 102-months,16055_2_3,Mishra2019_dataset1,1334
+Polyclonal AIIMS_330 112-months,16055_2_3,Mishra2019_dataset1,2348
+Polyclonal AIIMS_330 117-months,16055_2_3,Mishra2019_dataset1,1897
+Polyclonal AIIMS_330 124-months,16055_2_3,Mishra2019_dataset1,1153
+Polyclonal AIIMS_330 131-months,16055_2_3,Mishra2019_dataset1,1269
+Polyclonal AIIMS_330 138-months,16055_2_3,Mishra2019_dataset1,1455
+Polyclonal AIIMS_330 78-months,16055_2_3,Mishra2019_dataset1,1126
+Polyclonal AIIMS_330 82-months,16055_2_3,Mishra2019_dataset1,1213
+Polyclonal AIIMS_330 90-months,16055_2_3,Mishra2019_dataset1,1317
+polyclonal N152,16055_2_3,Huang2014,7672
+polyclonal NIH45,16055_2_3,Wu2010,83
+polyclonal N152,16845_2_22,Huang2014,11099
+polyclonal NIH45,16845_2_22,Wu2010,509
+Polyclonal AIIMS_329 102-months,16936_2_21,Mishra2019_dataset1,156
+Polyclonal AIIMS_329 112-months,16936_2_21,Mishra2019_dataset1,199
+Polyclonal AIIMS_329 117-months,16936_2_21,Mishra2019_dataset1,114
+Polyclonal AIIMS_329 124-months,16936_2_21,Mishra2019_dataset1,142
+Polyclonal AIIMS_329 131-months,16936_2_21,Mishra2019_dataset1,124
+Polyclonal AIIMS_329 138-months,16936_2_21,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 78-months,16936_2_21,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 82-months,16936_2_21,Mishra2019_dataset1,233
+Polyclonal AIIMS_329 90-months,16936_2_21,Mishra2019_dataset1,312
+Polyclonal AIIMS_330 102-months,16936_2_21,Mishra2019_dataset1,398
+Polyclonal AIIMS_330 112-months,16936_2_21,Mishra2019_dataset1,1346
+Polyclonal AIIMS_330 117-months,16936_2_21,Mishra2019_dataset1,1126
+Polyclonal AIIMS_330 124-months,16936_2_21,Mishra2019_dataset1,1248
+Polyclonal AIIMS_330 131-months,16936_2_21,Mishra2019_dataset1,967
+Polyclonal AIIMS_330 138-months,16936_2_21,Mishra2019_dataset1,678
+Polyclonal AIIMS_330 78-months,16936_2_21,Mishra2019_dataset1,376
+Polyclonal AIIMS_330 82-months,16936_2_21,Mishra2019_dataset1,387
+Polyclonal AIIMS_330 90-months,16936_2_21,Mishra2019_dataset1,387
+polyclonal N152,16936_2_21,Huang2014,8448
+polyclonal NIH45,16936_2_21,Wu2010,194
+polyclonal PC64-M35,191084_B7_19,Landais2017_dataset1,210
+polyclonal PC64-M35,191955_A11,Landais2017_dataset1,12125
+polyclonal NIH45,211_9,Wu2010,438
+polyclonal PC64-M35,211_9,Landais2017_dataset1,<50
+polyclonal N152,231965_C1,Huang2014,7990
+polyclonal PC64-M35,231965_C1,Landais2017_dataset1,<50
+polyclonal Patient 1,231965_C1,Scheid2011,304.48
+polyclonal Patient 3,231965_C1,Scheid2011,86.54
+polyclonal Patient 8,231965_C1,Scheid2011,171.56
+polyclonal Donor 31,231966_C2,Falkowska2014,235
+polyclonal Donor 31,235_47,Falkowska2014,<50
+polyclonal N152,235_47,Huang2014,457
+polyclonal NIH45,235_47,Wu2010,45
+polyclonal PC64-M35,235_47,Landais2017_dataset1,25806
+polyclonal N152,242_14,Huang2014,6609
+polyclonal NIH45,242_14,Wu2010,322
+Polyclonal AIIMS_329 102-months,246_F3_C10_2,Mishra2019_dataset1,612
+Polyclonal AIIMS_329 112-months,246_F3_C10_2,Mishra2019_dataset1,514
+Polyclonal AIIMS_329 117-months,246_F3_C10_2,Mishra2019_dataset1,451
+Polyclonal AIIMS_329 124-months,246_F3_C10_2,Mishra2019_dataset1,542
+Polyclonal AIIMS_329 131-months,246_F3_C10_2,Mishra2019_dataset1,254
+Polyclonal AIIMS_329 138-months,246_F3_C10_2,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 78-months,246_F3_C10_2,Mishra2019_dataset1,323
+Polyclonal AIIMS_329 82-months,246_F3_C10_2,Mishra2019_dataset1,412
+Polyclonal AIIMS_329 90-months,246_F3_C10_2,Mishra2019_dataset1,701
+Polyclonal AIIMS_330 102-months,246_F3_C10_2,Mishra2019_dataset1,412
+Polyclonal AIIMS_330 112-months,246_F3_C10_2,Mishra2019_dataset1,547
+Polyclonal AIIMS_330 117-months,246_F3_C10_2,Mishra2019_dataset1,748
+Polyclonal AIIMS_330 124-months,246_F3_C10_2,Mishra2019_dataset1,860
+Polyclonal AIIMS_330 131-months,246_F3_C10_2,Mishra2019_dataset1,550
+Polyclonal AIIMS_330 138-months,246_F3_C10_2,Mishra2019_dataset1,963
+Polyclonal AIIMS_330 78-months,246_F3_C10_2,Mishra2019_dataset1,112
+Polyclonal AIIMS_330 82-months,246_F3_C10_2,Mishra2019_dataset1,189
+Polyclonal AIIMS_330 90-months,246_F3_C10_2,Mishra2019_dataset1,246
+polyclonal BF520,246_F3_C10_2,Simonich2016,>100
+polyclonal QA013,246_F3_C10_2,Williams2018,154
+polyclonal N152,247_23,Huang2014,9426
+polyclonal CH0457 wk8,249M_B10,Moody2015,1224
+polyclonal CH0457 wk96,249M_B10,Moody2015,1497
+polyclonal PC64-M35,249M_B10,Landais2017_dataset1,133
+Polyclonal AIIMS_329 102-months,25710_2_43,Mishra2019_dataset1,1246
+Polyclonal AIIMS_329 112-months,25710_2_43,Mishra2019_dataset1,324
+Polyclonal AIIMS_329 117-months,25710_2_43,Mishra2019_dataset1,264
+Polyclonal AIIMS_329 124-months,25710_2_43,Mishra2019_dataset1,489
+Polyclonal AIIMS_329 131-months,25710_2_43,Mishra2019_dataset1,549
+Polyclonal AIIMS_329 138-months,25710_2_43,Mishra2019_dataset1,748
+Polyclonal AIIMS_329 78-months,25710_2_43,Mishra2019_dataset1,1412
+Polyclonal AIIMS_329 82-months,25710_2_43,Mishra2019_dataset1,1526
+Polyclonal AIIMS_329 90-months,25710_2_43,Mishra2019_dataset1,2089
+Polyclonal AIIMS_330 102-months,25710_2_43,Mishra2019_dataset1,609
+Polyclonal AIIMS_330 112-months,25710_2_43,Mishra2019_dataset1,2864
+Polyclonal AIIMS_330 117-months,25710_2_43,Mishra2019_dataset1,2458
+Polyclonal AIIMS_330 124-months,25710_2_43,Mishra2019_dataset1,1661
+Polyclonal AIIMS_330 131-months,25710_2_43,Mishra2019_dataset1,1759
+Polyclonal AIIMS_330 138-months,25710_2_43,Mishra2019_dataset1,2047
+Polyclonal AIIMS_330 78-months,25710_2_43,Mishra2019_dataset1,540
+Polyclonal AIIMS_330 82-months,25710_2_43,Mishra2019_dataset1,560
+Polyclonal AIIMS_330 90-months,25710_2_43,Mishra2019_dataset1,587
+polyclonal BF520,25710_2_43,Simonich2016,120
+polyclonal N152,25710_2_43,Huang2014,9868
+polyclonal NIH45,25710_2_43,Wu2010,162
+polyclonal QA013,25710_2_43,Williams2018,326
+Polyclonal AIIMS_329 102-months,25711_2_4,Mishra2019_dataset1,1456
+Polyclonal AIIMS_329 112-months,25711_2_4,Mishra2019_dataset1,567
+Polyclonal AIIMS_329 117-months,25711_2_4,Mishra2019_dataset1,129
+Polyclonal AIIMS_329 124-months,25711_2_4,Mishra2019_dataset1,316
+Polyclonal AIIMS_329 131-months,25711_2_4,Mishra2019_dataset1,524
+Polyclonal AIIMS_329 138-months,25711_2_4,Mishra2019_dataset1,724
+Polyclonal AIIMS_329 78-months,25711_2_4,Mishra2019_dataset1,1247
+Polyclonal AIIMS_329 82-months,25711_2_4,Mishra2019_dataset1,1146
+Polyclonal AIIMS_329 90-months,25711_2_4,Mishra2019_dataset1,1894
+Polyclonal AIIMS_330 102-months,25711_2_4,Mishra2019_dataset1,456
+Polyclonal AIIMS_330 112-months,25711_2_4,Mishra2019_dataset1,766
+Polyclonal AIIMS_330 117-months,25711_2_4,Mishra2019_dataset1,1125
+Polyclonal AIIMS_330 124-months,25711_2_4,Mishra2019_dataset1,1527
+Polyclonal AIIMS_330 131-months,25711_2_4,Mishra2019_dataset1,417
+Polyclonal AIIMS_330 138-months,25711_2_4,Mishra2019_dataset1,1684
+Polyclonal AIIMS_330 78-months,25711_2_4,Mishra2019_dataset1,600
+Polyclonal AIIMS_330 82-months,25711_2_4,Mishra2019_dataset1,649
+Polyclonal AIIMS_330 90-months,25711_2_4,Mishra2019_dataset1,713
+polyclonal N152,25711_2_4,Huang2014,4093
+polyclonal NIH45,25711_2_4,Wu2010,504
+Polyclonal AIIMS_329 102-months,25925_2_22,Mishra2019_dataset1,134
+Polyclonal AIIMS_329 112-months,25925_2_22,Mishra2019_dataset1,334
+Polyclonal AIIMS_329 117-months,25925_2_22,Mishra2019_dataset1,128
+Polyclonal AIIMS_329 124-months,25925_2_22,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,25925_2_22,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,25925_2_22,Mishra2019_dataset1,156
+Polyclonal AIIMS_329 78-months,25925_2_22,Mishra2019_dataset1,85
+Polyclonal AIIMS_329 82-months,25925_2_22,Mishra2019_dataset1,95
+Polyclonal AIIMS_329 90-months,25925_2_22,Mishra2019_dataset1,103
+Polyclonal AIIMS_330 102-months,25925_2_22,Mishra2019_dataset1,873
+Polyclonal AIIMS_330 112-months,25925_2_22,Mishra2019_dataset1,3674
+Polyclonal AIIMS_330 117-months,25925_2_22,Mishra2019_dataset1,2867
+Polyclonal AIIMS_330 124-months,25925_2_22,Mishra2019_dataset1,458
+Polyclonal AIIMS_330 131-months,25925_2_22,Mishra2019_dataset1,325
+Polyclonal AIIMS_330 138-months,25925_2_22,Mishra2019_dataset1,459
+Polyclonal AIIMS_330 78-months,25925_2_22,Mishra2019_dataset1,751
+Polyclonal AIIMS_330 82-months,25925_2_22,Mishra2019_dataset1,779
+Polyclonal AIIMS_330 90-months,25925_2_22,Mishra2019_dataset1,798
+polyclonal N152,25925_2_22,Huang2014,3217
+polyclonal NIH45,25925_2_22,Wu2010,312
+polyclonal N152,26191_2_48,Huang2014,35.2
+polyclonal NIH45,26191_2_48,Wu2010,340
+polyclonal N152,263_8,Huang2014,3500
+polyclonal NIH45,263_8,Wu2010,98
+polyclonal PC64-M35,263_8,Landais2017_dataset1,<50
+polyclonal N152,269_12,Huang2014,95876
+polyclonal NIH45,286_36,Wu2010,47
+polyclonal N152,288_38,Huang2014,1949
+polyclonal NIH45,288_38,Wu2010,100
+polyclonal N152,3016_V5_C45,Huang2014,6403
+polyclonal Patient 1,3016_V5_C45,Scheid2011,>340
+polyclonal Patient 3,3016_V5_C45,Scheid2011,185.62
+polyclonal Patient 8,3016_V5_C45,Scheid2011,>227
+polyclonal PC64-M35,3103_V3_C10,Landais2017_dataset1,<50
+polyclonal N152,3168_V4_C10,Huang2014,7844
+Polyclonal AIIMS_329 90-months,329_14_B1,Mishra2019_dataset1,293
+Polyclonal AIIMS_329 90-months,329_14_B4,Mishra2019_dataset1,312
+Polyclonal AIIMS_329 112-months,329_15_A1,Mishra2019_dataset1,149
+Polyclonal AIIMS_329 112-months,329_15_B1,Mishra2019_dataset1,135
+Polyclonal AIIMS_329 117-months,329_16_C1,Mishra2019_dataset1,<100
+Polyclonal AIIMS_329 117-months,329_16_D5,Mishra2019_dataset1,<100
+polyclonal N152,3301_V1_C24,Huang2014,9904
+polyclonal PC64-M35,3301_V1_C24,Landais2017_dataset1,<50
+Polyclonal AIIMS_330 90-months,330_14_A12,Mishra2019_dataset1,912
+Polyclonal AIIMS_330 90-months,330_14_A20,Mishra2019_dataset1,321
+Polyclonal AIIMS_330 112-months,330_15_C36,Mishra2019_dataset1,148
+Polyclonal AIIMS_330 112-months,330_15_D36,Mishra2019_dataset1,<100
+Polyclonal AIIMS_330 112-months,330_15_E36,Mishra2019_dataset1,<100
+Polyclonal AIIMS_330 117-months,330_16_A2,Mishra2019_dataset1,214
+Polyclonal AIIMS_330 117-months,330_16_D4,Mishra2019_dataset1,151
+Polyclonal AIIMS_330 117-months,330_16_E6,Mishra2019_dataset1,2459
+Polyclonal AIIMS_330 117-months,330_16_H2,Mishra2019_dataset1,213
+polyclonal N152,3326_V4_C3,Huang2014,111
+polyclonal N152,3337_V2_C6,Huang2014,22394
+polyclonal N152,3365_V2_C20,Huang2014,9810
+polyclonal NIH45,3365_V2_C20,Scheid2011,94
+polyclonal NIH45,3365_V2_C20,Wu2010,94
+polyclonal Patient 1,3365_V2_C20,Scheid2011,111.54
+polyclonal Patient 3,3365_V2_C20,Scheid2011,28.46
+polyclonal Patient 8,3365_V2_C20,Scheid2011,>227
+polyclonal N152,3415_V1_C1,Huang2014,12934
+polyclonal NIH45,3415_V1_C1,Scheid2011,54
+polyclonal NIH45,3415_V1_C1,Wu2010,54
+polyclonal Patient 1,3415_V1_C1,Scheid2011,48.26
+polyclonal Patient 3,3415_V1_C1,Scheid2011,38.88
+polyclonal Patient 8,3415_V1_C1,Scheid2011,16.63
+polyclonal N152,3468_V1_C12,Huang2014,12304
+polyclonal N152,3589_V1_C4,Huang2014,143
+polyclonal N152,3637_V5_C3,Huang2014,777
+polyclonal N152,3718_3_11,Huang2014,2167
+polyclonal NIH45,3718_3_11,Wu2010,574
+polyclonal PC64-M35,3817_V2_C59,Landais2017_dataset1,<50
+polyclonal N152,3873_V1_C24,Huang2014,1353
+polyclonal N152,3988_25,Huang2014,1332
+polyclonal NIH45,3988_25,Wu2010,21
+Polyclonal AIIMS_329 102-months,398_F1_F6_20,Mishra2019_dataset1,146
+Polyclonal AIIMS_329 112-months,398_F1_F6_20,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,398_F1_F6_20,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,398_F1_F6_20,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,398_F1_F6_20,Mishra2019_dataset1,89
+Polyclonal AIIMS_329 138-months,398_F1_F6_20,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,398_F1_F6_20,Mishra2019_dataset1,216
+Polyclonal AIIMS_329 82-months,398_F1_F6_20,Mishra2019_dataset1,234
+Polyclonal AIIMS_329 90-months,398_F1_F6_20,Mishra2019_dataset1,213
+Polyclonal AIIMS_330 102-months,398_F1_F6_20,Mishra2019_dataset1,667
+Polyclonal AIIMS_330 112-months,398_F1_F6_20,Mishra2019_dataset1,1514
+Polyclonal AIIMS_330 117-months,398_F1_F6_20,Mishra2019_dataset1,1749
+Polyclonal AIIMS_330 124-months,398_F1_F6_20,Mishra2019_dataset1,1906
+Polyclonal AIIMS_330 131-months,398_F1_F6_20,Mishra2019_dataset1,933
+Polyclonal AIIMS_330 138-months,398_F1_F6_20,Mishra2019_dataset1,2090
+Polyclonal AIIMS_330 78-months,398_F1_F6_20,Mishra2019_dataset1,315
+Polyclonal AIIMS_330 82-months,398_F1_F6_20,Mishra2019_dataset1,415
+Polyclonal AIIMS_330 90-months,398_F1_F6_20,Mishra2019_dataset1,562
+polyclonal BF520,398_F1_F6_20,Simonich2016,527
+polyclonal N152,398_F1_F6_20,Huang2014,11290
+polyclonal QA013,398_F1_F6_20,Williams2018,659
+polyclonal N152,57128_VRC15,Huang2014,11880
+polyclonal N152,5768_4,Huang2014,140
+polyclonal NIH45,5768_4,Wu2010,61
+polyclonal PC64-M35,6041_V3_C23,Landais2017_dataset1,<50
+polyclonal N152,6095_V1_C10,Huang2014,7918
+polyclonal N152,6101_1,Huang2014,1372
+polyclonal NIH45,6101_1,Wu2010,207
+polyclonal Donor 31,620345_C1,Falkowska2014,58
+polyclonal N152,620345_C1,Huang2014,187
+polyclonal NIH45,620345_C1,Scheid2011,>1000
+polyclonal NIH45,620345_C1,Wu2010,>1000
+polyclonal PC64-M35,620345_C1,Landais2017_dataset1,1868
+polyclonal Patient 1,620345_C1,Scheid2011,>132
+polyclonal Patient 3,620345_C1,Scheid2011,>132
+polyclonal Patient 8,620345_C1,Scheid2011,>132
+polyclonal NIH45,62357_14_D3_4589,Wu2010,92
+polyclonal PC64-M35,62357_14_D3_4589,Landais2017_dataset1,<50
+polyclonal NIH45,6240_08_TA5_4622,Wu2010,112
+polyclonal PC64-M35,6240_08_TA5_4622,Landais2017_dataset1,<50
+polyclonal NIH45,6244_13_B5_4567,Wu2010,168
+polyclonal PC64-M35,6244_13_B5_4567,Landais2017_dataset1,90
+polyclonal N152,6322_V4_C1,Huang2014,8201
+polyclonal N152,6405_V4_C34,Huang2014,19040
+polyclonal N152,6471_V1_C16,Huang2014,3099
+polyclonal PC64-M35,6480_V4_C25,Landais2017_dataset1,<50
+Polyclonal AIIMS_329 102-months,6535_3,Mishra2019_dataset1,942
+Polyclonal AIIMS_329 112-months,6535_3,Mishra2019_dataset1,587
+Polyclonal AIIMS_329 117-months,6535_3,Mishra2019_dataset1,594
+Polyclonal AIIMS_329 124-months,6535_3,Mishra2019_dataset1,324
+Polyclonal AIIMS_329 131-months,6535_3,Mishra2019_dataset1,316
+Polyclonal AIIMS_329 138-months,6535_3,Mishra2019_dataset1,424
+Polyclonal AIIMS_329 78-months,6535_3,Mishra2019_dataset1,562
+Polyclonal AIIMS_329 82-months,6535_3,Mishra2019_dataset1,594
+Polyclonal AIIMS_329 90-months,6535_3,Mishra2019_dataset1,682
+Polyclonal AIIMS_330 102-months,6535_3,Mishra2019_dataset1,812
+Polyclonal AIIMS_330 112-months,6535_3,Mishra2019_dataset1,1246
+Polyclonal AIIMS_330 117-months,6535_3,Mishra2019_dataset1,928
+Polyclonal AIIMS_330 124-months,6535_3,Mishra2019_dataset1,1124
+Polyclonal AIIMS_330 131-months,6535_3,Mishra2019_dataset1,1529
+Polyclonal AIIMS_330 138-months,6535_3,Mishra2019_dataset1,1627
+Polyclonal AIIMS_330 78-months,6535_3,Mishra2019_dataset1,428
+Polyclonal AIIMS_330 82-months,6535_3,Mishra2019_dataset1,561
+Polyclonal AIIMS_330 90-months,6535_3,Mishra2019_dataset1,749
+polyclonal CAP206,6535_3,Gray2009a,<40
+polyclonal CAP256 Year1,6535_3,Doria-Rose2014,<45
+polyclonal CAP256 Year2,6535_3,Doria-Rose2014,214
+polyclonal CAP256 Year3,6535_3,Doria-Rose2014,788
+polyclonal CAP256 Year4,6535_3,Doria-Rose2014,284
+polyclonal CH0457 wk8,6535_3,Moody2015,56
+polyclonal CH0457 wk96,6535_3,Moody2015,152
+polyclonal Donor 17,6535_3,Walker2011,3712
+polyclonal Donor 24,6535_3,Walker2009a,387
+polyclonal Donor 36,6535_3,Walker2011,848
+polyclonal Donor 39,6535_3,Walker2011,387
+polyclonal Donor 84,6535_3,Walker2011,477.8
+polyclonal N152,6535_3,Huang2014,7906
+polyclonal NIH45,6535_3,Scheid2011,61
+polyclonal NIH45,6535_3,Wu2010,61
+polyclonal PC64-M35,6535_3,Landais2017_dataset2,71
+polyclonal PC64-M35,6535_3,Landais2017_dataset1,<50
+polyclonal Patient 1,6535_3,Scheid2011,88
+polyclonal Patient 12,6535_3,Scheid2011,101.3
+polyclonal Patient 3,6535_3,Scheid2011,400.4
+polyclonal Patient 8,6535_3,Scheid2011,23.2
+polyclonal QA013,6535_3,Williams2018,212
+polyclonal Donor 31,6540_V4_C1,Falkowska2014,139
+polyclonal N152,6540_V4_C1,Huang2014,3626
+polyclonal PC64-M35,6540_V4_C1,Landais2017_dataset1,262
+polyclonal N152,6545_V3_C13,Huang2014,5118
+polyclonal N152,6545_V4_C1,Huang2014,3797
+polyclonal PC64-M35,6545_V4_C1,Landais2017_dataset1,281
+polyclonal N152,6631_V3_C10,Huang2014,49.4
+polyclonal N152,6644_V2_C33,Huang2014,2654
+polyclonal N152,6785_V5_C14,Huang2014,17458
+polyclonal PC64-M35,6811_V7_C18,Landais2017_dataset1,<50
+polyclonal N152,6838_V1_C35,Huang2014,719
+polyclonal PC64-M35,6952_V1_C20,Landais2017_dataset1,76
+polyclonal CH0457 wk8,700010040_C9_4520,Moody2015,79
+polyclonal CH0457 wk96,700010040_C9_4520,Moody2015,137
+polyclonal NIH45,700010040_C9_4520,Wu2010,44
+polyclonal CH0457 wk8,703010054_2A2,Moody2015,537
+polyclonal CH0457 wk96,703010054_2A2,Moody2015,892
+polyclonal PC64-M35,703010054_2A2,Landais2017_dataset1,<50
+polyclonal CH0457 wk8,703010200_1E5,Moody2015,419
+polyclonal CH0457 wk96,703010200_1E5,Moody2015,811
+polyclonal PC64-M35,703010200_1E5,Landais2017_dataset1,<50
+Polyclonal AIIMS_329 102-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 112-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,703010217_B6,Mishra2019_dataset1,94
+Polyclonal AIIMS_329 124-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,703010217_B6,Mishra2019_dataset1,84
+Polyclonal AIIMS_329 78-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 82-months,703010217_B6,Mishra2019_dataset1,74
+Polyclonal AIIMS_329 90-months,703010217_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,703010217_B6,Mishra2019_dataset1,874
+Polyclonal AIIMS_330 112-months,703010217_B6,Mishra2019_dataset1,1001
+Polyclonal AIIMS_330 117-months,703010217_B6,Mishra2019_dataset1,1110
+Polyclonal AIIMS_330 124-months,703010217_B6,Mishra2019_dataset1,986
+Polyclonal AIIMS_330 131-months,703010217_B6,Mishra2019_dataset1,1056
+Polyclonal AIIMS_330 138-months,703010217_B6,Mishra2019_dataset1,1125
+Polyclonal AIIMS_330 78-months,703010217_B6,Mishra2019_dataset1,364
+Polyclonal AIIMS_330 82-months,703010217_B6,Mishra2019_dataset1,389
+Polyclonal AIIMS_330 90-months,703010217_B6,Mishra2019_dataset1,459
+polyclonal BF520,703010217_B6,Simonich2016,107
+polyclonal QA013,703010217_B6,Williams2018,<100
+polyclonal NIH45,703357_C2,Wu2010,>1000
+polyclonal CH0457 wk8,704809221_1B3,Moody2015,364
+polyclonal CH0457 wk96,704809221_1B3,Moody2015,628
+polyclonal PC64-M35,704809221_1B3,Landais2017_dataset1,84
+polyclonal N152,7165_18,Huang2014,9575
+polyclonal NIH45,7165_18,Wu2010,340
+polyclonal N152,89_6,Huang2014,1943
+polyclonal NIH45,89_6,Wu2010,132
+polyclonal PC64-M35,89_6,Landais2017_dataset2,101
+polyclonal Donor 31,89_F1_2_25,Falkowska2014,<50
+polyclonal PC64-M35,89_F1_2_25,Landais2017_dataset1,<50
+polyclonal NIH45,9021_14_B2_4571,Wu2010,132
+polyclonal N152,928_28,Huang2014,5652
+polyclonal NIH45,928_28,Wu2010,517
+polyclonal PC64-M35,928_28,Landais2017_dataset1,<50
+polyclonal Donor 17,92BR020,Walker2011,1623.7
+polyclonal Donor 24,92BR020,Walker2009a,<100
+polyclonal Donor 36,92BR020,Walker2011,741.3
+polyclonal Donor 39,92BR020,Walker2011,421
+polyclonal Donor 84,92BR020,Walker2011,262.2
+polyclonal PC64-M35,92BR020,Landais2017_dataset2,<50
+polyclonal N152,92BR025_9,Huang2014,7102
+polyclonal NIH45,92BR025_9,Wu2010,25
+polyclonal Donor 17,92RW008,Walker2011,6500.7
+polyclonal Donor 24,92RW008,Walker2009a,4067
+polyclonal Donor 36,92RW008,Walker2011,2084.1
+polyclonal Donor 39,92RW008,Walker2011,644
+polyclonal Donor 84,92RW008,Walker2011,9301.5
+polyclonal CAP206,92RW009,Gray2009a,915
+polyclonal Donor 17,92RW009,Walker2011,463.6
+polyclonal Donor 24,92RW009,Walker2009a,254
+polyclonal Donor 36,92RW009,Walker2011,241
+polyclonal Donor 39,92RW009,Walker2011,<100
+polyclonal Donor 84,92RW009,Walker2011,1247.6
+polyclonal Donor 17,92RW020_2,Walker2011,5671.1
+polyclonal Donor 24,92RW020_2,Walker2009a,282
+polyclonal Donor 36,92RW020_2,Walker2011,2617.1
+polyclonal Donor 39,92RW020_2,Walker2011,2730
+polyclonal Donor 84,92RW020_2,Walker2011,428.3
+polyclonal N152,92RW020_2,Huang2014,1341
+polyclonal NIH45,92RW020_2,Wu2010,143
+polyclonal PC64-M35,92RW020_2,Landais2017_dataset2,<50
+polyclonal Donor 17,92RW024,Walker2011,<100
+polyclonal Donor 24,92RW024,Walker2009a,241
+polyclonal Donor 36,92RW024,Walker2011,149.7
+polyclonal Donor 39,92RW024,Walker2011,178
+polyclonal Donor 84,92RW024,Walker2011,507.7
+polyclonal Donor 17,92RW026,Walker2011,1561
+polyclonal Donor 24,92RW026,Walker2009a,361
+polyclonal Donor 36,92RW026,Walker2011,2183.4
+polyclonal Donor 39,92RW026,Walker2011,1046
+polyclonal Donor 84,92RW026,Walker2011,717.3
+polyclonal Donor 17,92TH021,Walker2011,<100
+polyclonal Donor 24,92TH021,Walker2009a,192
+polyclonal Donor 36,92TH021,Walker2011,3301.2
+polyclonal Donor 39,92TH021,Walker2011,212
+polyclonal Donor 84,92TH021,Walker2011,5298.1
+polyclonal PC64-M35,92TH021,Landais2017_dataset2,1608
+polyclonal Donor 17,92UG001,Walker2011,<100
+polyclonal Donor 24,92UG001,Walker2009a,<100
+polyclonal Donor 36,92UG001,Walker2011,<100
+polyclonal Donor 39,92UG001,Walker2011,260
+polyclonal Donor 84,92UG001,Walker2011,<100
+polyclonal Donor 17,92UG005,Walker2011,265.5
+polyclonal Donor 24,92UG005,Walker2009a,<100
+polyclonal Donor 36,92UG005,Walker2011,590.3
+polyclonal Donor 39,92UG005,Walker2011,480
+polyclonal Donor 84,92UG005,Walker2011,<100
+polyclonal Donor 17,92UG031,Walker2011,<100
+polyclonal Donor 24,92UG031,Walker2009a,259
+polyclonal Donor 36,92UG031,Walker2011,422.2
+polyclonal Donor 39,92UG031,Walker2011,459
+polyclonal Donor 84,92UG031,Walker2011,282.5
+polyclonal Donor 17,92UG046,Walker2011,<100
+polyclonal Donor 24,92UG046,Walker2009a,114
+polyclonal Donor 36,92UG046,Walker2011,<100
+polyclonal Donor 39,92UG046,Walker2011,137
+polyclonal Donor 84,92UG046,Walker2011,200.5
+polyclonal Donor 17,93IN905,Walker2011,4396.9
+polyclonal Donor 24,93IN905,Walker2009a,647
+polyclonal Donor 36,93IN905,Walker2011,1313.8
+polyclonal Donor 39,93IN905,Walker2011,3667
+polyclonal Donor 84,93IN905,Walker2011,14817
+polyclonal PC64-M35,93IN905,Landais2017_dataset2,113
+polyclonal Donor 17,93MW959,Walker2011,1602.2
+polyclonal Donor 24,93MW959,Walker2009a,976
+polyclonal Donor 36,93MW959,Walker2011,176.1
+polyclonal Donor 39,93MW959,Walker2011,506
+polyclonal Donor 84,93MW959,Walker2011,6171.8
+polyclonal Donor 17,93RW029,Walker2011,<100
+polyclonal Donor 24,93RW029,Walker2009a,256
+polyclonal Donor 36,93RW029,Walker2011,<100
+polyclonal Donor 39,93RW029,Walker2011,270
+polyclonal Donor 84,93RW029,Walker2011,589.2
+polyclonal Donor 17,93TH305,Walker2011,3675.2
+polyclonal Donor 24,93TH305,Walker2009a,133
+polyclonal Donor 36,93TH305,Walker2011,1520.7
+polyclonal Donor 39,93TH305,Walker2011,306
+polyclonal Donor 84,93TH305,Walker2011,828
+polyclonal Donor 17,93UG077,Walker2011,1082.8
+polyclonal Donor 24,93UG077,Walker2009a,206
+polyclonal Donor 36,93UG077,Walker2011,707.2
+polyclonal Donor 39,93UG077,Walker2011,436
+polyclonal Donor 84,93UG077,Walker2011,326.4
+polyclonal Donor 17,94KE105,Walker2011,955
+polyclonal Donor 24,94KE105,Walker2009a,<100
+polyclonal Donor 36,94KE105,Walker2011,4540.1
+polyclonal Donor 39,94KE105,Walker2011,1633
+polyclonal Donor 84,94KE105,Walker2011,1035.2
+polyclonal Donor 17,94UG103,Walker2011,193.4
+polyclonal Donor 24,94UG103,Walker2009a,350
+polyclonal Donor 36,94UG103,Walker2011,1138.4
+polyclonal Donor 39,94UG103,Walker2011,568
+polyclonal Donor 84,94UG103,Walker2011,208.3
+polyclonal PC64-M35,94UG103,Landais2017_dataset2,1537
+polyclonal Donor 17,94UG114,Walker2011,5390.2
+polyclonal Donor 24,94UG114,Walker2009a,<100
+polyclonal Donor 36,94UG114,Walker2011,292.1
+polyclonal Donor 39,94UG114,Walker2011,548
+polyclonal Donor 84,94UG114,Walker2011,<100
+polyclonal N152,96ZM651_02,Huang2014,7423
+polyclonal Donor 17,98CN006,Walker2011,1908.7
+polyclonal Donor 24,98CN006,Walker2009a,397
+polyclonal Donor 36,98CN006,Walker2011,367
+polyclonal Donor 39,98CN006,Walker2011,980
+polyclonal Donor 84,98CN006,Walker2011,365.2
+polyclonal Donor 17,98CN009,Walker2011,2551
+polyclonal Donor 24,98CN009,Walker2009a,289
+polyclonal Donor 36,98CN009,Walker2011,756.3
+polyclonal Donor 39,98CN009,Walker2011,1430
+polyclonal Donor 84,98CN009,Walker2011,1469.5
+polyclonal Donor 17,98IN022,Walker2011,3711.8
+polyclonal Donor 24,98IN022,Walker2009a,2708
+polyclonal Donor 36,98IN022,Walker2011,729.6
+polyclonal Donor 39,98IN022,Walker2011,1918
+polyclonal Donor 84,98IN022,Walker2011,15197.1
+polyclonal N152,A03349M1_VRC4A,Huang2014,15192
+polyclonal Donor 31,A07412M1_VRC12,Falkowska2014,135
+polyclonal PC64-M35,A07412M1_VRC12,Landais2017_dataset1,<50
+polyclonal CAP206,AC10_29,Gray2009a,111
+polyclonal CAP256 Year1,AC10_29,Doria-Rose2014,<45
+polyclonal CAP256 Year2,AC10_29,Doria-Rose2014,64
+polyclonal CAP256 Year3,AC10_29,Doria-Rose2014,48
+polyclonal CAP256 Year4,AC10_29,Doria-Rose2014,66
+polyclonal CH0457 wk8,AC10_29,Moody2015,<20
+polyclonal CH0457 wk96,AC10_29,Moody2015,91
+polyclonal N152,AC10_29,Huang2014,13018
+polyclonal NIH45,AC10_29,Wu2010,207
+polyclonal PC64-M35,AC10_29,Landais2017_dataset1,120
+polyclonal N152,ADA,Huang2014,15877
+polyclonal PC64-M35,ADA,Landais2017_dataset2,116
+polyclonal Donor 17,APV_13,Walker2011,177.8
+polyclonal Donor 24,APV_13,Walker2009a,<100
+polyclonal Donor 36,APV_13,Walker2011,1460.1
+polyclonal Donor 39,APV_13,Walker2011,173
+polyclonal Donor 84,APV_13,Walker2011,211.6
+polyclonal Donor 17,APV_17,Walker2011,470
+polyclonal Donor 24,APV_17,Walker2009a,<100
+polyclonal Donor 36,APV_17,Walker2011,279.4
+polyclonal Donor 39,APV_17,Walker2011,482
+polyclonal Donor 84,APV_17,Walker2011,161.5
+polyclonal Donor 17,APV_6,Walker2011,914.6
+polyclonal Donor 24,APV_6,Walker2009a,394
+polyclonal Donor 36,APV_6,Walker2011,512.9
+polyclonal Donor 39,APV_6,Walker2011,706
+polyclonal Donor 84,APV_6,Walker2011,253.2
+Polyclonal AIIMS_329 102-months,BAL_01,Mishra2019_dataset1,816
+Polyclonal AIIMS_329 112-months,BAL_01,Mishra2019_dataset1,742
+Polyclonal AIIMS_329 117-months,BAL_01,Mishra2019_dataset1,1042
+Polyclonal AIIMS_329 124-months,BAL_01,Mishra2019_dataset1,2168
+Polyclonal AIIMS_329 131-months,BAL_01,Mishra2019_dataset1,657
+Polyclonal AIIMS_329 138-months,BAL_01,Mishra2019_dataset1,1954
+Polyclonal AIIMS_329 78-months,BAL_01,Mishra2019_dataset1,956
+Polyclonal AIIMS_329 82-months,BAL_01,Mishra2019_dataset1,974
+Polyclonal AIIMS_329 90-months,BAL_01,Mishra2019_dataset1,1081
+Polyclonal AIIMS_330 102-months,BAL_01,Mishra2019_dataset1,2748
+Polyclonal AIIMS_330 112-months,BAL_01,Mishra2019_dataset1,3263
+Polyclonal AIIMS_330 117-months,BAL_01,Mishra2019_dataset1,6496
+Polyclonal AIIMS_330 124-months,BAL_01,Mishra2019_dataset1,6947
+Polyclonal AIIMS_330 131-months,BAL_01,Mishra2019_dataset1,7128
+Polyclonal AIIMS_330 138-months,BAL_01,Mishra2019_dataset1,4217
+Polyclonal AIIMS_330 78-months,BAL_01,Mishra2019_dataset1,1052
+Polyclonal AIIMS_330 82-months,BAL_01,Mishra2019_dataset1,1496
+Polyclonal AIIMS_330 90-months,BAL_01,Mishra2019_dataset1,2146
+polyclonal N152,BAL_01,Huang2014,1590
+polyclonal PC64-M35,BAL_01,Landais2017_dataset2,287
+polyclonal PC64-M35,BAL_01,Landais2017_dataset1,162
+polyclonal CH0457 wk8,BAL_26,Moody2015,358
+polyclonal CH0457 wk96,BAL_26,Moody2015,375
+polyclonal N152,BAL_26,Huang2014,5407
+polyclonal N152,BB201_B42,Huang2014,470
+polyclonal N152,BB539_2B13,Huang2014,1947
+polyclonal CH0457 wk8,BF1266_431A,Moody2015,346
+polyclonal CH0457 wk96,BF1266_431A,Moody2015,383
+polyclonal Donor 31,BF1266_431A,Falkowska2014,613
+polyclonal PC64-M35,BF1266_431A,Landais2017_dataset1,<50
+polyclonal BF520,BF535_A1,Simonich2016,128
+polyclonal QA013,BF535_A1,Williams2018,403
+polyclonal N152,BG1168_1,Huang2014,167
+polyclonal NIH45,BG1168_1,Wu2010,539
+polyclonal PC64-M35,BG505_DELTA_CT_T332N,Landais2017_dataset2,1185
+Polyclonal AIIMS_329 102-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,213
+Polyclonal AIIMS_329 112-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,249
+Polyclonal AIIMS_329 117-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,142
+Polyclonal AIIMS_329 124-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,89
+Polyclonal AIIMS_329 131-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,224
+Polyclonal AIIMS_329 78-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,246
+Polyclonal AIIMS_329 82-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,312
+Polyclonal AIIMS_329 90-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,356
+Polyclonal AIIMS_330 102-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,412
+Polyclonal AIIMS_330 112-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,463
+Polyclonal AIIMS_330 117-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,1264
+Polyclonal AIIMS_330 124-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,2578
+Polyclonal AIIMS_330 131-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,1562
+Polyclonal AIIMS_330 138-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,792
+Polyclonal AIIMS_330 78-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,261
+Polyclonal AIIMS_330 82-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,302
+Polyclonal AIIMS_330 90-months,BG505_W6M_A5_T332N,Mishra2019_dataset1,346
+polyclonal QA013,BG505_W6M_C2,Williams2018,170
+polyclonal QA013,BG505_W6M_C2_T332N,Williams2018,278
+polyclonal N152,BI369_9A,Huang2014,6422
+Polyclonal AIIMS_329 102-months,BJ613_E1,Mishra2019_dataset1,79
+Polyclonal AIIMS_329 112-months,BJ613_E1,Mishra2019_dataset1,97
+Polyclonal AIIMS_329 117-months,BJ613_E1,Mishra2019_dataset1,108
+Polyclonal AIIMS_329 124-months,BJ613_E1,Mishra2019_dataset1,101
+Polyclonal AIIMS_329 131-months,BJ613_E1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,BJ613_E1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,BJ613_E1,Mishra2019_dataset1,70
+Polyclonal AIIMS_329 82-months,BJ613_E1,Mishra2019_dataset1,79
+Polyclonal AIIMS_329 90-months,BJ613_E1,Mishra2019_dataset1,78
+Polyclonal AIIMS_330 102-months,BJ613_E1,Mishra2019_dataset1,799
+Polyclonal AIIMS_330 112-months,BJ613_E1,Mishra2019_dataset1,1834
+Polyclonal AIIMS_330 117-months,BJ613_E1,Mishra2019_dataset1,2195
+Polyclonal AIIMS_330 124-months,BJ613_E1,Mishra2019_dataset1,1594
+Polyclonal AIIMS_330 131-months,BJ613_E1,Mishra2019_dataset1,958
+Polyclonal AIIMS_330 138-months,BJ613_E1,Mishra2019_dataset1,874
+Polyclonal AIIMS_330 78-months,BJ613_E1,Mishra2019_dataset1,751
+Polyclonal AIIMS_330 82-months,BJ613_E1,Mishra2019_dataset1,774
+Polyclonal AIIMS_330 90-months,BJ613_E1,Mishra2019_dataset1,788
+polyclonal BF520,BJ613_E1,Simonich2016,188
+polyclonal QA013,BJ613_E1,Williams2018,265
+Polyclonal AIIMS_329 102-months,BJOX002000_03_2,Mishra2019_dataset1,164
+Polyclonal AIIMS_329 112-months,BJOX002000_03_2,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,BJOX002000_03_2,Mishra2019_dataset1,146
+Polyclonal AIIMS_329 124-months,BJOX002000_03_2,Mishra2019_dataset1,324
+Polyclonal AIIMS_329 131-months,BJOX002000_03_2,Mishra2019_dataset1,212
+Polyclonal AIIMS_329 138-months,BJOX002000_03_2,Mishra2019_dataset1,346
+Polyclonal AIIMS_329 78-months,BJOX002000_03_2,Mishra2019_dataset1,210
+Polyclonal AIIMS_329 82-months,BJOX002000_03_2,Mishra2019_dataset1,294
+Polyclonal AIIMS_329 90-months,BJOX002000_03_2,Mishra2019_dataset1,603
+Polyclonal AIIMS_330 102-months,BJOX002000_03_2,Mishra2019_dataset1,489
+Polyclonal AIIMS_330 112-months,BJOX002000_03_2,Mishra2019_dataset1,661
+Polyclonal AIIMS_330 117-months,BJOX002000_03_2,Mishra2019_dataset1,1149
+Polyclonal AIIMS_330 124-months,BJOX002000_03_2,Mishra2019_dataset1,1660
+Polyclonal AIIMS_330 131-months,BJOX002000_03_2,Mishra2019_dataset1,631
+Polyclonal AIIMS_330 138-months,BJOX002000_03_2,Mishra2019_dataset1,708
+Polyclonal AIIMS_330 78-months,BJOX002000_03_2,Mishra2019_dataset1,376
+Polyclonal AIIMS_330 82-months,BJOX002000_03_2,Mishra2019_dataset1,389
+Polyclonal AIIMS_330 90-months,BJOX002000_03_2,Mishra2019_dataset1,249
+polyclonal BF520,BJOX002000_03_2,Simonich2016,159
+polyclonal QA013,BJOX002000_03_2,Williams2018,247
+polyclonal Donor 31,BJOX009000_02_4,Falkowska2014,302
+polyclonal PC64-M35,BJOX009000_02_4,Landais2017_dataset1,<50
+polyclonal PC64-M35,BJOX010000_06_2,Landais2017_dataset1,62
+polyclonal PC64-M35,BJOX015000_11_5,Landais2017_dataset1,<50
+polyclonal PC64-M35,BJOX025000_01_1,Landais2017_dataset1,<50
+polyclonal PC64-M35,BJOX028000_10_3,Landais2017_dataset1,65
+polyclonal N152,BL01,Huang2014,1044
+polyclonal NIH45,BL01,Wu2010,147
+polyclonal N152,BR07,Huang2014,4626
+polyclonal NIH45,BR07,Wu2010,97
+polyclonal N152,BS208_B1,Huang2014,9293
+polyclonal NIH45,BS208_B1,Wu2010,5
+polyclonal CH0457 wk8,BX08_16,Moody2015,302
+polyclonal CH0457 wk96,BX08_16,Moody2015,342
+polyclonal N152,BX08_16,Huang2014,74924
+polyclonal N152,C1080_C3,Huang2014,8632
+polyclonal NIH45,C1080_C3,Wu2010,855
+polyclonal PC64-M35,C1080_C3,Landais2017_dataset1,3803
+polyclonal N152,C2101_C1,Huang2014,12603
+polyclonal N152,C3347_C11,Huang2014,32066
+polyclonal PC64-M35,C3347_C11,Landais2017_dataset1,375
+polyclonal N152,C4118_9,Huang2014,25357
+polyclonal PC64-M35,C4118_9,Landais2017_dataset1,3185
+Polyclonal AIIMS_329 102-months,CAAN5342,Mishra2019_dataset1,389
+Polyclonal AIIMS_329 112-months,CAAN5342,Mishra2019_dataset1,212
+Polyclonal AIIMS_329 117-months,CAAN5342,Mishra2019_dataset1,168
+Polyclonal AIIMS_329 124-months,CAAN5342,Mishra2019_dataset1,157
+Polyclonal AIIMS_329 131-months,CAAN5342,Mishra2019_dataset1,55
+Polyclonal AIIMS_329 138-months,CAAN5342,Mishra2019_dataset1,107
+Polyclonal AIIMS_329 78-months,CAAN5342,Mishra2019_dataset1,310
+Polyclonal AIIMS_329 82-months,CAAN5342,Mishra2019_dataset1,354
+Polyclonal AIIMS_329 90-months,CAAN5342,Mishra2019_dataset1,367
+Polyclonal AIIMS_330 102-months,CAAN5342,Mishra2019_dataset1,873
+Polyclonal AIIMS_330 112-months,CAAN5342,Mishra2019_dataset1,238
+Polyclonal AIIMS_330 117-months,CAAN5342,Mishra2019_dataset1,327
+Polyclonal AIIMS_330 124-months,CAAN5342,Mishra2019_dataset1,457
+Polyclonal AIIMS_330 131-months,CAAN5342,Mishra2019_dataset1,521
+Polyclonal AIIMS_330 138-months,CAAN5342,Mishra2019_dataset1,1115
+Polyclonal AIIMS_330 78-months,CAAN5342,Mishra2019_dataset1,751
+Polyclonal AIIMS_330 82-months,CAAN5342,Mishra2019_dataset1,779
+Polyclonal AIIMS_330 90-months,CAAN5342,Mishra2019_dataset1,798
+polyclonal BF520,CAAN5342,Simonich2016,124
+polyclonal CAP206,CAAN5342,Gray2009a,<40
+polyclonal CAP256 Year1,CAAN5342,Doria-Rose2014,<45
+polyclonal CAP256 Year2,CAAN5342,Doria-Rose2014,<45
+polyclonal CAP256 Year3,CAAN5342,Doria-Rose2014,<45
+polyclonal CAP256 Year4,CAAN5342,Doria-Rose2014,<45
+polyclonal Donor 17,CAAN5342,Walker2011,1743.1
+polyclonal Donor 24,CAAN5342,Walker2009a,<100
+polyclonal Donor 36,CAAN5342,Walker2011,148.8
+polyclonal Donor 39,CAAN5342,Walker2011,222
+polyclonal Donor 84,CAAN5342,Walker2011,173.1
+polyclonal N152,CAAN5342,Huang2014,1364
+polyclonal NIH45,CAAN5342,Wu2010,388
+polyclonal PC64-M35,CAAN5342,Landais2017_dataset1,<50
+polyclonal PC64-M35,CAAN5342,Landais2017_dataset2,<50
+polyclonal CAP206,CAP206_1_B5,Morris2011,6143
+Polyclonal AIIMS_329 102-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 112-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,CAP210_E8,Mishra2019_dataset1,68
+Polyclonal AIIMS_329 138-months,CAP210_E8,Mishra2019_dataset1,59
+Polyclonal AIIMS_329 78-months,CAP210_E8,Mishra2019_dataset1,85
+Polyclonal AIIMS_329 82-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 90-months,CAP210_E8,Mishra2019_dataset1,85
+Polyclonal AIIMS_330 102-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 112-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 117-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 124-months,CAP210_E8,Mishra2019_dataset1,124
+Polyclonal AIIMS_330 131-months,CAP210_E8,Mishra2019_dataset1,69
+Polyclonal AIIMS_330 138-months,CAP210_E8,Mishra2019_dataset1,152
+Polyclonal AIIMS_330 78-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,CAP210_E8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,CAP210_E8,Mishra2019_dataset1,<50
+polyclonal BF520,CAP210_E8,Simonich2016,186
+polyclonal CAP206,CAP210_E8,Gray2009a,<40
+polyclonal CAP256 Year1,CAP210_E8,Doria-Rose2014,7091
+polyclonal CAP256 Year2,CAP210_E8,Doria-Rose2014,7830
+polyclonal CAP256 Year3,CAP210_E8,Doria-Rose2014,13580
+polyclonal CAP256 Year4,CAP210_E8,Doria-Rose2014,5250
+polyclonal N152,CAP210_E8,Huang2014,33972
+polyclonal NIH45,CAP210_E8,Wu2010,423
+polyclonal PC64-M35,CAP210_E8,Landais2017_dataset2,304
+polyclonal PC64-M35,CAP210_E8,Landais2017_dataset1,172
+polyclonal QA013,CAP210_E8,Williams2018,383
+polyclonal CAP206,CAP244_D3,Gray2009a,75
+polyclonal CAP256 Year1,CAP244_D3,Doria-Rose2014,<45
+polyclonal CAP256 Year2,CAP244_D3,Doria-Rose2014,<45
+polyclonal CAP256 Year3,CAP244_D3,Doria-Rose2014,58
+polyclonal CAP256 Year4,CAP244_D3,Doria-Rose2014,62
+polyclonal N152,CAP244_D3,Huang2014,2859
+polyclonal NIH45,CAP244_D3,Wu2010,238
+polyclonal CAP206,CAP256_PI,Gray2009a,<40
+Polyclonal AIIMS_329 102-months,CAP256_SU,Mishra2019_dataset1,256
+Polyclonal AIIMS_329 112-months,CAP256_SU,Mishra2019_dataset1,367
+Polyclonal AIIMS_329 117-months,CAP256_SU,Mishra2019_dataset1,357
+Polyclonal AIIMS_329 124-months,CAP256_SU,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 131-months,CAP256_SU,Mishra2019_dataset1,147
+Polyclonal AIIMS_329 138-months,CAP256_SU,Mishra2019_dataset1,324
+Polyclonal AIIMS_329 78-months,CAP256_SU,Mishra2019_dataset1,198
+Polyclonal AIIMS_329 82-months,CAP256_SU,Mishra2019_dataset1,218
+Polyclonal AIIMS_329 90-months,CAP256_SU,Mishra2019_dataset1,234
+Polyclonal AIIMS_330 102-months,CAP256_SU,Mishra2019_dataset1,298
+Polyclonal AIIMS_330 112-months,CAP256_SU,Mishra2019_dataset1,879
+Polyclonal AIIMS_330 117-months,CAP256_SU,Mishra2019_dataset1,1128
+Polyclonal AIIMS_330 124-months,CAP256_SU,Mishra2019_dataset1,1459
+Polyclonal AIIMS_330 131-months,CAP256_SU,Mishra2019_dataset1,948
+Polyclonal AIIMS_330 138-months,CAP256_SU,Mishra2019_dataset1,959
+Polyclonal AIIMS_330 78-months,CAP256_SU,Mishra2019_dataset1,241
+Polyclonal AIIMS_330 82-months,CAP256_SU,Mishra2019_dataset1,265
+Polyclonal AIIMS_330 90-months,CAP256_SU,Mishra2019_dataset1,271
+Polyclonal AIIMS_329 102-months,CAP45_G3,Mishra2019_dataset1,187
+Polyclonal AIIMS_329 112-months,CAP45_G3,Mishra2019_dataset1,126
+Polyclonal AIIMS_329 117-months,CAP45_G3,Mishra2019_dataset1,326
+Polyclonal AIIMS_329 124-months,CAP45_G3,Mishra2019_dataset1,468
+Polyclonal AIIMS_329 131-months,CAP45_G3,Mishra2019_dataset1,167
+Polyclonal AIIMS_329 138-months,CAP45_G3,Mishra2019_dataset1,632
+Polyclonal AIIMS_329 78-months,CAP45_G3,Mishra2019_dataset1,165
+Polyclonal AIIMS_329 82-months,CAP45_G3,Mishra2019_dataset1,177
+Polyclonal AIIMS_329 90-months,CAP45_G3,Mishra2019_dataset1,189
+Polyclonal AIIMS_330 102-months,CAP45_G3,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 112-months,CAP45_G3,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 117-months,CAP45_G3,Mishra2019_dataset1,257
+Polyclonal AIIMS_330 124-months,CAP45_G3,Mishra2019_dataset1,113
+Polyclonal AIIMS_330 131-months,CAP45_G3,Mishra2019_dataset1,1984
+Polyclonal AIIMS_330 138-months,CAP45_G3,Mishra2019_dataset1,823
+Polyclonal AIIMS_330 78-months,CAP45_G3,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,CAP45_G3,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,CAP45_G3,Mishra2019_dataset1,<50
+polyclonal CAP206,CAP45_G3,Gray2009a,4720
+polyclonal CAP256 Year1,CAP45_G3,Doria-Rose2014,287
+polyclonal CAP256 Year2,CAP45_G3,Doria-Rose2014,7898
+polyclonal CAP256 Year3,CAP45_G3,Doria-Rose2014,13402
+polyclonal CAP256 Year4,CAP45_G3,Doria-Rose2014,1006
+polyclonal CH0457 wk8,CAP45_G3,Moody2015,1252
+polyclonal CH0457 wk96,CAP45_G3,Moody2015,2430
+polyclonal Donor 31,CAP45_G3,Falkowska2014,804
+polyclonal N152,CAP45_G3,Huang2014,1909
+polyclonal NIH45,CAP45_G3,Wu2010,134
+polyclonal PC64-M35,CAP45_G3,Landais2017_dataset2,10171
+polyclonal PC64-M35,CAP45_G3,Landais2017_dataset1,5753
+polyclonal CH0457 wk8,CE0393_C3,Moody2015,1335
+polyclonal CH0457 wk8,CE0682_E4,Moody2015,3291
+polyclonal CH0457 wk96,CE0682_E4,Moody2015,3115
+polyclonal CH0457 wk8,CE1086_B2,Moody2015,733
+polyclonal CH0457 wk96,CE1086_B2,Moody2015,1351
+polyclonal PC64-M35,CE1172_H1,Landais2017_dataset1,<50
+Polyclonal AIIMS_329 102-months,CE1176_A3,Mishra2019_dataset1,549
+Polyclonal AIIMS_329 112-months,CE1176_A3,Mishra2019_dataset1,143
+Polyclonal AIIMS_329 117-months,CE1176_A3,Mishra2019_dataset1,123
+Polyclonal AIIMS_329 124-months,CE1176_A3,Mishra2019_dataset1,157
+Polyclonal AIIMS_329 131-months,CE1176_A3,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,CE1176_A3,Mishra2019_dataset1,93
+Polyclonal AIIMS_329 78-months,CE1176_A3,Mishra2019_dataset1,847
+Polyclonal AIIMS_329 82-months,CE1176_A3,Mishra2019_dataset1,745
+Polyclonal AIIMS_329 90-months,CE1176_A3,Mishra2019_dataset1,933
+Polyclonal AIIMS_330 102-months,CE1176_A3,Mishra2019_dataset1,349
+Polyclonal AIIMS_330 112-months,CE1176_A3,Mishra2019_dataset1,479
+Polyclonal AIIMS_330 117-months,CE1176_A3,Mishra2019_dataset1,542
+Polyclonal AIIMS_330 124-months,CE1176_A3,Mishra2019_dataset1,724
+Polyclonal AIIMS_330 131-months,CE1176_A3,Mishra2019_dataset1,408
+Polyclonal AIIMS_330 138-months,CE1176_A3,Mishra2019_dataset1,708
+Polyclonal AIIMS_330 78-months,CE1176_A3,Mishra2019_dataset1,146
+Polyclonal AIIMS_330 82-months,CE1176_A3,Mishra2019_dataset1,326
+Polyclonal AIIMS_330 90-months,CE1176_A3,Mishra2019_dataset1,215
+polyclonal BF520,CE1176_A3,Simonich2016,118
+polyclonal CH0457 wk8,CE1176_A3,Moody2015,905
+polyclonal QA013,CE1176_A3,Williams2018,125
+polyclonal CH0457 wk8,CE2010_F5,Moody2015,330
+polyclonal CH0457 wk8,CE2060_G9,Moody2015,43
+polyclonal CH0457 wk96,CE2060_G9,Moody2015,104
+polyclonal PC64-M35,CE2060_G9,Landais2017_dataset1,71
+polyclonal N152,CH038_12,Huang2014,4565
+polyclonal NIH45,CH038_12,Wu2010,436
+polyclonal NIH45,CH064_20,Wu2010,289
+polyclonal N152,CH070_1,Huang2014,3504
+polyclonal NIH45,CH070_1,Wu2010,>1000
+polyclonal NIH45,CH110_2,Wu2010,82
+polyclonal NIH45,CH111_8,Wu2010,595
+polyclonal NIH45,CH115_12,Wu2010,746
+polyclonal N152,CH117_4,Huang2014,8831
+polyclonal NIH45,CH117_4,Wu2010,42
+Polyclonal AIIMS_329 102-months,CH119_10,Mishra2019_dataset1,146
+Polyclonal AIIMS_329 112-months,CH119_10,Mishra2019_dataset1,92
+Polyclonal AIIMS_329 117-months,CH119_10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,CH119_10,Mishra2019_dataset1,81
+Polyclonal AIIMS_329 131-months,CH119_10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,CH119_10,Mishra2019_dataset1,73
+Polyclonal AIIMS_329 78-months,CH119_10,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 82-months,CH119_10,Mishra2019_dataset1,136
+Polyclonal AIIMS_329 90-months,CH119_10,Mishra2019_dataset1,339
+Polyclonal AIIMS_330 102-months,CH119_10,Mishra2019_dataset1,367
+Polyclonal AIIMS_330 112-months,CH119_10,Mishra2019_dataset1,501
+Polyclonal AIIMS_330 117-months,CH119_10,Mishra2019_dataset1,412
+Polyclonal AIIMS_330 124-months,CH119_10,Mishra2019_dataset1,323
+Polyclonal AIIMS_330 131-months,CH119_10,Mishra2019_dataset1,302
+Polyclonal AIIMS_330 138-months,CH119_10,Mishra2019_dataset1,309
+Polyclonal AIIMS_330 78-months,CH119_10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,CH119_10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,CH119_10,Mishra2019_dataset1,169
+polyclonal BF520,CH119_10,Simonich2016,122
+polyclonal NIH45,CH119_10,Wu2010,182
+polyclonal QA013,CH119_10,Williams2018,163
+polyclonal NIH45,CH120_6,Wu2010,666
+polyclonal N152,CH181_12,Huang2014,4947
+polyclonal NIH45,CH181_12,Wu2010,257
+polyclonal CH0457 wk8,CM244_EC1,Moody2015,84
+polyclonal CH0457 wk96,CM244_EC1,Moody2015,93
+polyclonal Donor 17,CMU02,Walker2011,<100
+polyclonal Donor 24,CMU02,Walker2009a,142
+polyclonal Donor 36,CMU02,Walker2011,<100
+polyclonal Donor 39,CMU02,Walker2011,312
+polyclonal Donor 84,CMU02,Walker2011,101.3
+polyclonal N152,CNE10,Huang2014,8422
+polyclonal N152,CNE12,Huang2014,2475
+polyclonal N152,CNE14,Huang2014,7920
+polyclonal N152,CNE15,Huang2014,29955
+polyclonal Donor 31,CNE17,Falkowska2014,196
+polyclonal PC64-M35,CNE17,Landais2017_dataset1,483
+polyclonal PC64-M35,CNE19,Landais2017_dataset1,687
+polyclonal PC64-M35,CNE20,Landais2017_dataset1,400
+polyclonal PC64-M35,CNE21,Landais2017_dataset1,5061
+polyclonal N152,CNE3,Huang2014,70.5
+polyclonal N152,CNE30,Huang2014,3150
+polyclonal PC64-M35,CNE30,Landais2017_dataset1,<50
+polyclonal N152,CNE31,Huang2014,88.2
+polyclonal N152,CNE4,Huang2014,13863
+polyclonal N152,CNE40,Huang2014,43426
+polyclonal N152,CNE5,Huang2014,38.3
+polyclonal PC64-M35,CNE5,Landais2017_dataset1,977
+polyclonal Donor 31,CNE52,Falkowska2014,728
+polyclonal PC64-M35,CNE52,Landais2017_dataset1,<50
+polyclonal N152,CNE53,Huang2014,14560
+polyclonal PC64-M35,CNE53,Landais2017_dataset1,5612
+Polyclonal AIIMS_329 102-months,CNE55,Mishra2019_dataset1,1364
+Polyclonal AIIMS_329 112-months,CNE55,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,CNE55,Mishra2019_dataset1,87
+Polyclonal AIIMS_329 124-months,CNE55,Mishra2019_dataset1,78
+Polyclonal AIIMS_329 131-months,CNE55,Mishra2019_dataset1,83
+Polyclonal AIIMS_329 138-months,CNE55,Mishra2019_dataset1,76
+Polyclonal AIIMS_329 78-months,CNE55,Mishra2019_dataset1,148
+Polyclonal AIIMS_329 82-months,CNE55,Mishra2019_dataset1,185
+Polyclonal AIIMS_329 90-months,CNE55,Mishra2019_dataset1,2746
+Polyclonal AIIMS_330 102-months,CNE55,Mishra2019_dataset1,748
+Polyclonal AIIMS_330 112-months,CNE55,Mishra2019_dataset1,1564
+Polyclonal AIIMS_330 117-months,CNE55,Mishra2019_dataset1,1656
+Polyclonal AIIMS_330 124-months,CNE55,Mishra2019_dataset1,1847
+Polyclonal AIIMS_330 131-months,CNE55,Mishra2019_dataset1,2549
+Polyclonal AIIMS_330 138-months,CNE55,Mishra2019_dataset1,3214
+Polyclonal AIIMS_330 78-months,CNE55,Mishra2019_dataset1,426
+Polyclonal AIIMS_330 82-months,CNE55,Mishra2019_dataset1,449
+Polyclonal AIIMS_330 90-months,CNE55,Mishra2019_dataset1,549
+polyclonal BF520,CNE55,Simonich2016,113
+polyclonal N152,CNE55,Huang2014,22242
+polyclonal QA013,CNE55,Williams2018,100
+polyclonal N152,CNE56,Huang2014,1145
+polyclonal N152,CNE57,Huang2014,1687
+polyclonal N152,CNE58,Huang2014,368
+polyclonal PC64-M35,CNE58,Landais2017_dataset1,2346
+polyclonal N152,CNE59,Huang2014,3223
+polyclonal N152,CNE7,Huang2014,82869
+Polyclonal AIIMS_329 102-months,CNE8,Mishra2019_dataset1,498
+Polyclonal AIIMS_329 112-months,CNE8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,CNE8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,CNE8,Mishra2019_dataset1,71
+Polyclonal AIIMS_329 131-months,CNE8,Mishra2019_dataset1,55
+Polyclonal AIIMS_329 138-months,CNE8,Mishra2019_dataset1,142
+Polyclonal AIIMS_329 78-months,CNE8,Mishra2019_dataset1,412
+Polyclonal AIIMS_329 82-months,CNE8,Mishra2019_dataset1,241
+Polyclonal AIIMS_329 90-months,CNE8,Mishra2019_dataset1,692
+Polyclonal AIIMS_330 102-months,CNE8,Mishra2019_dataset1,246
+Polyclonal AIIMS_330 112-months,CNE8,Mishra2019_dataset1,427
+Polyclonal AIIMS_330 117-months,CNE8,Mishra2019_dataset1,442
+Polyclonal AIIMS_330 124-months,CNE8,Mishra2019_dataset1,463
+Polyclonal AIIMS_330 131-months,CNE8,Mishra2019_dataset1,216
+Polyclonal AIIMS_330 138-months,CNE8,Mishra2019_dataset1,339
+Polyclonal AIIMS_330 78-months,CNE8,Mishra2019_dataset1,72
+Polyclonal AIIMS_330 82-months,CNE8,Mishra2019_dataset1,88
+Polyclonal AIIMS_330 90-months,CNE8,Mishra2019_dataset1,94
+polyclonal BF520,CNE8,Simonich2016,>100
+polyclonal PC64-M35,CNE8,Landais2017_dataset1,<50
+polyclonal QA013,CNE8,Williams2018,125
+polyclonal CAP206,COT6_15,Morris2011,1256
+polyclonal CAP206,COT6_15,Gray2009a,1236
+polyclonal PC64-M35,DH12,Landais2017_dataset2,339
+polyclonal N152,DJ263_8,Huang2014,5021
+polyclonal NIH45,DJ263_8,Wu2010,31
+polyclonal N152,DU123_06,Huang2014,12736
+polyclonal NIH45,DU123_06,Wu2010,393
+polyclonal CAP206,DU151_02,Gray2009a,105
+polyclonal N152,DU151_02,Huang2014,4533
+polyclonal NIH45,DU151_02,Wu2010,248
+Polyclonal AIIMS_329 102-months,DU156_12,Mishra2019_dataset1,965
+Polyclonal AIIMS_329 112-months,DU156_12,Mishra2019_dataset1,748
+Polyclonal AIIMS_329 117-months,DU156_12,Mishra2019_dataset1,256
+Polyclonal AIIMS_329 124-months,DU156_12,Mishra2019_dataset1,163
+Polyclonal AIIMS_329 131-months,DU156_12,Mishra2019_dataset1,89
+Polyclonal AIIMS_329 138-months,DU156_12,Mishra2019_dataset1,151
+Polyclonal AIIMS_329 78-months,DU156_12,Mishra2019_dataset1,898
+Polyclonal AIIMS_329 82-months,DU156_12,Mishra2019_dataset1,831
+Polyclonal AIIMS_329 90-months,DU156_12,Mishra2019_dataset1,818
+Polyclonal AIIMS_330 102-months,DU156_12,Mishra2019_dataset1,1299
+Polyclonal AIIMS_330 112-months,DU156_12,Mishra2019_dataset1,3783
+Polyclonal AIIMS_330 117-months,DU156_12,Mishra2019_dataset1,2269
+Polyclonal AIIMS_330 124-months,DU156_12,Mishra2019_dataset1,1574
+Polyclonal AIIMS_330 131-months,DU156_12,Mishra2019_dataset1,985
+Polyclonal AIIMS_330 138-months,DU156_12,Mishra2019_dataset1,735
+Polyclonal AIIMS_330 78-months,DU156_12,Mishra2019_dataset1,365
+Polyclonal AIIMS_330 82-months,DU156_12,Mishra2019_dataset1,265
+Polyclonal AIIMS_330 90-months,DU156_12,Mishra2019_dataset1,213
+polyclonal BF520,DU156_12,Simonich2016,228
+polyclonal CAP206,DU156_12,Gray2009a,692
+polyclonal CAP206,DU156_12,Morris2011,232
+polyclonal CAP256 Year1,DU156_12,Doria-Rose2014,<45
+polyclonal CAP256 Year2,DU156_12,Doria-Rose2014,394
+polyclonal CAP256 Year3,DU156_12,Doria-Rose2014,1363
+polyclonal CAP256 Year4,DU156_12,Doria-Rose2014,1116
+polyclonal CH0457 wk8,DU156_12,Moody2015,281
+polyclonal CH0457 wk96,DU156_12,Moody2015,394
+polyclonal N152,DU156_12,Huang2014,2021
+polyclonal NIH45,DU156_12,Wu2010,115
+polyclonal PC64-M35,DU156_12,Landais2017_dataset2,3129
+polyclonal PC64-M35,DU156_12,Landais2017_dataset1,1770
+polyclonal QA013,DU156_12,Williams2018,235
+Polyclonal AIIMS_329 102-months,DU172_17,Mishra2019_dataset1,566
+Polyclonal AIIMS_329 112-months,DU172_17,Mishra2019_dataset1,612
+Polyclonal AIIMS_329 117-months,DU172_17,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,DU172_17,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,DU172_17,Mishra2019_dataset1,77
+Polyclonal AIIMS_329 138-months,DU172_17,Mishra2019_dataset1,267
+Polyclonal AIIMS_329 78-months,DU172_17,Mishra2019_dataset1,478
+Polyclonal AIIMS_329 82-months,DU172_17,Mishra2019_dataset1,487
+Polyclonal AIIMS_329 90-months,DU172_17,Mishra2019_dataset1,499
+Polyclonal AIIMS_330 102-months,DU172_17,Mishra2019_dataset1,167
+Polyclonal AIIMS_330 112-months,DU172_17,Mishra2019_dataset1,237
+Polyclonal AIIMS_330 117-months,DU172_17,Mishra2019_dataset1,489
+Polyclonal AIIMS_330 124-months,DU172_17,Mishra2019_dataset1,632
+Polyclonal AIIMS_330 131-months,DU172_17,Mishra2019_dataset1,132
+Polyclonal AIIMS_330 138-months,DU172_17,Mishra2019_dataset1,821
+Polyclonal AIIMS_330 78-months,DU172_17,Mishra2019_dataset1,125
+Polyclonal AIIMS_330 82-months,DU172_17,Mishra2019_dataset1,145
+Polyclonal AIIMS_330 90-months,DU172_17,Mishra2019_dataset1,156
+polyclonal BF520,DU172_17,Simonich2016,159
+polyclonal CAP206,DU172_17,Gray2009a,234
+polyclonal CAP256 Year1,DU172_17,Doria-Rose2014,<45
+polyclonal CAP256 Year2,DU172_17,Doria-Rose2014,<45
+polyclonal CAP256 Year3,DU172_17,Doria-Rose2014,<45
+polyclonal CAP256 Year4,DU172_17,Doria-Rose2014,<45
+polyclonal CH0457 wk8,DU172_17,Moody2015,429
+polyclonal CH0457 wk96,DU172_17,Moody2015,471
+polyclonal N152,DU172_17,Huang2014,2564
+polyclonal NIH45,DU172_17,Scheid2011,349
+polyclonal NIH45,DU172_17,Wu2010,349
+polyclonal PC64-M35,DU172_17,Landais2017_dataset1,<50
+polyclonal PC64-M35,DU172_17,Landais2017_dataset2,<50
+polyclonal Patient 1,DU172_17,Scheid2011,228.42
+polyclonal Patient 3,DU172_17,Scheid2011,418.62
+polyclonal Patient 8,DU172_17,Scheid2011,86.463
+polyclonal QA013,DU172_17,Williams2018,314
+polyclonal BF520,DU422_1,Simonich2016,159
+polyclonal CAP206,DU422_1,Gray2009a,165
+polyclonal CAP206,DU422_1,Morris2011,90
+polyclonal CAP256 Year1,DU422_1,Doria-Rose2014,<45
+polyclonal CAP256 Year2,DU422_1,Doria-Rose2014,346
+polyclonal CAP256 Year3,DU422_1,Doria-Rose2014,1907
+polyclonal CAP256 Year4,DU422_1,Doria-Rose2014,1968
+polyclonal CH0457 wk8,DU422_1,Moody2015,392
+polyclonal CH0457 wk96,DU422_1,Moody2015,473
+polyclonal Donor 31,DU422_1,Falkowska2014,328
+polyclonal N152,DU422_1,Huang2014,325
+polyclonal NIH45,DU422_1,Wu2010,>1000
+polyclonal PC64-M35,DU422_1,Landais2017_dataset2,467
+polyclonal PC64-M35,DU422_1,Landais2017_dataset1,264
+polyclonal QA013,DU422_1,Williams2018,190
+polyclonal NIH45,H022_7,Wu2010,427
+polyclonal NIH45,H029_12,Wu2010,307
+polyclonal NIH45,H030_7,Wu2010,581
+polyclonal NIH45,H031_7,Wu2010,306
+polyclonal NIH45,H035_18,Wu2010,>1000
+polyclonal NIH45,H061_14,Wu2010,160
+polyclonal NIH45,H077_31,Wu2010,50
+polyclonal NIH45,H078_14,Wu2010,217
+polyclonal NIH45,H079_2,Wu2010,382
+polyclonal NIH45,H080_23,Wu2010,178
+polyclonal N152,H086_8,Huang2014,1372
+polyclonal NIH45,H086_8,Scheid2011,37
+polyclonal NIH45,H086_8,Wu2010,37
+polyclonal Patient 1,H086_8,Scheid2011,>132
+polyclonal Patient 3,H086_8,Scheid2011,>132
+polyclonal Patient 8,H086_8,Scheid2011,>132
+polyclonal N152,HT593_1,Huang2014,7037
+polyclonal NIH45,HT593_1,Wu2010,36
+polyclonal N152,HXB2,Huang2014,6443
+polyclonal PC64-M35,HXB2,Landais2017_dataset2,2356
+polyclonal PC64-M35,HXB2,Landais2017_dataset1,1332
+Polyclonal AIIMS_329 102-months,JRCSF,Mishra2019_dataset1,198
+Polyclonal AIIMS_329 112-months,JRCSF,Mishra2019_dataset1,224
+Polyclonal AIIMS_329 117-months,JRCSF,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,JRCSF,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,JRCSF,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,JRCSF,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,JRCSF,Mishra2019_dataset1,156
+Polyclonal AIIMS_329 82-months,JRCSF,Mishra2019_dataset1,167
+Polyclonal AIIMS_329 90-months,JRCSF,Mishra2019_dataset1,178
+Polyclonal AIIMS_330 102-months,JRCSF,Mishra2019_dataset1,213
+Polyclonal AIIMS_330 112-months,JRCSF,Mishra2019_dataset1,1463
+Polyclonal AIIMS_330 117-months,JRCSF,Mishra2019_dataset1,652
+Polyclonal AIIMS_330 124-months,JRCSF,Mishra2019_dataset1,548
+Polyclonal AIIMS_330 131-months,JRCSF,Mishra2019_dataset1,717
+Polyclonal AIIMS_330 138-months,JRCSF,Mishra2019_dataset1,600
+Polyclonal AIIMS_330 78-months,JRCSF,Mishra2019_dataset1,165
+Polyclonal AIIMS_330 82-months,JRCSF,Mishra2019_dataset1,177
+Polyclonal AIIMS_330 90-months,JRCSF,Mishra2019_dataset1,198
+polyclonal Donor 17,JRCSF,Walker2011,863
+polyclonal Donor 24,JRCSF,Walker2009a,8425
+polyclonal Donor 36,JRCSF,Walker2011,2371.1
+polyclonal Donor 39,JRCSF,Walker2011,433
+polyclonal Donor 84,JRCSF,Walker2011,6255.4
+polyclonal N152,JRCSF,Huang2014,4641
+polyclonal NIH45,JRCSF,Wu2010,15
+polyclonal PC64-M35,JRCSF,Landais2017_dataset2,1987
+Polyclonal AIIMS_329 102-months,JRFL,Mishra2019_dataset1,187
+Polyclonal AIIMS_329 112-months,JRFL,Mishra2019_dataset1,156
+Polyclonal AIIMS_329 117-months,JRFL,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,JRFL,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,JRFL,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,JRFL,Mishra2019_dataset1,71
+Polyclonal AIIMS_329 78-months,JRFL,Mishra2019_dataset1,215
+Polyclonal AIIMS_329 82-months,JRFL,Mishra2019_dataset1,224
+Polyclonal AIIMS_329 90-months,JRFL,Mishra2019_dataset1,256
+Polyclonal AIIMS_330 102-months,JRFL,Mishra2019_dataset1,211
+Polyclonal AIIMS_330 112-months,JRFL,Mishra2019_dataset1,867
+Polyclonal AIIMS_330 117-months,JRFL,Mishra2019_dataset1,454
+Polyclonal AIIMS_330 124-months,JRFL,Mishra2019_dataset1,365
+Polyclonal AIIMS_330 131-months,JRFL,Mishra2019_dataset1,469
+Polyclonal AIIMS_330 138-months,JRFL,Mishra2019_dataset1,450
+Polyclonal AIIMS_330 78-months,JRFL,Mishra2019_dataset1,165
+Polyclonal AIIMS_330 82-months,JRFL,Mishra2019_dataset1,177
+Polyclonal AIIMS_330 90-months,JRFL,Mishra2019_dataset1,187
+polyclonal CAP206,JRFL,Gray2009a,<40
+polyclonal Donor 17,JRFL,Walker2011,1291.5
+polyclonal Donor 24,JRFL,Walker2009a,<100
+polyclonal Donor 36,JRFL,Walker2011,858.2
+polyclonal Donor 39,JRFL,Walker2011,471
+polyclonal Donor 84,JRFL,Walker2011,348.5
+polyclonal N152,JRFL,Huang2014,860
+polyclonal NIH45,JRFL,Wu2010,21
+polyclonal PC64-M35,JRFL,Landais2017_dataset2,<50
+polyclonal N152,KER2008_12,Huang2014,8198
+polyclonal NIH45,KER2008_12,Wu2010,184
+polyclonal N152,KER2018_11,Huang2014,397
+polyclonal NIH45,KER2018_11,Wu2010,>1000
+polyclonal PC64-M35,KNH1144,Landais2017_dataset2,122
+polyclonal N152,KNH1209_18,Huang2014,2457
+polyclonal NIH45,KNH1209_18,Wu2010,87
+polyclonal N152,M02138,Huang2014,15153
+polyclonal NIH45,M02138,Wu2010,93
+polyclonal N152,MB201_A1,Huang2014,4508
+polyclonal N152,MB539_2B7,Huang2014,726
+polyclonal Donor 17,MGRM_AG_002,Walker2011,125.5
+polyclonal Donor 24,MGRM_AG_002,Walker2009a,147
+polyclonal Donor 36,MGRM_AG_002,Walker2011,139.4
+polyclonal Donor 39,MGRM_AG_002,Walker2011,206
+polyclonal Donor 84,MGRM_AG_002,Walker2011,748
+polyclonal N152,MI369_A5,Huang2014,2259
+polyclonal CH0457 wk8,MN_3,Moody2015,249
+polyclonal CH0457 wk96,MN_3,Moody2015,273
+polyclonal N152,MN_3,Huang2014,48721
+polyclonal PC64-M35,MN_3,Landais2017_dataset1,7131
+polyclonal PC64-M35,MN_3,Landais2017_dataset2,2755
+polyclonal N152,MS208_A1,Huang2014,14167
+polyclonal NIH45,MS208_A1,Wu2010,1000
+polyclonal PC64-M35,MS208_A1,Landais2017_dataset1,910
+polyclonal CH0457 wk8,MW965_26,Moody2015,>43740
+polyclonal CH0457 wk96,MW965_26,Moody2015,>43740
+polyclonal N152,MW965_26,Huang2014,42805
+polyclonal N152,NKU3006_EC1,Huang2014,12585
+polyclonal Donor 17,NL43,Walker2011,418.2
+polyclonal Donor 24,NL43,Walker2009a,1488
+polyclonal Donor 36,NL43,Walker2011,3033.8
+polyclonal Donor 39,NL43,Walker2011,1184
+polyclonal Donor 84,NL43,Walker2011,3308.8
+polyclonal CH0457 wk8,NP03,Moody2015,1114
+polyclonal CH0457 wk96,NP03,Moody2015,1727
+polyclonal PC64-M35,P0402_C2_11,Landais2017_dataset1,<50
+polyclonal PC64-M35,P1981_C5_3,Landais2017_dataset1,93
+polyclonal NIH45,PRB926_04_A9_4237,Wu2010,21
+Polyclonal AIIMS_329 102-months,PVO_4,Mishra2019_dataset1,95
+Polyclonal AIIMS_329 112-months,PVO_4,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,PVO_4,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 124-months,PVO_4,Mishra2019_dataset1,73
+Polyclonal AIIMS_329 131-months,PVO_4,Mishra2019_dataset1,164
+Polyclonal AIIMS_329 138-months,PVO_4,Mishra2019_dataset1,353
+Polyclonal AIIMS_329 78-months,PVO_4,Mishra2019_dataset1,96
+Polyclonal AIIMS_329 82-months,PVO_4,Mishra2019_dataset1,85
+Polyclonal AIIMS_329 90-months,PVO_4,Mishra2019_dataset1,74
+Polyclonal AIIMS_330 102-months,PVO_4,Mishra2019_dataset1,489
+Polyclonal AIIMS_330 112-months,PVO_4,Mishra2019_dataset1,775
+Polyclonal AIIMS_330 117-months,PVO_4,Mishra2019_dataset1,1159
+Polyclonal AIIMS_330 124-months,PVO_4,Mishra2019_dataset1,1347
+Polyclonal AIIMS_330 131-months,PVO_4,Mishra2019_dataset1,214
+Polyclonal AIIMS_330 138-months,PVO_4,Mishra2019_dataset1,1438
+Polyclonal AIIMS_330 78-months,PVO_4,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,PVO_4,Mishra2019_dataset1,78
+Polyclonal AIIMS_330 90-months,PVO_4,Mishra2019_dataset1,324
+polyclonal BF520,PVO_4,Simonich2016,119
+polyclonal CAP206,PVO_4,Gray2009a,<40
+polyclonal CAP256 Year1,PVO_4,Doria-Rose2014,47
+polyclonal CAP256 Year2,PVO_4,Doria-Rose2014,53
+polyclonal CAP256 Year3,PVO_4,Doria-Rose2014,86
+polyclonal CAP256 Year4,PVO_4,Doria-Rose2014,47
+polyclonal CH0457 wk8,PVO_4,Moody2015,574
+polyclonal CH0457 wk96,PVO_4,Moody2015,662
+polyclonal Donor 17,PVO_4,Walker2011,212.9
+polyclonal Donor 24,PVO_4,Walker2009a,171
+polyclonal Donor 31,PVO_4,Falkowska2014,131
+polyclonal Donor 36,PVO_4,Walker2011,420.8
+polyclonal Donor 39,PVO_4,Walker2011,123
+polyclonal Donor 84,PVO_4,Walker2011,239.4
+polyclonal N152,PVO_4,Huang2014,359
+polyclonal NIH45,PVO_4,Scheid2011,195
+polyclonal NIH45,PVO_4,Wu2010,195
+polyclonal PC64-M35,PVO_4,Landais2017_dataset2,81
+polyclonal PC64-M35,PVO_4,Landais2017_dataset1,<50
+polyclonal Patient 1,PVO_4,Scheid2011,89
+polyclonal Patient 12,PVO_4,Scheid2011,116.3
+polyclonal Patient 3,PVO_4,Scheid2011,78.1
+polyclonal Patient 8,PVO_4,Scheid2011,74.1
+Polyclonal AIIMS_329 102-months,Q168_A2,Mishra2019_dataset1,136
+Polyclonal AIIMS_329 112-months,Q168_A2,Mishra2019_dataset1,159
+Polyclonal AIIMS_329 117-months,Q168_A2,Mishra2019_dataset1,212
+Polyclonal AIIMS_329 124-months,Q168_A2,Mishra2019_dataset1,102
+Polyclonal AIIMS_329 131-months,Q168_A2,Mishra2019_dataset1,91
+Polyclonal AIIMS_329 138-months,Q168_A2,Mishra2019_dataset1,99
+Polyclonal AIIMS_329 78-months,Q168_A2,Mishra2019_dataset1,75
+Polyclonal AIIMS_329 82-months,Q168_A2,Mishra2019_dataset1,88
+Polyclonal AIIMS_329 90-months,Q168_A2,Mishra2019_dataset1,121
+Polyclonal AIIMS_330 102-months,Q168_A2,Mishra2019_dataset1,413
+Polyclonal AIIMS_330 112-months,Q168_A2,Mishra2019_dataset1,1029
+Polyclonal AIIMS_330 117-months,Q168_A2,Mishra2019_dataset1,849
+Polyclonal AIIMS_330 124-months,Q168_A2,Mishra2019_dataset1,913
+Polyclonal AIIMS_330 131-months,Q168_A2,Mishra2019_dataset1,697
+Polyclonal AIIMS_330 138-months,Q168_A2,Mishra2019_dataset1,874
+Polyclonal AIIMS_330 78-months,Q168_A2,Mishra2019_dataset1,300
+Polyclonal AIIMS_330 82-months,Q168_A2,Mishra2019_dataset1,323
+Polyclonal AIIMS_330 90-months,Q168_A2,Mishra2019_dataset1,355
+polyclonal BF520,Q168_A2,Simonich2016,<100
+polyclonal CAP206,Q168_A2,Gray2009a,<40
+polyclonal CAP256 Year1,Q168_A2,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q168_A2,Doria-Rose2014,70
+polyclonal CAP256 Year3,Q168_A2,Doria-Rose2014,2349
+polyclonal CAP256 Year4,Q168_A2,Doria-Rose2014,352
+polyclonal N152,Q168_A2,Huang2014,509
+polyclonal NIH45,Q168_A2,Wu2010,110
+polyclonal QA013,Q168_A2,Williams2018,136
+polyclonal QA013,Q168_B23,Williams2018,1596
+polyclonal BF520,Q23_17,Simonich2016,339
+polyclonal CAP206,Q23_17,Gray2009a,320
+polyclonal CAP256 Year1,Q23_17,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q23_17,Doria-Rose2014,171
+polyclonal CAP256 Year3,Q23_17,Doria-Rose2014,1107
+polyclonal CAP256 Year4,Q23_17,Doria-Rose2014,448
+polyclonal CH0457 wk8,Q23_17,Moody2015,433
+polyclonal Donor 31,Q23_17,Falkowska2014,465
+polyclonal N152,Q23_17,Huang2014,5898
+polyclonal NIH45,Q23_17,Wu2010,33
+polyclonal PC64-M35,Q23_17,Landais2017_dataset1,22073
+polyclonal QA013,Q23_17,Williams2018,259
+polyclonal CAP256 Year1,Q259_17,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q259_17,Doria-Rose2014,792
+polyclonal CAP256 Year3,Q259_17,Doria-Rose2014,114
+polyclonal CAP256 Year4,Q259_17,Doria-Rose2014,433
+polyclonal CH0457 wk8,Q259_17,Moody2015,51
+polyclonal N152,Q259_17,Huang2014,953
+polyclonal PC64-M35,Q259_17,Landais2017_dataset1,132
+polyclonal BF520,Q259_D2_26,Simonich2016,121
+polyclonal NIH45,Q259_W6,Wu2010,13
+polyclonal BF520,Q461_D1_PNS0D,Simonich2016,480
+polyclonal QA013,Q461_D1_PNS0D,Williams2018,418
+polyclonal CAP206,Q461_E2,Gray2009a,<40
+polyclonal CAP256 Year1,Q461_E2,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q461_E2,Doria-Rose2014,<45
+polyclonal CAP256 Year3,Q461_E2,Doria-Rose2014,422
+polyclonal CAP256 Year4,Q461_E2,Doria-Rose2014,127
+polyclonal CH0457 wk8,Q461_E2,Moody2015,442
+polyclonal Donor 31,Q461_E2,Falkowska2014,162
+polyclonal N152,Q461_E2,Huang2014,4282
+polyclonal NIH45,Q461_E2,Wu2010,>1000
+polyclonal PC64-M35,Q461_E2,Landais2017_dataset1,<50
+polyclonal BF520,Q769_B9_PNS79D,Simonich2016,<100
+polyclonal CAP256 Year1,Q769_D22,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q769_D22,Doria-Rose2014,<45
+polyclonal CAP256 Year3,Q769_D22,Doria-Rose2014,<45
+polyclonal CAP256 Year4,Q769_D22,Doria-Rose2014,<45
+polyclonal CH0457 wk8,Q769_D22,Moody2015,273
+polyclonal N152,Q769_D22,Huang2014,1834
+polyclonal PC64-M35,Q769_D22,Landais2017_dataset1,<50
+polyclonal N152,Q769_H5,Huang2014,836
+polyclonal NIH45,Q769_H5,Wu2010,67
+polyclonal BF520,Q842_D12,Simonich2016,115
+polyclonal CAP206,Q842_D12,Gray2009a,<40
+polyclonal CAP256 Year1,Q842_D12,Doria-Rose2014,<45
+polyclonal CAP256 Year2,Q842_D12,Doria-Rose2014,47
+polyclonal CAP256 Year3,Q842_D12,Doria-Rose2014,658
+polyclonal CAP256 Year4,Q842_D12,Doria-Rose2014,602
+polyclonal CH0457 wk8,Q842_D12,Moody2015,3296
+polyclonal N152,Q842_D12,Huang2014,7407
+polyclonal NIH45,Q842_D12,Scheid2011,50
+polyclonal NIH45,Q842_D12,Wu2010,50
+polyclonal Patient 1,Q842_D12,Scheid2011,12.196
+polyclonal Patient 3,Q842_D12,Scheid2011,6.168
+polyclonal Patient 8,Q842_D12,Scheid2011,4.056
+polyclonal BF520,Q842_D16,Simonich2016,306
+polyclonal QA013,Q842_D16,Williams2018,170
+polyclonal QA013,QA790_204I_C1,Williams2018,999
+polyclonal BF520,QB857_110I_B3,Simonich2016,142
+polyclonal QA013,QB857_110I_B3,Williams2018,319
+polyclonal BF520,QC406_70M_F3,Simonich2016,922
+polyclonal QA013,QC406_70M_F3,Williams2018,446
+polyclonal BF520,QD435_100M_A4,Simonich2016,110
+polyclonal QA013,QD435_100M_A4,Williams2018,446
+polyclonal N152,QH0515_1,Huang2014,7984
+polyclonal NIH45,QH0515_1,Wu2010,>1000
+Polyclonal AIIMS_329 102-months,QH0692_42,Mishra2019_dataset1,289
+Polyclonal AIIMS_329 112-months,QH0692_42,Mishra2019_dataset1,112
+Polyclonal AIIMS_329 117-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,QH0692_42,Mishra2019_dataset1,61
+Polyclonal AIIMS_329 78-months,QH0692_42,Mishra2019_dataset1,200
+Polyclonal AIIMS_329 82-months,QH0692_42,Mishra2019_dataset1,238
+Polyclonal AIIMS_329 90-months,QH0692_42,Mishra2019_dataset1,276
+Polyclonal AIIMS_330 102-months,QH0692_42,Mishra2019_dataset1,84
+Polyclonal AIIMS_330 112-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 117-months,QH0692_42,Mishra2019_dataset1,394
+Polyclonal AIIMS_330 124-months,QH0692_42,Mishra2019_dataset1,458
+Polyclonal AIIMS_330 131-months,QH0692_42,Mishra2019_dataset1,363
+Polyclonal AIIMS_330 138-months,QH0692_42,Mishra2019_dataset1,322
+Polyclonal AIIMS_330 78-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,QH0692_42,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,QH0692_42,Mishra2019_dataset1,98
+polyclonal CAP206,QH0692_42,Gray2009a,383
+polyclonal CAP206,QH0692_42,Morris2011,125
+polyclonal CAP256 Year1,QH0692_42,Doria-Rose2014,<45
+polyclonal CAP256 Year2,QH0692_42,Doria-Rose2014,<45
+polyclonal CAP256 Year3,QH0692_42,Doria-Rose2014,49
+polyclonal CAP256 Year4,QH0692_42,Doria-Rose2014,<45
+polyclonal CH0457 wk8,QH0692_42,Moody2015,84
+polyclonal CH0457 wk96,QH0692_42,Moody2015,154
+polyclonal Donor 17,QH0692_42,Walker2011,175.1
+polyclonal Donor 24,QH0692_42,Walker2009a,<100
+polyclonal Donor 31,QH0692_42,Falkowska2014,51
+polyclonal Donor 36,QH0692_42,Walker2011,227.6
+polyclonal Donor 39,QH0692_42,Walker2011,359
+polyclonal Donor 84,QH0692_42,Walker2011,<100
+polyclonal N152,QH0692_42,Huang2014,6528
+polyclonal NIH45,QH0692_42,Wu2010,207
+polyclonal PC64-M35,QH0692_42,Landais2017_dataset2,72
+polyclonal PC64-M35,QH0692_42,Landais2017_dataset1,<50
+polyclonal N152,QH209_14M_A2,Huang2014,1490
+polyclonal Donor 31,R1166_C1,Falkowska2014,155
+polyclonal N152,R1166_C1,Huang2014,6893
+polyclonal PC64-M35,R1166_C1,Landais2017_dataset1,58
+polyclonal Patient 1,R1166_C1,Scheid2011,>340
+polyclonal Patient 3,R1166_C1,Scheid2011,52.01
+polyclonal Patient 8,R1166_C1,Scheid2011,>227
+polyclonal NIH45,R2,Wu2010,42
+polyclonal N152,R2184_C4,Huang2014,1474
+polyclonal NIH45,R2184_C4,Wu2010,192
+polyclonal PC64-M35,R2184_C4,Landais2017_dataset1,99
+polyclonal N152,R3265_C6,Huang2014,35.5
+polyclonal PC64-M35,R3265_C6,Landais2017_dataset1,<50
+polyclonal CAP206,REJO4541_67,Gray2009a,<40
+polyclonal CAP256 Year1,REJO4541_67,Doria-Rose2014,<45
+polyclonal CAP256 Year2,REJO4541_67,Doria-Rose2014,<45
+polyclonal CAP256 Year3,REJO4541_67,Doria-Rose2014,<45
+polyclonal CAP256 Year4,REJO4541_67,Doria-Rose2014,<45
+polyclonal CH0457 wk8,REJO4541_67,Moody2015,44
+polyclonal CH0457 wk96,REJO4541_67,Moody2015,163
+polyclonal N152,REJO4541_67,Huang2014,9758
+polyclonal NIH45,REJO4541_67,Wu2010,69
+polyclonal PC64-M35,REJO4541_67,Landais2017_dataset2,156
+polyclonal PC64-M35,REJO4541_67,Landais2017_dataset1,88
+Polyclonal AIIMS_329 102-months,RHPA4259_7,Mishra2019_dataset1,156
+Polyclonal AIIMS_329 112-months,RHPA4259_7,Mishra2019_dataset1,141
+Polyclonal AIIMS_329 117-months,RHPA4259_7,Mishra2019_dataset1,212
+Polyclonal AIIMS_329 124-months,RHPA4259_7,Mishra2019_dataset1,219
+Polyclonal AIIMS_329 131-months,RHPA4259_7,Mishra2019_dataset1,102
+Polyclonal AIIMS_329 138-months,RHPA4259_7,Mishra2019_dataset1,88
+Polyclonal AIIMS_329 78-months,RHPA4259_7,Mishra2019_dataset1,89
+Polyclonal AIIMS_329 82-months,RHPA4259_7,Mishra2019_dataset1,110
+Polyclonal AIIMS_329 90-months,RHPA4259_7,Mishra2019_dataset1,123
+Polyclonal AIIMS_330 102-months,RHPA4259_7,Mishra2019_dataset1,989
+Polyclonal AIIMS_330 112-months,RHPA4259_7,Mishra2019_dataset1,2046
+Polyclonal AIIMS_330 117-months,RHPA4259_7,Mishra2019_dataset1,1127
+Polyclonal AIIMS_330 124-months,RHPA4259_7,Mishra2019_dataset1,1754
+Polyclonal AIIMS_330 131-months,RHPA4259_7,Mishra2019_dataset1,963
+Polyclonal AIIMS_330 138-months,RHPA4259_7,Mishra2019_dataset1,1487
+Polyclonal AIIMS_330 78-months,RHPA4259_7,Mishra2019_dataset1,913
+Polyclonal AIIMS_330 82-months,RHPA4259_7,Mishra2019_dataset1,879
+Polyclonal AIIMS_330 90-months,RHPA4259_7,Mishra2019_dataset1,913
+polyclonal CAP206,RHPA4259_7,Gray2009a,<40
+polyclonal CAP256 Year1,RHPA4259_7,Doria-Rose2014,<45
+polyclonal CAP256 Year2,RHPA4259_7,Doria-Rose2014,<45
+polyclonal CAP256 Year3,RHPA4259_7,Doria-Rose2014,<45
+polyclonal CAP256 Year4,RHPA4259_7,Doria-Rose2014,49
+polyclonal CH0457 wk8,RHPA4259_7,Moody2015,1781
+polyclonal CH0457 wk96,RHPA4259_7,Moody2015,2026
+polyclonal N152,RHPA4259_7,Huang2014,1939
+polyclonal NIH45,RHPA4259_7,Scheid2011,30
+polyclonal NIH45,RHPA4259_7,Wu2010,30
+polyclonal PC64-M35,RHPA4259_7,Landais2017_dataset1,<50
+polyclonal PC64-M35,RHPA4259_7,Landais2017_dataset2,<50
+polyclonal Patient 1,RHPA4259_7,Scheid2011,113
+polyclonal Patient 12,RHPA4259_7,Scheid2011,30.1
+polyclonal Patient 3,RHPA4259_7,Scheid2011,16.6
+polyclonal Patient 8,RHPA4259_7,Scheid2011,154.1
+polyclonal N152,S018_18,Huang2014,2603
+polyclonal NIH45,S018_18,Wu2010,31
+polyclonal NIH45,SC05_8C11_2344,Wu2010,139
+polyclonal PC64-M35,SC05_8C11_2344,Landais2017_dataset1,<50
+Polyclonal AIIMS_329 102-months,SC422_8,Mishra2019_dataset1,445
+Polyclonal AIIMS_329 112-months,SC422_8,Mishra2019_dataset1,326
+Polyclonal AIIMS_329 117-months,SC422_8,Mishra2019_dataset1,169
+Polyclonal AIIMS_329 124-months,SC422_8,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,SC422_8,Mishra2019_dataset1,71
+Polyclonal AIIMS_329 138-months,SC422_8,Mishra2019_dataset1,151
+Polyclonal AIIMS_329 78-months,SC422_8,Mishra2019_dataset1,398
+Polyclonal AIIMS_329 82-months,SC422_8,Mishra2019_dataset1,421
+Polyclonal AIIMS_329 90-months,SC422_8,Mishra2019_dataset1,435
+Polyclonal AIIMS_330 102-months,SC422_8,Mishra2019_dataset1,233
+Polyclonal AIIMS_330 112-months,SC422_8,Mishra2019_dataset1,991
+Polyclonal AIIMS_330 117-months,SC422_8,Mishra2019_dataset1,1042
+Polyclonal AIIMS_330 124-months,SC422_8,Mishra2019_dataset1,1085
+Polyclonal AIIMS_330 131-months,SC422_8,Mishra2019_dataset1,369
+Polyclonal AIIMS_330 138-months,SC422_8,Mishra2019_dataset1,513
+Polyclonal AIIMS_330 78-months,SC422_8,Mishra2019_dataset1,111
+Polyclonal AIIMS_330 82-months,SC422_8,Mishra2019_dataset1,125
+Polyclonal AIIMS_330 90-months,SC422_8,Mishra2019_dataset1,144
+polyclonal CAP206,SC422_8,Gray2009a,<40
+polyclonal CAP256 Year1,SC422_8,Doria-Rose2014,<45
+polyclonal CAP256 Year2,SC422_8,Doria-Rose2014,<45
+polyclonal CAP256 Year3,SC422_8,Doria-Rose2014,<45
+polyclonal CAP256 Year4,SC422_8,Doria-Rose2014,<45
+polyclonal CH0457 wk8,SC422_8,Moody2015,167
+polyclonal CH0457 wk96,SC422_8,Moody2015,385
+polyclonal Donor 17,SC422_8,Walker2011,367.3
+polyclonal Donor 24,SC422_8,Walker2009a,182
+polyclonal Donor 36,SC422_8,Walker2011,<100
+polyclonal Donor 39,SC422_8,Walker2011,220
+polyclonal Donor 84,SC422_8,Walker2011,228.7
+polyclonal N152,SC422_8,Huang2014,3070
+polyclonal NIH45,SC422_8,Scheid2011,107
+polyclonal NIH45,SC422_8,Wu2010,107
+polyclonal PC64-M35,SC422_8,Landais2017_dataset2,230
+polyclonal PC64-M35,SC422_8,Landais2017_dataset1,130
+polyclonal Patient 1,SC422_8,Scheid2011,49
+polyclonal Patient 12,SC422_8,Scheid2011,62.7
+polyclonal Patient 3,SC422_8,Scheid2011,25.9
+polyclonal Patient 8,SC422_8,Scheid2011,16.6
+Polyclonal AIIMS_329 102-months,SF162,Mishra2019_dataset1,1771
+Polyclonal AIIMS_329 112-months,SF162,Mishra2019_dataset1,873
+Polyclonal AIIMS_329 117-months,SF162,Mishra2019_dataset1,2169
+Polyclonal AIIMS_329 124-months,SF162,Mishra2019_dataset1,7762
+Polyclonal AIIMS_329 131-months,SF162,Mishra2019_dataset1,1542
+Polyclonal AIIMS_329 138-months,SF162,Mishra2019_dataset1,5253
+Polyclonal AIIMS_329 78-months,SF162,Mishra2019_dataset1,1615
+Polyclonal AIIMS_329 82-months,SF162,Mishra2019_dataset1,1675
+Polyclonal AIIMS_329 90-months,SF162,Mishra2019_dataset1,1766
+Polyclonal AIIMS_330 102-months,SF162,Mishra2019_dataset1,1767
+Polyclonal AIIMS_330 112-months,SF162,Mishra2019_dataset1,4435
+Polyclonal AIIMS_330 117-months,SF162,Mishra2019_dataset1,9654
+Polyclonal AIIMS_330 124-months,SF162,Mishra2019_dataset1,18574
+Polyclonal AIIMS_330 131-months,SF162,Mishra2019_dataset1,15874
+Polyclonal AIIMS_330 138-months,SF162,Mishra2019_dataset1,6101
+Polyclonal AIIMS_330 78-months,SF162,Mishra2019_dataset1,1568
+Polyclonal AIIMS_330 82-months,SF162,Mishra2019_dataset1,1685
+Polyclonal AIIMS_330 90-months,SF162,Mishra2019_dataset1,1761
+polyclonal BF520,SF162,Simonich2016,>3200
+polyclonal CH0457 wk8,SF162,Moody2015,274
+polyclonal CH0457 wk96,SF162,Moody2015,474
+polyclonal Donor 17,SF162,Walker2011,5329.3
+polyclonal Donor 24,SF162,Walker2009a,9777
+polyclonal Donor 36,SF162,Walker2011,5103
+polyclonal Donor 39,SF162,Walker2011,3043
+polyclonal Donor 84,SF162,Walker2011,2049
+polyclonal N152,SF162,Huang2014,17317
+polyclonal PC64-M35,SF162,Landais2017_dataset2,102
+polyclonal PC64-M35,SF162,Landais2017_dataset1,58
+polyclonal QA013,SF162,Williams2018,2018
+polyclonal PC64-M35,SS1196_1,Landais2017_dataset2,332
+polyclonal PC64-M35,SS1196_1,Landais2017_dataset1,188
+polyclonal Donor 31,T250_4,Falkowska2014,562
+polyclonal N152,T250_4,Huang2014,24732
+polyclonal NIH45,T250_4,Scheid2011,90
+polyclonal NIH45,T250_4,Wu2010,90
+polyclonal PC64-M35,T250_4,Landais2017_dataset1,7511
+polyclonal Patient 1,T250_4,Scheid2011,>132
+polyclonal Patient 3,T250_4,Scheid2011,560.58
+polyclonal Patient 8,T250_4,Scheid2011,55.09
+polyclonal Donor 31,T251_18,Falkowska2014,<50
+polyclonal N152,T251_18,Huang2014,6192
+polyclonal NIH45,T251_18,Scheid2011,841
+polyclonal NIH45,T251_18,Wu2010,841
+polyclonal PC64-M35,T251_18,Landais2017_dataset1,<50
+polyclonal Patient 1,T251_18,Scheid2011,>340
+polyclonal Patient 3,T251_18,Scheid2011,104.58
+polyclonal Patient 8,T251_18,Scheid2011,92.28
+polyclonal N152,T253_11,Huang2014,243
+polyclonal NIH45,T253_11,Wu2010,541
+polyclonal N152,T255_34,Huang2014,687
+polyclonal NIH45,T255_34,Wu2010,476
+polyclonal PC64-M35,T255_34,Landais2017_dataset1,2289
+polyclonal N152,T257_31,Huang2014,89.7
+polyclonal NIH45,T257_31,Wu2010,683
+polyclonal PC64-M35,T257_31,Landais2017_dataset1,<50
+polyclonal N152,T278_50,Huang2014,2342
+polyclonal NIH45,T278_50,Scheid2011,>1000
+polyclonal NIH45,T278_50,Wu2010,>1000
+polyclonal PC64-M35,T278_50,Landais2017_dataset1,<50
+polyclonal Patient 1,T278_50,Scheid2011,>132
+polyclonal Patient 3,T278_50,Scheid2011,>132
+polyclonal Patient 8,T278_50,Scheid2011,>132
+polyclonal N152,T280_5,Huang2014,2740
+polyclonal NIH45,T280_5,Wu2010,41
+polyclonal CH0457 wk8,TH023_6,Moody2015,13758
+polyclonal CH0457 wk96,TH023_6,Moody2015,13659
+polyclonal N152,TH966_8,Huang2014,2803
+polyclonal NIH45,TH966_8,Wu2010,102
+polyclonal N152,TH976_17,Huang2014,3259
+polyclonal NIH45,TH976_17,Wu2010,25
+Polyclonal AIIMS_329 102-months,THRO4156,Mishra2019_dataset1,82
+Polyclonal AIIMS_329 112-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 82-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 90-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,THRO4156,Mishra2019_dataset1,84
+Polyclonal AIIMS_330 112-months,THRO4156,Mishra2019_dataset1,71
+Polyclonal AIIMS_330 117-months,THRO4156,Mishra2019_dataset1,129
+Polyclonal AIIMS_330 124-months,THRO4156,Mishra2019_dataset1,212
+Polyclonal AIIMS_330 131-months,THRO4156,Mishra2019_dataset1,96
+Polyclonal AIIMS_330 138-months,THRO4156,Mishra2019_dataset1,146
+Polyclonal AIIMS_330 78-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,THRO4156,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,THRO4156,Mishra2019_dataset1,<50
+polyclonal BF520,THRO4156,Simonich2016,<100
+polyclonal CAP206,THRO4156,Gray2009a,<40
+polyclonal CAP256 Year1,THRO4156,Doria-Rose2014,<45
+polyclonal CAP256 Year2,THRO4156,Doria-Rose2014,<45
+polyclonal CAP256 Year3,THRO4156,Doria-Rose2014,<45
+polyclonal CAP256 Year4,THRO4156,Doria-Rose2014,<45
+polyclonal CH0457 wk8,THRO4156,Moody2015,78
+polyclonal CH0457 wk96,THRO4156,Moody2015,111
+polyclonal Donor 17,THRO4156,Walker2011,<100
+polyclonal Donor 24,THRO4156,Walker2009a,<100
+polyclonal Donor 31,THRO4156,Falkowska2014,82
+polyclonal Donor 36,THRO4156,Walker2011,107.7
+polyclonal Donor 39,THRO4156,Walker2011,126
+polyclonal Donor 84,THRO4156,Walker2011,1036
+polyclonal N152,THRO4156,Huang2014,351
+polyclonal NIH45,THRO4156,Wu2010,531
+Polyclonal AIIMS_329 102-months,TRJO4551_58,Mishra2019_dataset1,74
+Polyclonal AIIMS_329 112-months,TRJO4551_58,Mishra2019_dataset1,71
+Polyclonal AIIMS_329 117-months,TRJO4551_58,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,TRJO4551_58,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,TRJO4551_58,Mishra2019_dataset1,81
+Polyclonal AIIMS_329 138-months,TRJO4551_58,Mishra2019_dataset1,78
+Polyclonal AIIMS_329 78-months,TRJO4551_58,Mishra2019_dataset1,86
+Polyclonal AIIMS_329 82-months,TRJO4551_58,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 90-months,TRJO4551_58,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,TRJO4551_58,Mishra2019_dataset1,345
+Polyclonal AIIMS_330 112-months,TRJO4551_58,Mishra2019_dataset1,364
+Polyclonal AIIMS_330 117-months,TRJO4551_58,Mishra2019_dataset1,527
+Polyclonal AIIMS_330 124-months,TRJO4551_58,Mishra2019_dataset1,367
+Polyclonal AIIMS_330 131-months,TRJO4551_58,Mishra2019_dataset1,424
+Polyclonal AIIMS_330 138-months,TRJO4551_58,Mishra2019_dataset1,218
+Polyclonal AIIMS_330 78-months,TRJO4551_58,Mishra2019_dataset1,213
+Polyclonal AIIMS_330 82-months,TRJO4551_58,Mishra2019_dataset1,246
+Polyclonal AIIMS_330 90-months,TRJO4551_58,Mishra2019_dataset1,310
+polyclonal BF520,TRJO4551_58,Simonich2016,124
+polyclonal CAP206,TRJO4551_58,Gray2009a,<40
+polyclonal CAP256 Year1,TRJO4551_58,Doria-Rose2014,<45
+polyclonal CAP256 Year2,TRJO4551_58,Doria-Rose2014,<45
+polyclonal CAP256 Year3,TRJO4551_58,Doria-Rose2014,56
+polyclonal CAP256 Year4,TRJO4551_58,Doria-Rose2014,<45
+polyclonal CH0457 wk8,TRJO4551_58,Moody2015,485
+polyclonal CH0457 wk96,TRJO4551_58,Moody2015,663
+polyclonal Donor 17,TRJO4551_58,Walker2011,152.5
+polyclonal Donor 24,TRJO4551_58,Walker2009a,171
+polyclonal Donor 31,TRJO4551_58,Falkowska2014,110
+polyclonal Donor 36,TRJO4551_58,Walker2011,1416.1
+polyclonal Donor 39,TRJO4551_58,Walker2011,617
+polyclonal Donor 84,TRJO4551_58,Walker2011,400.2
+polyclonal N152,TRJO4551_58,Huang2014,1231
+polyclonal NIH45,TRJO4551_58,Wu2010,163
+polyclonal PC64-M35,TRJO4551_58,Landais2017_dataset2,72
+polyclonal PC64-M35,TRJO4551_58,Landais2017_dataset1,<50
+polyclonal QA013,TRJO4551_58,Williams2018,208
+Polyclonal AIIMS_329 102-months,TRO_11,Mishra2019_dataset1,463
+Polyclonal AIIMS_329 112-months,TRO_11,Mishra2019_dataset1,124
+Polyclonal AIIMS_329 117-months,TRO_11,Mishra2019_dataset1,81
+Polyclonal AIIMS_329 124-months,TRO_11,Mishra2019_dataset1,138
+Polyclonal AIIMS_329 131-months,TRO_11,Mishra2019_dataset1,91
+Polyclonal AIIMS_329 138-months,TRO_11,Mishra2019_dataset1,146
+Polyclonal AIIMS_329 78-months,TRO_11,Mishra2019_dataset1,556
+Polyclonal AIIMS_329 82-months,TRO_11,Mishra2019_dataset1,569
+Polyclonal AIIMS_329 90-months,TRO_11,Mishra2019_dataset1,661
+Polyclonal AIIMS_330 102-months,TRO_11,Mishra2019_dataset1,434
+Polyclonal AIIMS_330 112-months,TRO_11,Mishra2019_dataset1,1148
+Polyclonal AIIMS_330 117-months,TRO_11,Mishra2019_dataset1,1658
+Polyclonal AIIMS_330 124-months,TRO_11,Mishra2019_dataset1,1725
+Polyclonal AIIMS_330 131-months,TRO_11,Mishra2019_dataset1,1001
+Polyclonal AIIMS_330 138-months,TRO_11,Mishra2019_dataset1,1589
+Polyclonal AIIMS_330 78-months,TRO_11,Mishra2019_dataset1,292
+Polyclonal AIIMS_330 82-months,TRO_11,Mishra2019_dataset1,329
+Polyclonal AIIMS_330 90-months,TRO_11,Mishra2019_dataset1,343
+polyclonal BF520,TRO_11,Simonich2016,244
+polyclonal CAP206,TRO_11,Gray2009a,491
+polyclonal CAP206,TRO_11,Morris2011,212
+polyclonal CAP256 Year1,TRO_11,Doria-Rose2014,<45
+polyclonal CAP256 Year2,TRO_11,Doria-Rose2014,<45
+polyclonal CAP256 Year3,TRO_11,Doria-Rose2014,<45
+polyclonal CAP256 Year4,TRO_11,Doria-Rose2014,69
+polyclonal CH0457 wk8,TRO_11,Moody2015,2760
+polyclonal CH0457 wk96,TRO_11,Moody2015,2074
+polyclonal Donor 17,TRO_11,Walker2011,2706.9
+polyclonal Donor 24,TRO_11,Walker2009a,222
+polyclonal Donor 36,TRO_11,Walker2011,454.5
+polyclonal Donor 39,TRO_11,Walker2011,2740
+polyclonal Donor 84,TRO_11,Walker2011,861.3
+polyclonal N152,TRO_11,Huang2014,2773
+polyclonal NIH45,TRO_11,Scheid2011,208
+polyclonal NIH45,TRO_11,Wu2010,208
+polyclonal PC64-M35,TRO_11,Landais2017_dataset2,142
+polyclonal PC64-M35,TRO_11,Landais2017_dataset1,80
+polyclonal Patient 1,TRO_11,Scheid2011,72
+polyclonal Patient 12,TRO_11,Scheid2011,53.6
+polyclonal Patient 3,TRO_11,Scheid2011,24.5
+polyclonal Patient 8,TRO_11,Scheid2011,62.2
+polyclonal QA013,TRO_11,Williams2018,161
+polyclonal N152,TV1_29,Huang2014,241
+polyclonal NIH45,TV1_29,Wu2010,>1000
+polyclonal N152,TZA125_17,Huang2014,11592
+polyclonal NIH45,TZA125_17,Wu2010,87
+polyclonal N152,TZBD_02,Huang2014,409
+polyclonal NIH45,TZBD_02,Wu2010,56
+polyclonal N152,UG021_16,Huang2014,7703
+polyclonal CAP206,UG024_2,Gray2009a,1556
+polyclonal Donor 17,UG024_2,Walker2011,<100
+polyclonal Donor 24,UG024_2,Walker2009a,112
+polyclonal Donor 36,UG024_2,Walker2011,138.1
+polyclonal Donor 39,UG024_2,Walker2011,1930
+polyclonal Donor 84,UG024_2,Walker2011,202
+polyclonal N152,UG024_2,Huang2014,11754
+polyclonal NIH45,UG024_2,Wu2010,14
+polyclonal Donor 17,UG037_8,Walker2011,1120.4
+polyclonal Donor 24,UG037_8,Walker2009a,1252
+polyclonal Donor 36,UG037_8,Walker2011,1431.8
+polyclonal Donor 39,UG037_8,Walker2011,410
+polyclonal Donor 84,UG037_8,Walker2011,501.8
+polyclonal N152,UG037_8,Huang2014,2490
+polyclonal NIH45,UG037_8,Wu2010,220
+polyclonal Donor 17,VLGC_A1,Walker2011,<100
+polyclonal Donor 24,VLGC_A1,Walker2009a,197
+polyclonal Donor 36,VLGC_A1,Walker2011,203.2
+polyclonal Donor 39,VLGC_A1,Walker2011,<100
+polyclonal Donor 84,VLGC_A1,Walker2011,311.2
+polyclonal Donor 17,VLGC_B3,Walker2011,2961.7
+polyclonal Donor 24,VLGC_B3,Walker2009a,244
+polyclonal Donor 36,VLGC_B3,Walker2011,1333
+polyclonal Donor 39,VLGC_B3,Walker2011,754
+polyclonal Donor 84,VLGC_B3,Walker2011,238.5
+polyclonal CH0457 wk8,WEAU_D15_410,Moody2015,1004
+polyclonal CH0457 wk96,WEAU_D15_410,Moody2015,1241
+polyclonal NIH45,WEAU_D15_410,Wu2010,52
+polyclonal PC64-M35,WEAU_D15_410,Landais2017_dataset1,71
+polyclonal CAP206,WITO4160_33,Gray2009a,144
+polyclonal CAP256 Year1,WITO4160_33,Doria-Rose2014,56
+polyclonal CAP256 Year2,WITO4160_33,Doria-Rose2014,219
+polyclonal CAP256 Year3,WITO4160_33,Doria-Rose2014,293
+polyclonal CAP256 Year4,WITO4160_33,Doria-Rose2014,99
+polyclonal N152,WITO4160_33,Huang2014,133
+polyclonal NIH45,WITO4160_33,Wu2010,312
+polyclonal PC64-M35,WITO4160_33,Landais2017_dataset2,8760
+polyclonal PC64-M35,WITO4160_33,Landais2017_dataset1,4955
+polyclonal PC64-M35,X1193_C1,Landais2017_dataset1,<50
+polyclonal PC64-M35,X1254_C3,Landais2017_dataset1,<50
+polyclonal Patient 1,X1254_C3,Scheid2011,222.01
+polyclonal Patient 3,X1254_C3,Scheid2011,81.48
+polyclonal Patient 8,X1254_C3,Scheid2011,>227
+Polyclonal AIIMS_329 102-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 112-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,X1632_S2_B10,Mishra2019_dataset1,81
+Polyclonal AIIMS_329 82-months,X1632_S2_B10,Mishra2019_dataset1,84
+Polyclonal AIIMS_329 90-months,X1632_S2_B10,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,X1632_S2_B10,Mishra2019_dataset1,346
+Polyclonal AIIMS_330 112-months,X1632_S2_B10,Mishra2019_dataset1,490
+Polyclonal AIIMS_330 117-months,X1632_S2_B10,Mishra2019_dataset1,398
+Polyclonal AIIMS_330 124-months,X1632_S2_B10,Mishra2019_dataset1,284
+Polyclonal AIIMS_330 131-months,X1632_S2_B10,Mishra2019_dataset1,146
+Polyclonal AIIMS_330 138-months,X1632_S2_B10,Mishra2019_dataset1,156
+Polyclonal AIIMS_330 78-months,X1632_S2_B10,Mishra2019_dataset1,64
+Polyclonal AIIMS_330 82-months,X1632_S2_B10,Mishra2019_dataset1,78
+Polyclonal AIIMS_330 90-months,X1632_S2_B10,Mishra2019_dataset1,214
+polyclonal BF520,X1632_S2_B10,Simonich2016,116
+polyclonal Donor 31,X1632_S2_B10,Falkowska2014,154
+polyclonal PC64-M35,X1632_S2_B10,Landais2017_dataset1,438
+polyclonal QA013,X1632_S2_B10,Williams2018,<100
+polyclonal N152,X2088_C9,Huang2014,8786
+polyclonal PC64-M35,X2088_C9,Landais2017_dataset1,<50
+polyclonal Donor 31,X2131_C1_B5,Falkowska2014,1738
+polyclonal PC64-M35,X2131_C1_B5,Landais2017_dataset1,334
+Polyclonal AIIMS_329 102-months,X2278_C2_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 112-months,X2278_C2_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,X2278_C2_B6,Mishra2019_dataset1,78
+Polyclonal AIIMS_329 124-months,X2278_C2_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,X2278_C2_B6,Mishra2019_dataset1,94
+Polyclonal AIIMS_329 138-months,X2278_C2_B6,Mishra2019_dataset1,96
+Polyclonal AIIMS_329 78-months,X2278_C2_B6,Mishra2019_dataset1,124
+Polyclonal AIIMS_329 82-months,X2278_C2_B6,Mishra2019_dataset1,110
+Polyclonal AIIMS_329 90-months,X2278_C2_B6,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,X2278_C2_B6,Mishra2019_dataset1,847
+Polyclonal AIIMS_330 112-months,X2278_C2_B6,Mishra2019_dataset1,1906
+Polyclonal AIIMS_330 117-months,X2278_C2_B6,Mishra2019_dataset1,1487
+Polyclonal AIIMS_330 124-months,X2278_C2_B6,Mishra2019_dataset1,1097
+Polyclonal AIIMS_330 131-months,X2278_C2_B6,Mishra2019_dataset1,2239
+Polyclonal AIIMS_330 138-months,X2278_C2_B6,Mishra2019_dataset1,2138
+Polyclonal AIIMS_330 78-months,X2278_C2_B6,Mishra2019_dataset1,456
+Polyclonal AIIMS_330 82-months,X2278_C2_B6,Mishra2019_dataset1,218
+Polyclonal AIIMS_330 90-months,X2278_C2_B6,Mishra2019_dataset1,249
+polyclonal BF520,X2278_C2_B6,Simonich2016,183
+polyclonal QA013,X2278_C2_B6,Williams2018,282
+polyclonal N152,YU2,Huang2014,279
+polyclonal NIH45,YU2,Scheid2011,92
+polyclonal NIH45,YU2,Wu2010,92
+polyclonal PC64-M35,YU2,Landais2017_dataset2,66
+polyclonal Patient 1,YU2,Scheid2011,131
+polyclonal Patient 12,YU2,Scheid2011,50.6
+polyclonal Patient 3,YU2,Scheid2011,25.4
+polyclonal Patient 8,YU2,Scheid2011,32.7
+polyclonal Donor 17,ZA012_29,Walker2011,8150
+polyclonal Donor 24,ZA012_29,Walker2009a,188
+polyclonal Donor 36,ZA012_29,Walker2011,433
+polyclonal Donor 39,ZA012_29,Walker2011,594
+polyclonal Donor 84,ZA012_29,Walker2011,1083.1
+polyclonal N152,ZA012_29,Huang2014,39
+polyclonal NIH45,ZA012_29,Wu2010,72
+polyclonal N152,ZM106_9,Huang2014,256
+polyclonal NIH45,ZM106_9,Wu2010,212
+polyclonal BF520,ZM109_4,Simonich2016,108
+polyclonal CAP256 Year1,ZM109_4,Doria-Rose2014,<45
+polyclonal CAP256 Year2,ZM109_4,Doria-Rose2014,70
+polyclonal CAP256 Year3,ZM109_4,Doria-Rose2014,398
+polyclonal CAP256 Year4,ZM109_4,Doria-Rose2014,156
+polyclonal N152,ZM109_4,Huang2014,1856
+polyclonal NIH45,ZM109_4,Scheid2011,73
+polyclonal NIH45,ZM109_4,Wu2010,73
+polyclonal PC64-M35,ZM109_4,Landais2017_dataset1,<50
+polyclonal Patient 1,ZM109_4,Scheid2011,86.82
+polyclonal Patient 3,ZM109_4,Scheid2011,12.97
+polyclonal Patient 8,ZM109_4,Scheid2011,>227
+polyclonal QA013,ZM109_4,Williams2018,186
+polyclonal CAP206,ZM135_10A,Gray2009a,246
+polyclonal CAP256 Year1,ZM135_10A,Doria-Rose2014,<45
+polyclonal CAP256 Year2,ZM135_10A,Doria-Rose2014,68
+polyclonal CAP256 Year3,ZM135_10A,Doria-Rose2014,69
+polyclonal CAP256 Year4,ZM135_10A,Doria-Rose2014,<45
+polyclonal NIH45,ZM135_10A,Wu2010,268
+polyclonal PC64-M35,ZM135_10A,Landais2017_dataset1,<50
+polyclonal PC64-M35,ZM135_10A,Landais2017_dataset2,<50
+polyclonal N152,ZM176_66,Huang2014,551
+polyclonal NIH45,ZM176_66,Wu2010,15
+Polyclonal AIIMS_329 102-months,ZM197_7,Mishra2019_dataset1,167
+Polyclonal AIIMS_329 112-months,ZM197_7,Mishra2019_dataset1,349
+Polyclonal AIIMS_329 117-months,ZM197_7,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,ZM197_7,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,ZM197_7,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,ZM197_7,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,ZM197_7,Mishra2019_dataset1,75
+Polyclonal AIIMS_329 82-months,ZM197_7,Mishra2019_dataset1,115
+Polyclonal AIIMS_329 90-months,ZM197_7,Mishra2019_dataset1,145
+Polyclonal AIIMS_330 102-months,ZM197_7,Mishra2019_dataset1,439
+Polyclonal AIIMS_330 112-months,ZM197_7,Mishra2019_dataset1,894
+Polyclonal AIIMS_330 117-months,ZM197_7,Mishra2019_dataset1,997
+Polyclonal AIIMS_330 124-months,ZM197_7,Mishra2019_dataset1,891
+Polyclonal AIIMS_330 131-months,ZM197_7,Mishra2019_dataset1,759
+Polyclonal AIIMS_330 138-months,ZM197_7,Mishra2019_dataset1,812
+Polyclonal AIIMS_330 78-months,ZM197_7,Mishra2019_dataset1,300
+Polyclonal AIIMS_330 82-months,ZM197_7,Mishra2019_dataset1,345
+Polyclonal AIIMS_330 90-months,ZM197_7,Mishra2019_dataset1,369
+polyclonal CAP206,ZM197_7,Gray2009a,309
+polyclonal CAP206,ZM197_7,Morris2011,256
+polyclonal CAP256 Year1,ZM197_7,Doria-Rose2014,<45
+polyclonal CAP256 Year2,ZM197_7,Doria-Rose2014,151
+polyclonal CAP256 Year3,ZM197_7,Doria-Rose2014,1062
+polyclonal CAP256 Year4,ZM197_7,Doria-Rose2014,1245
+polyclonal CH0457 wk8,ZM197_7,Moody2015,209
+polyclonal CH0457 wk96,ZM197_7,Moody2015,206
+polyclonal N152,ZM197_7,Huang2014,784
+polyclonal NIH45,ZM197_7,Wu2010,605
+polyclonal PC64-M35,ZM197_7,Landais2017_dataset1,145
+Polyclonal AIIMS_329 102-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 112-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 117-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,ZM214_15,Mishra2019_dataset1,163
+Polyclonal AIIMS_329 78-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 82-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 90-months,ZM214_15,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 102-months,ZM214_15,Mishra2019_dataset1,349
+Polyclonal AIIMS_330 112-months,ZM214_15,Mishra2019_dataset1,512
+Polyclonal AIIMS_330 117-months,ZM214_15,Mishra2019_dataset1,487
+Polyclonal AIIMS_330 124-months,ZM214_15,Mishra2019_dataset1,468
+Polyclonal AIIMS_330 131-months,ZM214_15,Mishra2019_dataset1,891
+Polyclonal AIIMS_330 138-months,ZM214_15,Mishra2019_dataset1,1284
+Polyclonal AIIMS_330 78-months,ZM214_15,Mishra2019_dataset1,61
+Polyclonal AIIMS_330 82-months,ZM214_15,Mishra2019_dataset1,78
+Polyclonal AIIMS_330 90-months,ZM214_15,Mishra2019_dataset1,256
+polyclonal CAP206,ZM214_15,Gray2009a,<40
+polyclonal CAP256 Year1,ZM214_15,Doria-Rose2014,<45
+polyclonal CAP256 Year2,ZM214_15,Doria-Rose2014,<45
+polyclonal CAP256 Year3,ZM214_15,Doria-Rose2014,920
+polyclonal CAP256 Year4,ZM214_15,Doria-Rose2014,538
+polyclonal CH0457 wk8,ZM214_15,Moody2015,373
+polyclonal CH0457 wk96,ZM214_15,Moody2015,978
+polyclonal N152,ZM214_15,Huang2014,6130
+polyclonal NIH45,ZM214_15,Wu2010,141
+polyclonal PC64-M35,ZM214_15,Landais2017_dataset2,143
+polyclonal PC64-M35,ZM214_15,Landais2017_dataset1,81
+polyclonal N152,ZM215_8,Huang2014,2557
+polyclonal NIH45,ZM215_8,Wu2010,89
+polyclonal CAP206,ZM233_6,Gray2009a,<40
+polyclonal CAP256 Year1,ZM233_6,Doria-Rose2014,238
+polyclonal CAP256 Year2,ZM233_6,Doria-Rose2014,4360
+polyclonal CAP256 Year3,ZM233_6,Doria-Rose2014,13476
+polyclonal CAP256 Year4,ZM233_6,Doria-Rose2014,5261
+polyclonal Donor 31,ZM233_6,Falkowska2014,232
+polyclonal N152,ZM233_6,Huang2014,955
+polyclonal NIH45,ZM233_6,Wu2010,698
+polyclonal PC64-M35,ZM233_6,Landais2017_dataset1,2405
+polyclonal CH0457 wk8,ZM246F,Moody2015,446
+polyclonal CH0457 wk96,ZM246F,Moody2015,662
+polyclonal PC64-M35,ZM246F,Landais2017_dataset1,280
+polyclonal CH0457 wk8,ZM247_V1,Moody2015,1557
+polyclonal CH0457 wk96,ZM247_V1,Moody2015,2906
+polyclonal PC64-M35,ZM247_V1,Landais2017_dataset1,<50
+Polyclonal AIIMS_329 102-months,ZM249_1,Mishra2019_dataset1,245
+Polyclonal AIIMS_329 112-months,ZM249_1,Mishra2019_dataset1,365
+Polyclonal AIIMS_329 117-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 124-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 131-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 138-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 78-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_329 82-months,ZM249_1,Mishra2019_dataset1,74
+Polyclonal AIIMS_329 90-months,ZM249_1,Mishra2019_dataset1,211
+Polyclonal AIIMS_330 102-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 112-months,ZM249_1,Mishra2019_dataset1,248
+Polyclonal AIIMS_330 117-months,ZM249_1,Mishra2019_dataset1,198
+Polyclonal AIIMS_330 124-months,ZM249_1,Mishra2019_dataset1,328
+Polyclonal AIIMS_330 131-months,ZM249_1,Mishra2019_dataset1,417
+Polyclonal AIIMS_330 138-months,ZM249_1,Mishra2019_dataset1,321
+Polyclonal AIIMS_330 78-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 82-months,ZM249_1,Mishra2019_dataset1,<50
+Polyclonal AIIMS_330 90-months,ZM249_1,Mishra2019_dataset1,<50
+polyclonal CAP206,ZM249_1,Gray2009a,<40
+polyclonal CAP256 Year1,ZM249_1,Doria-Rose2014,<45
+polyclonal CAP256 Year2,ZM249_1,Doria-Rose2014,<45
+polyclonal CAP256 Year3,ZM249_1,Doria-Rose2014,230
+polyclonal CAP256 Year4,ZM249_1,Doria-Rose2014,119
+polyclonal N152,ZM249_1,Huang2014,896
+polyclonal NIH45,ZM249_1,Wu2010,27
+polyclonal PC64-M35,ZM249_1,Landais2017_dataset2,1533
+polyclonal PC64-M35,ZM249_1,Landais2017_dataset1,867
+Polyclonal AIIMS_329 102-months,ZM53_12,Mishra2019_dataset1,223
+Polyclonal AIIMS_329 112-months,ZM53_12,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 117-months,ZM53_12,Mishra2019_dataset1,594
+Polyclonal AIIMS_329 124-months,ZM53_12,Mishra2019_dataset1,645
+Polyclonal AIIMS_329 131-months,ZM53_12,Mishra2019_dataset1,353
+Polyclonal AIIMS_329 138-months,ZM53_12,Mishra2019_dataset1,1310
+Polyclonal AIIMS_329 78-months,ZM53_12,Mishra2019_dataset1,169
+Polyclonal AIIMS_329 82-months,ZM53_12,Mishra2019_dataset1,177
+Polyclonal AIIMS_329 90-months,ZM53_12,Mishra2019_dataset1,188
+Polyclonal AIIMS_330 102-months,ZM53_12,Mishra2019_dataset1,798
+Polyclonal AIIMS_330 112-months,ZM53_12,Mishra2019_dataset1,184
+Polyclonal AIIMS_330 117-months,ZM53_12,Mishra2019_dataset1,998
+Polyclonal AIIMS_330 124-months,ZM53_12,Mishra2019_dataset1,1285
+Polyclonal AIIMS_330 131-months,ZM53_12,Mishra2019_dataset1,528
+Polyclonal AIIMS_330 138-months,ZM53_12,Mishra2019_dataset1,1081
+Polyclonal AIIMS_330 78-months,ZM53_12,Mishra2019_dataset1,647
+Polyclonal AIIMS_330 82-months,ZM53_12,Mishra2019_dataset1,714
+Polyclonal AIIMS_330 90-months,ZM53_12,Mishra2019_dataset1,787
+polyclonal CAP256 Year1,ZM53_12,Doria-Rose2014,979
+polyclonal CAP256 Year2,ZM53_12,Doria-Rose2014,14218
+polyclonal CAP256 Year3,ZM53_12,Doria-Rose2014,13474
+polyclonal CAP256 Year4,ZM53_12,Doria-Rose2014,15460
+polyclonal N152,ZM53_12,Huang2014,7255
+polyclonal NIH45,ZM53_12,Scheid2011,317
+polyclonal NIH45,ZM53_12,Wu2010,317
+polyclonal PC64-M35,ZM53_12,Landais2017_dataset1,80
+polyclonal Patient 1,ZM53_12,Scheid2011,60.7
+polyclonal Patient 3,ZM53_12,Scheid2011,383.37
+polyclonal Patient 8,ZM53_12,Scheid2011,>227
+polyclonal N152,ZM55_28A,Huang2014,133
+polyclonal NIH45,ZM55_28A,Wu2010,156
+polyclonal N152,271_11,Huang2014,2733
+polyclonal NIH45,271_11,Wu2010,55
+polyclonal NIH45,57128_02,Wu2010,38
+polyclonal Donor 17,92RW021,Walker2011,2343.6
+polyclonal Donor 24,92RW021,Walker2009a,316
+polyclonal Donor 36,92RW021,Walker2011,4204.8
+polyclonal Donor 39,92RW021,Walker2011,428
+polyclonal Donor 84,92RW021,Walker2011,1092.2
+polyclonal Donor 24,IAVI_C18,Walker2009a,577
+polyclonal Donor 24,IAVI_C22,Walker2009a,1002
+polyclonal PC64-M35,IAVI_C22,Landais2017_dataset2,303
+polyclonal Donor 24,IAVI_C3,Walker2009a,443
+polyclonal Donor 17,MGRM_AE_001,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_001,Walker2009a,<100
+polyclonal Donor 36,MGRM_AE_001,Walker2011,222.6
+polyclonal Donor 39,MGRM_AE_001,Walker2011,223
+polyclonal Donor 84,MGRM_AE_001,Walker2011,<100
+polyclonal Donor 17,MGRM_AE_002,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_002,Walker2009a,653
+polyclonal Donor 36,MGRM_AE_002,Walker2011,254
+polyclonal Donor 39,MGRM_AE_002,Walker2011,249
+polyclonal Donor 84,MGRM_AE_002,Walker2011,169.1
+polyclonal Donor 17,MGRM_AE_003,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_003,Walker2009a,211
+polyclonal Donor 36,MGRM_AE_003,Walker2011,<100
+polyclonal Donor 39,MGRM_AE_003,Walker2011,181
+polyclonal Donor 84,MGRM_AE_003,Walker2011,150
+polyclonal Donor 17,MGRM_AE_004,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_004,Walker2009a,1773
+polyclonal Donor 36,MGRM_AE_004,Walker2011,131.7
+polyclonal Donor 39,MGRM_AE_004,Walker2011,123
+polyclonal Donor 84,MGRM_AE_004,Walker2011,6926.5
+polyclonal Donor 17,MGRM_AE_005,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_005,Walker2009a,223
+polyclonal Donor 36,MGRM_AE_005,Walker2011,2772.2
+polyclonal Donor 39,MGRM_AE_005,Walker2011,265
+polyclonal Donor 84,MGRM_AE_005,Walker2011,208.2
+polyclonal Donor 17,MGRM_AE_006,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_006,Walker2009a,151
+polyclonal Donor 36,MGRM_AE_006,Walker2011,1352.7
+polyclonal Donor 39,MGRM_AE_006,Walker2011,194
+polyclonal Donor 84,MGRM_AE_006,Walker2011,117.5
+polyclonal Donor 17,MGRM_AE_007,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_007,Walker2009a,176
+polyclonal Donor 36,MGRM_AE_007,Walker2011,444.5
+polyclonal Donor 39,MGRM_AE_007,Walker2011,184
+polyclonal Donor 84,MGRM_AE_007,Walker2011,270.9
+polyclonal Donor 17,MGRM_AE_008,Walker2011,<100
+polyclonal Donor 24,MGRM_AE_008,Walker2009a,141
+polyclonal Donor 36,MGRM_AE_008,Walker2011,<100
+polyclonal Donor 39,MGRM_AE_008,Walker2011,341
+polyclonal Donor 84,MGRM_AE_008,Walker2011,611.7
+polyclonal Donor 17,MGRM_AG_001,Walker2011,174.8
+polyclonal Donor 24,MGRM_AG_001,Walker2009a,388
+polyclonal Donor 36,MGRM_AG_001,Walker2011,302.2
+polyclonal Donor 39,MGRM_AG_001,Walker2011,499
+polyclonal Donor 84,MGRM_AG_001,Walker2011,292.1
+polyclonal Donor 17,MGRM_AG_003,Walker2011,<100
+polyclonal Donor 24,MGRM_AG_003,Walker2009a,<100
+polyclonal Donor 36,MGRM_AG_003,Walker2011,<100
+polyclonal Donor 39,MGRM_AG_003,Walker2011,121
+polyclonal Donor 84,MGRM_AG_003,Walker2011,505.3
+polyclonal Donor 17,MGRM_AG_005,Walker2011,517.3
+polyclonal Donor 24,MGRM_AG_005,Walker2009a,150
+polyclonal Donor 36,MGRM_AG_005,Walker2011,865.9
+polyclonal Donor 39,MGRM_AG_005,Walker2011,708
+polyclonal Donor 84,MGRM_AG_005,Walker2011,775.6
+polyclonal Donor 17,MGRM_AG_006,Walker2011,1105.3
+polyclonal Donor 24,MGRM_AG_006,Walker2009a,<100
+polyclonal Donor 36,MGRM_AG_006,Walker2011,4106
+polyclonal Donor 39,MGRM_AG_006,Walker2011,536
+polyclonal Donor 84,MGRM_AG_006,Walker2011,321.1
+polyclonal Donor 17,MGRM_AG_008,Walker2011,125.1
+polyclonal Donor 24,MGRM_AG_008,Walker2009a,1518
+polyclonal Donor 36,MGRM_AG_008,Walker2011,<100
+polyclonal Donor 39,MGRM_AG_008,Walker2011,692
+polyclonal Donor 84,MGRM_AG_008,Walker2011,827.8
+polyclonal Donor 17,MGRM_AG_009,Walker2011,525.2
+polyclonal Donor 24,MGRM_AG_009,Walker2009a,<100
+polyclonal Donor 36,MGRM_AG_009,Walker2011,220.2
+polyclonal Donor 39,MGRM_AG_009,Walker2011,128
+polyclonal Donor 84,MGRM_AG_009,Walker2011,101.4
+polyclonal Donor 17,MGRM_AG_011,Walker2011,<100
+polyclonal Donor 24,MGRM_AG_011,Walker2009a,1427
+polyclonal Donor 36,MGRM_AG_011,Walker2011,228.1
+polyclonal Donor 39,MGRM_AG_011,Walker2011,274
+polyclonal Donor 84,MGRM_AG_011,Walker2011,2785.8
+polyclonal Donor 17,MGRM_AG_012,Walker2011,104.9
+polyclonal Donor 24,MGRM_AG_012,Walker2009a,<100
+polyclonal Donor 36,MGRM_AG_012,Walker2011,136.6
+polyclonal Donor 39,MGRM_AG_012,Walker2011,235
+polyclonal Donor 84,MGRM_AG_012,Walker2011,<100
+polyclonal Donor 17,MGRM_AG_013,Walker2011,321.2
+polyclonal Donor 24,MGRM_AG_013,Walker2009a,<100
+polyclonal Donor 36,MGRM_AG_013,Walker2011,2055.6
+polyclonal Donor 39,MGRM_AG_013,Walker2011,303
+polyclonal Donor 84,MGRM_AG_013,Walker2011,319.1
+polyclonal Donor 17,MGRM_A_001,Walker2011,<100
+polyclonal Donor 24,MGRM_A_001,Walker2009a,<100
+polyclonal Donor 36,MGRM_A_001,Walker2011,<100
+polyclonal Donor 39,MGRM_A_001,Walker2011,149
+polyclonal Donor 84,MGRM_A_001,Walker2011,231.7
+polyclonal Donor 17,MGRM_A_002,Walker2011,839.3
+polyclonal Donor 24,MGRM_A_002,Walker2009a,804
+polyclonal Donor 36,MGRM_A_002,Walker2011,2782.2
+polyclonal Donor 39,MGRM_A_002,Walker2011,264
+polyclonal Donor 84,MGRM_A_002,Walker2011,533
+polyclonal Donor 17,MGRM_A_003,Walker2011,<100
+polyclonal Donor 24,MGRM_A_003,Walker2009a,<100
+polyclonal Donor 36,MGRM_A_003,Walker2011,<100
+polyclonal Donor 39,MGRM_A_003,Walker2011,375
+polyclonal Donor 84,MGRM_A_003,Walker2011,612.2
+polyclonal Donor 17,MGRM_A_004,Walker2011,<100
+polyclonal Donor 24,MGRM_A_004,Walker2009a,523
+polyclonal Donor 36,MGRM_A_004,Walker2011,<100
+polyclonal Donor 39,MGRM_A_004,Walker2011,319
+polyclonal Donor 84,MGRM_A_004,Walker2011,4567.2
+polyclonal Donor 17,MGRM_A_005,Walker2011,<100
+polyclonal Donor 24,MGRM_A_005,Walker2009a,175
+polyclonal Donor 36,MGRM_A_005,Walker2011,<100
+polyclonal Donor 39,MGRM_A_005,Walker2011,282
+polyclonal Donor 84,MGRM_A_005,Walker2011,151.2
+polyclonal Donor 17,MGRM_A_006,Walker2011,260.6
+polyclonal Donor 24,MGRM_A_006,Walker2009a,131
+polyclonal Donor 36,MGRM_A_006,Walker2011,120
+polyclonal Donor 39,MGRM_A_006,Walker2011,564
+polyclonal Donor 84,MGRM_A_006,Walker2011,646.5
+polyclonal Donor 17,MGRM_A_007,Walker2011,<100
+polyclonal Donor 24,MGRM_A_007,Walker2009a,142
+polyclonal Donor 36,MGRM_A_007,Walker2011,<100
+polyclonal Donor 39,MGRM_A_007,Walker2011,556
+polyclonal Donor 84,MGRM_A_007,Walker2011,<100
+polyclonal Donor 17,MGRM_A_008,Walker2011,<100
+polyclonal Donor 24,MGRM_A_008,Walker2009a,142
+polyclonal Donor 36,MGRM_A_008,Walker2011,<100
+polyclonal Donor 39,MGRM_A_008,Walker2011,196
+polyclonal Donor 84,MGRM_A_008,Walker2011,<100
+polyclonal Donor 17,MGRM_A_009,Walker2011,4535.8
+polyclonal Donor 24,MGRM_A_009,Walker2009a,941
+polyclonal Donor 36,MGRM_A_009,Walker2011,1611.4
+polyclonal Donor 39,MGRM_A_009,Walker2011,286
+polyclonal Donor 84,MGRM_A_009,Walker2011,2228.7
+polyclonal Donor 17,MGRM_A_010,Walker2011,271.3
+polyclonal Donor 24,MGRM_A_010,Walker2009a,1430
+polyclonal Donor 36,MGRM_A_010,Walker2011,2779.2
+polyclonal Donor 39,MGRM_A_010,Walker2011,279
+polyclonal Donor 84,MGRM_A_010,Walker2011,1704.2
+polyclonal Donor 17,MGRM_A_011,Walker2011,<100
+polyclonal Donor 24,MGRM_A_011,Walker2009a,404
+polyclonal Donor 36,MGRM_A_011,Walker2011,<100
+polyclonal Donor 39,MGRM_A_011,Walker2011,169
+polyclonal Donor 84,MGRM_A_011,Walker2011,242.3
+polyclonal Donor 17,MGRM_A_012,Walker2011,229.9
+polyclonal Donor 24,MGRM_A_012,Walker2009a,<100
+polyclonal Donor 36,MGRM_A_012,Walker2011,270.6
+polyclonal Donor 39,MGRM_A_012,Walker2011,215
+polyclonal Donor 84,MGRM_A_012,Walker2011,<100
+polyclonal Donor 17,MGRM_A_013,Walker2011,892
+polyclonal Donor 24,MGRM_A_013,Walker2009a,350
+polyclonal Donor 36,MGRM_A_013,Walker2011,835.9
+polyclonal Donor 39,MGRM_A_013,Walker2011,776
+polyclonal Donor 84,MGRM_A_013,Walker2011,162.8
+polyclonal Donor 17,MGRM_A_014,Walker2011,7222.6
+polyclonal Donor 24,MGRM_A_014,Walker2009a,158
+polyclonal Donor 36,MGRM_A_014,Walker2011,705.2
+polyclonal Donor 39,MGRM_A_014,Walker2011,681
+polyclonal Donor 84,MGRM_A_014,Walker2011,412.6
+polyclonal Donor 17,MGRM_CHRONIC_B_001,Walker2011,330.1
+polyclonal Donor 24,MGRM_CHRONIC_B_001,Walker2009a,<100
+polyclonal Donor 36,MGRM_CHRONIC_B_001,Walker2011,246
+polyclonal Donor 39,MGRM_CHRONIC_B_001,Walker2011,390
+polyclonal Donor 84,MGRM_CHRONIC_B_001,Walker2011,160.6
+polyclonal Donor 17,MGRM_CHRONIC_B_002,Walker2011,200.1
+polyclonal Donor 24,MGRM_CHRONIC_B_002,Walker2009a,220
+polyclonal Donor 36,MGRM_CHRONIC_B_002,Walker2011,344.4
+polyclonal Donor 39,MGRM_CHRONIC_B_002,Walker2011,320
+polyclonal Donor 84,MGRM_CHRONIC_B_002,Walker2011,<100
+polyclonal Donor 17,MGRM_CHRONIC_B_003,Walker2011,3664.9
+polyclonal Donor 24,MGRM_CHRONIC_B_003,Walker2009a,280
+polyclonal Donor 36,MGRM_CHRONIC_B_003,Walker2011,370.4
+polyclonal Donor 39,MGRM_CHRONIC_B_003,Walker2011,103
+polyclonal Donor 84,MGRM_CHRONIC_B_003,Walker2011,307.2
+polyclonal Donor 17,MGRM_CHRONIC_B_004,Walker2011,1874.9
+polyclonal Donor 24,MGRM_CHRONIC_B_004,Walker2009a,1316
+polyclonal Donor 36,MGRM_CHRONIC_B_004,Walker2011,1463.1
+polyclonal Donor 39,MGRM_CHRONIC_B_004,Walker2011,304
+polyclonal Donor 84,MGRM_CHRONIC_B_004,Walker2011,796.5
+polyclonal Donor 17,MGRM_CHRONIC_B_008,Walker2011,2805.1
+polyclonal Donor 24,MGRM_CHRONIC_B_008,Walker2009a,140
+polyclonal Donor 36,MGRM_CHRONIC_B_008,Walker2011,260.2
+polyclonal Donor 39,MGRM_CHRONIC_B_008,Walker2011,685
+polyclonal Donor 84,MGRM_CHRONIC_B_008,Walker2011,251.8
+polyclonal Donor 17,MGRM_CHRONIC_B_010,Walker2011,1145.5
+polyclonal Donor 24,MGRM_CHRONIC_B_010,Walker2009a,1640
+polyclonal Donor 36,MGRM_CHRONIC_B_010,Walker2011,3234.8
+polyclonal Donor 39,MGRM_CHRONIC_B_010,Walker2011,383
+polyclonal Donor 84,MGRM_CHRONIC_B_010,Walker2011,443
+polyclonal Donor 17,MGRM_CHRONIC_B_011,Walker2011,130.8
+polyclonal Donor 24,MGRM_CHRONIC_B_011,Walker2009a,249
+polyclonal Donor 36,MGRM_CHRONIC_B_011,Walker2011,1030.2
+polyclonal Donor 39,MGRM_CHRONIC_B_011,Walker2011,759
+polyclonal Donor 84,MGRM_CHRONIC_B_011,Walker2011,458.4
+polyclonal Donor 17,MGRM_CHRONIC_B_012,Walker2011,903.5
+polyclonal Donor 24,MGRM_CHRONIC_B_012,Walker2009a,304
+polyclonal Donor 36,MGRM_CHRONIC_B_012,Walker2011,634.2
+polyclonal Donor 39,MGRM_CHRONIC_B_012,Walker2011,664
+polyclonal Donor 84,MGRM_CHRONIC_B_012,Walker2011,480.6
+polyclonal Donor 17,MGRM_CHRONIC_B_017,Walker2011,132.7
+polyclonal Donor 24,MGRM_CHRONIC_B_017,Walker2009a,644
+polyclonal Donor 36,MGRM_CHRONIC_B_017,Walker2011,<100
+polyclonal Donor 39,MGRM_CHRONIC_B_017,Walker2011,383
+polyclonal Donor 84,MGRM_CHRONIC_B_017,Walker2011,317.6
+polyclonal Donor 17,MGRM_CHRONIC_B_018,Walker2011,<100
+polyclonal Donor 24,MGRM_CHRONIC_B_018,Walker2009a,180
+polyclonal Donor 36,MGRM_CHRONIC_B_018,Walker2011,289.3
+polyclonal Donor 39,MGRM_CHRONIC_B_018,Walker2011,375
+polyclonal Donor 84,MGRM_CHRONIC_B_018,Walker2011,612.7
+polyclonal Donor 17,MGRM_CHRONIC_B_020,Walker2011,4132.2
+polyclonal Donor 24,MGRM_CHRONIC_B_020,Walker2009a,<100
+polyclonal Donor 36,MGRM_CHRONIC_B_020,Walker2011,858.8
+polyclonal Donor 39,MGRM_CHRONIC_B_020,Walker2011,305
+polyclonal Donor 84,MGRM_CHRONIC_B_020,Walker2011,390.1
+polyclonal Donor 17,MGRM_CHRONIC_B_023,Walker2011,2216.5
+polyclonal Donor 24,MGRM_CHRONIC_B_023,Walker2009a,286
+polyclonal Donor 36,MGRM_CHRONIC_B_023,Walker2011,196.7
+polyclonal Donor 39,MGRM_CHRONIC_B_023,Walker2011,523
+polyclonal Donor 84,MGRM_CHRONIC_B_023,Walker2011,950
+polyclonal Donor 17,MGRM_CHRONIC_B_024,Walker2011,157.1
+polyclonal Donor 24,MGRM_CHRONIC_B_024,Walker2009a,884
+polyclonal Donor 36,MGRM_CHRONIC_B_024,Walker2011,104.1
+polyclonal Donor 39,MGRM_CHRONIC_B_024,Walker2011,110
+polyclonal Donor 84,MGRM_CHRONIC_B_024,Walker2011,1060.2
+polyclonal Donor 17,MGRM_C_001,Walker2011,<100
+polyclonal Donor 24,MGRM_C_001,Walker2009a,175
+polyclonal Donor 36,MGRM_C_001,Walker2011,<100
+polyclonal Donor 39,MGRM_C_001,Walker2011,174
+polyclonal Donor 84,MGRM_C_001,Walker2011,117
+polyclonal Donor 17,MGRM_C_002,Walker2011,1799.2
+polyclonal Donor 24,MGRM_C_002,Walker2009a,<100
+polyclonal Donor 36,MGRM_C_002,Walker2011,704.1
+polyclonal Donor 39,MGRM_C_002,Walker2011,556
+polyclonal Donor 84,MGRM_C_002,Walker2011,733.6
+polyclonal Donor 17,MGRM_C_004,Walker2011,2177.9
+polyclonal Donor 24,MGRM_C_004,Walker2009a,183
+polyclonal Donor 36,MGRM_C_004,Walker2011,327.9
+polyclonal Donor 39,MGRM_C_004,Walker2011,2064
+polyclonal Donor 84,MGRM_C_004,Walker2011,234.5
+polyclonal Donor 17,MGRM_C_005,Walker2011,1323.5
+polyclonal Donor 24,MGRM_C_005,Walker2009a,306
+polyclonal Donor 36,MGRM_C_005,Walker2011,383
+polyclonal Donor 39,MGRM_C_005,Walker2011,600
+polyclonal Donor 84,MGRM_C_005,Walker2011,405.1
+polyclonal Donor 17,MGRM_C_006,Walker2011,1681.6
+polyclonal Donor 24,MGRM_C_006,Walker2009a,224
+polyclonal Donor 36,MGRM_C_006,Walker2011,532.3
+polyclonal Donor 39,MGRM_C_006,Walker2011,564
+polyclonal Donor 84,MGRM_C_006,Walker2011,1231.3
+polyclonal Donor 17,MGRM_C_007,Walker2011,330.7
+polyclonal Donor 24,MGRM_C_007,Walker2009a,598
+polyclonal Donor 36,MGRM_C_007,Walker2011,<100
+polyclonal Donor 39,MGRM_C_007,Walker2011,442
+polyclonal Donor 84,MGRM_C_007,Walker2011,244.2
+polyclonal Donor 17,MGRM_C_008,Walker2011,1742.3
+polyclonal Donor 24,MGRM_C_008,Walker2009a,160
+polyclonal Donor 36,MGRM_C_008,Walker2011,<100
+polyclonal Donor 39,MGRM_C_008,Walker2011,903
+polyclonal Donor 84,MGRM_C_008,Walker2011,223.3
+polyclonal Donor 17,MGRM_C_009,Walker2011,<100
+polyclonal Donor 24,MGRM_C_009,Walker2009a,<100
+polyclonal Donor 36,MGRM_C_009,Walker2011,<100
+polyclonal Donor 39,MGRM_C_009,Walker2011,224
+polyclonal Donor 84,MGRM_C_009,Walker2011,460.9
+polyclonal Donor 17,MGRM_C_010,Walker2011,<100
+polyclonal Donor 24,MGRM_C_010,Walker2009a,<100
+polyclonal Donor 36,MGRM_C_010,Walker2011,<100
+polyclonal Donor 39,MGRM_C_010,Walker2011,316
+polyclonal Donor 84,MGRM_C_010,Walker2011,836.6
+polyclonal Donor 17,MGRM_C_012,Walker2011,716.3
+polyclonal Donor 24,MGRM_C_012,Walker2009a,432
+polyclonal Donor 36,MGRM_C_012,Walker2011,169.8
+polyclonal Donor 39,MGRM_C_012,Walker2011,2150
+polyclonal Donor 84,MGRM_C_012,Walker2011,521.6
+polyclonal Donor 17,MGRM_C_013,Walker2011,<100
+polyclonal Donor 24,MGRM_C_013,Walker2009a,105
+polyclonal Donor 36,MGRM_C_013,Walker2011,<100
+polyclonal Donor 39,MGRM_C_013,Walker2011,453
+polyclonal Donor 84,MGRM_C_013,Walker2011,<100
+polyclonal Donor 17,MGRM_C_014,Walker2011,<100
+polyclonal Donor 24,MGRM_C_014,Walker2009a,124
+polyclonal Donor 36,MGRM_C_014,Walker2011,<100
+polyclonal Donor 39,MGRM_C_014,Walker2011,<100
+polyclonal Donor 84,MGRM_C_014,Walker2011,702.6
+polyclonal Donor 17,MGRM_C_015,Walker2011,141.6
+polyclonal Donor 24,MGRM_C_015,Walker2009a,365
+polyclonal Donor 36,MGRM_C_015,Walker2011,253.4
+polyclonal Donor 39,MGRM_C_015,Walker2011,1095
+polyclonal Donor 84,MGRM_C_015,Walker2011,544.2
+polyclonal Donor 17,MGRM_C_017,Walker2011,3154.6
+polyclonal Donor 24,MGRM_C_017,Walker2009a,190
+polyclonal Donor 36,MGRM_C_017,Walker2011,266.4
+polyclonal Donor 39,MGRM_C_017,Walker2011,1587
+polyclonal Donor 84,MGRM_C_017,Walker2011,225.7
+polyclonal Donor 17,MGRM_C_019,Walker2011,<100
+polyclonal Donor 24,MGRM_C_019,Walker2009a,6894
+polyclonal Donor 36,MGRM_C_019,Walker2011,1383.6
+polyclonal Donor 39,MGRM_C_019,Walker2011,424
+polyclonal Donor 84,MGRM_C_019,Walker2011,4576.4
+polyclonal Donor 17,MGRM_C_020,Walker2011,110.9
+polyclonal Donor 24,MGRM_C_020,Walker2009a,<100
+polyclonal Donor 36,MGRM_C_020,Walker2011,115.3
+polyclonal Donor 39,MGRM_C_020,Walker2011,<100
+polyclonal Donor 84,MGRM_C_020,Walker2011,245.6
+polyclonal Donor 17,MGRM_C_022,Walker2011,1972.8
+polyclonal Donor 24,MGRM_C_022,Walker2009a,126
+polyclonal Donor 36,MGRM_C_022,Walker2011,725.8
+polyclonal Donor 39,MGRM_C_022,Walker2011,658
+polyclonal Donor 84,MGRM_C_022,Walker2011,921.3
+polyclonal Donor 17,MGRM_C_023,Walker2011,1046.6
+polyclonal Donor 24,MGRM_C_023,Walker2009a,220
+polyclonal Donor 36,MGRM_C_023,Walker2011,285.3
+polyclonal Donor 39,MGRM_C_023,Walker2011,1358
+polyclonal Donor 84,MGRM_C_023,Walker2011,354.6
+polyclonal Donor 17,MGRM_C_024,Walker2011,718
+polyclonal Donor 24,MGRM_C_024,Walker2009a,494
+polyclonal Donor 36,MGRM_C_024,Walker2011,<100
+polyclonal Donor 39,MGRM_C_024,Walker2011,170
+polyclonal Donor 84,MGRM_C_024,Walker2011,607.2
+polyclonal Donor 17,MGRM_C_025,Walker2011,228.2
+polyclonal Donor 24,MGRM_C_025,Walker2009a,434
+polyclonal Donor 36,MGRM_C_025,Walker2011,129.6
+polyclonal Donor 39,MGRM_C_025,Walker2011,651
+polyclonal Donor 84,MGRM_C_025,Walker2011,886
+polyclonal Donor 17,MGRM_C_026,Walker2011,12635.8
+polyclonal Donor 36,MGRM_C_026,Walker2011,2438.1
+polyclonal Donor 39,MGRM_C_026,Walker2011,9554
+polyclonal Donor 84,MGRM_C_026,Walker2011,2201.2
+polyclonal Donor 17,MGRM_C_027,Walker2011,2368
+polyclonal Donor 36,MGRM_C_027,Walker2011,1636.4
+polyclonal Donor 39,MGRM_C_027,Walker2011,869
+polyclonal Donor 84,MGRM_C_027,Walker2011,859.3
+polyclonal Donor 17,MGRM_C_028,Walker2011,115
+polyclonal Donor 36,MGRM_C_028,Walker2011,<100
+polyclonal Donor 39,MGRM_C_028,Walker2011,502
+polyclonal Donor 84,MGRM_C_028,Walker2011,363
+polyclonal Donor 17,MGRM_D_001,Walker2011,<100
+polyclonal Donor 24,MGRM_D_001,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_001,Walker2011,112.8
+polyclonal Donor 39,MGRM_D_001,Walker2011,<100
+polyclonal Donor 84,MGRM_D_001,Walker2011,<100
+polyclonal Donor 17,MGRM_D_002,Walker2011,5960.5
+polyclonal Donor 24,MGRM_D_002,Walker2009a,515
+polyclonal Donor 36,MGRM_D_002,Walker2011,726.4
+polyclonal Donor 39,MGRM_D_002,Walker2011,442
+polyclonal Donor 84,MGRM_D_002,Walker2011,<100
+polyclonal Donor 17,MGRM_D_003,Walker2011,183.1
+polyclonal Donor 24,MGRM_D_003,Walker2009a,363
+polyclonal Donor 36,MGRM_D_003,Walker2011,414.7
+polyclonal Donor 39,MGRM_D_003,Walker2011,176
+polyclonal Donor 84,MGRM_D_003,Walker2011,695.8
+polyclonal Donor 17,MGRM_D_004,Walker2011,<100
+polyclonal Donor 24,MGRM_D_004,Walker2009a,616
+polyclonal Donor 36,MGRM_D_004,Walker2011,108.5
+polyclonal Donor 39,MGRM_D_004,Walker2011,397
+polyclonal Donor 84,MGRM_D_004,Walker2011,125.9
+polyclonal Donor 17,MGRM_D_005,Walker2011,<100
+polyclonal Donor 24,MGRM_D_005,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_005,Walker2011,109.3
+polyclonal Donor 39,MGRM_D_005,Walker2011,249
+polyclonal Donor 84,MGRM_D_005,Walker2011,235.9
+polyclonal Donor 17,MGRM_D_008,Walker2011,<100
+polyclonal Donor 24,MGRM_D_008,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_008,Walker2011,<100
+polyclonal Donor 39,MGRM_D_008,Walker2011,356
+polyclonal Donor 84,MGRM_D_008,Walker2011,348.8
+polyclonal Donor 17,MGRM_D_011,Walker2011,1037.5
+polyclonal Donor 24,MGRM_D_011,Walker2009a,298
+polyclonal Donor 36,MGRM_D_011,Walker2011,769
+polyclonal Donor 39,MGRM_D_011,Walker2011,498
+polyclonal Donor 84,MGRM_D_011,Walker2011,123.2
+polyclonal Donor 17,MGRM_D_012,Walker2011,<100
+polyclonal Donor 24,MGRM_D_012,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_012,Walker2011,109.1
+polyclonal Donor 39,MGRM_D_012,Walker2011,261
+polyclonal Donor 84,MGRM_D_012,Walker2011,109
+polyclonal Donor 17,MGRM_D_013,Walker2011,<100
+polyclonal Donor 24,MGRM_D_013,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_013,Walker2011,422.8
+polyclonal Donor 39,MGRM_D_013,Walker2011,377
+polyclonal Donor 84,MGRM_D_013,Walker2011,745.4
+polyclonal Donor 17,MGRM_D_014,Walker2011,2249.9
+polyclonal Donor 24,MGRM_D_014,Walker2009a,5127
+polyclonal Donor 36,MGRM_D_014,Walker2011,428
+polyclonal Donor 39,MGRM_D_014,Walker2011,322
+polyclonal Donor 84,MGRM_D_014,Walker2011,1526.5
+polyclonal Donor 17,MGRM_D_016,Walker2011,<100
+polyclonal Donor 24,MGRM_D_016,Walker2009a,364
+polyclonal Donor 36,MGRM_D_016,Walker2011,203.4
+polyclonal Donor 39,MGRM_D_016,Walker2011,253
+polyclonal Donor 84,MGRM_D_016,Walker2011,282.7
+polyclonal Donor 17,MGRM_D_018,Walker2011,6632.6
+polyclonal Donor 24,MGRM_D_018,Walker2009a,883
+polyclonal Donor 36,MGRM_D_018,Walker2011,1730.4
+polyclonal Donor 39,MGRM_D_018,Walker2011,642
+polyclonal Donor 84,MGRM_D_018,Walker2011,259.2
+polyclonal Donor 17,MGRM_D_019,Walker2011,<100
+polyclonal Donor 24,MGRM_D_019,Walker2009a,497
+polyclonal Donor 36,MGRM_D_019,Walker2011,260
+polyclonal Donor 39,MGRM_D_019,Walker2011,467
+polyclonal Donor 84,MGRM_D_019,Walker2011,296.7
+polyclonal Donor 17,MGRM_D_020,Walker2011,2488
+polyclonal Donor 24,MGRM_D_020,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_020,Walker2011,393.5
+polyclonal Donor 39,MGRM_D_020,Walker2011,190
+polyclonal Donor 84,MGRM_D_020,Walker2011,<100
+polyclonal Donor 17,MGRM_D_021,Walker2011,<100
+polyclonal Donor 24,MGRM_D_021,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_021,Walker2011,457.5
+polyclonal Donor 39,MGRM_D_021,Walker2011,148
+polyclonal Donor 84,MGRM_D_021,Walker2011,<100
+polyclonal Donor 17,MGRM_D_022,Walker2011,<100
+polyclonal Donor 24,MGRM_D_022,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_022,Walker2011,<100
+polyclonal Donor 39,MGRM_D_022,Walker2011,<100
+polyclonal Donor 84,MGRM_D_022,Walker2011,<100
+polyclonal Donor 17,MGRM_D_024,Walker2011,355.3
+polyclonal Donor 24,MGRM_D_024,Walker2009a,239
+polyclonal Donor 36,MGRM_D_024,Walker2011,124.7
+polyclonal Donor 39,MGRM_D_024,Walker2011,399
+polyclonal Donor 84,MGRM_D_024,Walker2011,144.4
+polyclonal Donor 17,MGRM_D_026,Walker2011,<100
+polyclonal Donor 24,MGRM_D_026,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_026,Walker2011,103.2
+polyclonal Donor 39,MGRM_D_026,Walker2011,<100
+polyclonal Donor 84,MGRM_D_026,Walker2011,401.4
+polyclonal Donor 17,MGRM_D_028,Walker2011,2028.2
+polyclonal Donor 24,MGRM_D_028,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_028,Walker2011,<100
+polyclonal Donor 39,MGRM_D_028,Walker2011,563
+polyclonal Donor 84,MGRM_D_028,Walker2011,259
+polyclonal Donor 17,MGRM_D_029,Walker2011,<100
+polyclonal Donor 24,MGRM_D_029,Walker2009a,<100
+polyclonal Donor 36,MGRM_D_029,Walker2011,<100
+polyclonal Donor 39,MGRM_D_029,Walker2011,387
+polyclonal Donor 84,MGRM_D_029,Walker2011,291.4
+polyclonal Donor 17,MGRM_F1_004,Walker2011,260.7
+polyclonal Donor 24,MGRM_F1_004,Walker2009a,104
+polyclonal Donor 36,MGRM_F1_004,Walker2011,687.6
+polyclonal Donor 39,MGRM_F1_004,Walker2011,366
+polyclonal Donor 84,MGRM_F1_004,Walker2011,874
+polyclonal Donor 17,MGRM_F1_006,Walker2011,<100
+polyclonal Donor 24,MGRM_F1_006,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_006,Walker2011,110.8
+polyclonal Donor 39,MGRM_F1_006,Walker2011,487
+polyclonal Donor 84,MGRM_F1_006,Walker2011,147.3
+polyclonal Donor 17,MGRM_F1_008,Walker2011,<100
+polyclonal Donor 24,MGRM_F1_008,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_008,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_008,Walker2011,308
+polyclonal Donor 84,MGRM_F1_008,Walker2011,242.1
+polyclonal Donor 17,MGRM_F1_010,Walker2011,825.3
+polyclonal Donor 24,MGRM_F1_010,Walker2009a,634
+polyclonal Donor 36,MGRM_F1_010,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_010,Walker2011,564
+polyclonal Donor 84,MGRM_F1_010,Walker2011,420.4
+polyclonal Donor 17,MGRM_F1_012,Walker2011,573.3
+polyclonal Donor 24,MGRM_F1_012,Walker2009a,866
+polyclonal Donor 36,MGRM_F1_012,Walker2011,299.8
+polyclonal Donor 39,MGRM_F1_012,Walker2011,1366
+polyclonal Donor 84,MGRM_F1_012,Walker2011,332.3
+polyclonal Donor 17,MGRM_F1_013,Walker2011,283.9
+polyclonal Donor 24,MGRM_F1_013,Walker2009a,142
+polyclonal Donor 36,MGRM_F1_013,Walker2011,377.4
+polyclonal Donor 39,MGRM_F1_013,Walker2011,625
+polyclonal Donor 84,MGRM_F1_013,Walker2011,2403.4
+polyclonal Donor 17,MGRM_F1_014,Walker2011,314.2
+polyclonal Donor 24,MGRM_F1_014,Walker2009a,437
+polyclonal Donor 36,MGRM_F1_014,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_014,Walker2011,538
+polyclonal Donor 84,MGRM_F1_014,Walker2011,6934.5
+polyclonal Donor 17,MGRM_F1_015,Walker2011,<100
+polyclonal Donor 24,MGRM_F1_015,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_015,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_015,Walker2011,234
+polyclonal Donor 84,MGRM_F1_015,Walker2011,145.7
+polyclonal Donor 17,MGRM_F1_016,Walker2011,110.3
+polyclonal Donor 24,MGRM_F1_016,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_016,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_016,Walker2011,407
+polyclonal Donor 84,MGRM_F1_016,Walker2011,103
+polyclonal Donor 17,MGRM_F1_017,Walker2011,<100
+polyclonal Donor 24,MGRM_F1_017,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_017,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_017,Walker2011,832
+polyclonal Donor 84,MGRM_F1_017,Walker2011,279.4
+polyclonal Donor 17,MGRM_F1_018,Walker2011,770
+polyclonal Donor 24,MGRM_F1_018,Walker2009a,432
+polyclonal Donor 36,MGRM_F1_018,Walker2011,151.2
+polyclonal Donor 39,MGRM_F1_018,Walker2011,391
+polyclonal Donor 84,MGRM_F1_018,Walker2011,518.6
+polyclonal Donor 17,MGRM_F1_020,Walker2011,305.4
+polyclonal Donor 24,MGRM_F1_020,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_020,Walker2011,<100
+polyclonal Donor 39,MGRM_F1_020,Walker2011,306
+polyclonal Donor 84,MGRM_F1_020,Walker2011,220.8
+polyclonal Donor 17,MGRM_F1_021,Walker2011,227.6
+polyclonal Donor 24,MGRM_F1_021,Walker2009a,<100
+polyclonal Donor 36,MGRM_F1_021,Walker2011,218.7
+polyclonal Donor 39,MGRM_F1_021,Walker2011,919
+polyclonal Donor 84,MGRM_F1_021,Walker2011,505.7
+polyclonal Donor 17,MGRM_F1_022,Walker2011,350
+polyclonal Donor 24,MGRM_F1_022,Walker2009a,246
+polyclonal Donor 36,MGRM_F1_022,Walker2011,221.3
+polyclonal Donor 39,MGRM_F1_022,Walker2011,638
+polyclonal Donor 84,MGRM_F1_022,Walker2011,1296.4
+polyclonal Donor 17,MGRM_F1_023,Walker2011,362.3
+polyclonal Donor 24,MGRM_F1_023,Walker2009a,101
+polyclonal Donor 36,MGRM_F1_023,Walker2011,674.5
+polyclonal Donor 39,MGRM_F1_023,Walker2011,2177
+polyclonal Donor 84,MGRM_F1_023,Walker2011,337.3
+polyclonal Donor 17,MGRM_G_001,Walker2011,5296
+polyclonal Donor 24,MGRM_G_001,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_001,Walker2011,635.9
+polyclonal Donor 39,MGRM_G_001,Walker2011,169
+polyclonal Donor 84,MGRM_G_001,Walker2011,557.6
+polyclonal Donor 17,MGRM_G_004,Walker2011,600.5
+polyclonal Donor 24,MGRM_G_004,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_004,Walker2011,107.3
+polyclonal Donor 39,MGRM_G_004,Walker2011,574
+polyclonal Donor 84,MGRM_G_004,Walker2011,157.8
+polyclonal Donor 17,MGRM_G_006,Walker2011,<100
+polyclonal Donor 24,MGRM_G_006,Walker2009a,116
+polyclonal Donor 36,MGRM_G_006,Walker2011,<100
+polyclonal Donor 39,MGRM_G_006,Walker2011,<100
+polyclonal Donor 84,MGRM_G_006,Walker2011,548.1
+polyclonal Donor 17,MGRM_G_009,Walker2011,160.3
+polyclonal Donor 24,MGRM_G_009,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_009,Walker2011,<100
+polyclonal Donor 39,MGRM_G_009,Walker2011,345
+polyclonal Donor 84,MGRM_G_009,Walker2011,336.3
+polyclonal Donor 17,MGRM_G_011,Walker2011,<100
+polyclonal Donor 24,MGRM_G_011,Walker2009a,150
+polyclonal Donor 36,MGRM_G_011,Walker2011,<100
+polyclonal Donor 39,MGRM_G_011,Walker2011,891
+polyclonal Donor 84,MGRM_G_011,Walker2011,641.1
+polyclonal Donor 17,MGRM_G_013,Walker2011,100.5
+polyclonal Donor 24,MGRM_G_013,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_013,Walker2011,480.3
+polyclonal Donor 39,MGRM_G_013,Walker2011,629
+polyclonal Donor 84,MGRM_G_013,Walker2011,561.4
+polyclonal Donor 17,MGRM_G_014,Walker2011,3593.5
+polyclonal Donor 24,MGRM_G_014,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_014,Walker2011,1058
+polyclonal Donor 39,MGRM_G_014,Walker2011,295
+polyclonal Donor 84,MGRM_G_014,Walker2011,389.5
+polyclonal Donor 17,MGRM_G_015,Walker2011,<100
+polyclonal Donor 24,MGRM_G_015,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_015,Walker2011,<100
+polyclonal Donor 39,MGRM_G_015,Walker2011,266
+polyclonal Donor 84,MGRM_G_015,Walker2011,<100
+polyclonal Donor 17,MGRM_G_016,Walker2011,<100
+polyclonal Donor 24,MGRM_G_016,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_016,Walker2011,106
+polyclonal Donor 39,MGRM_G_016,Walker2011,440
+polyclonal Donor 84,MGRM_G_016,Walker2011,681.8
+polyclonal Donor 17,MGRM_G_017,Walker2011,1582.3
+polyclonal Donor 24,MGRM_G_017,Walker2009a,453
+polyclonal Donor 36,MGRM_G_017,Walker2011,282.9
+polyclonal Donor 39,MGRM_G_017,Walker2011,420
+polyclonal Donor 84,MGRM_G_017,Walker2011,701.7
+polyclonal Donor 17,MGRM_G_019,Walker2011,1416.7
+polyclonal Donor 24,MGRM_G_019,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_019,Walker2011,354.8
+polyclonal Donor 39,MGRM_G_019,Walker2011,524
+polyclonal Donor 84,MGRM_G_019,Walker2011,253.3
+polyclonal Donor 17,MGRM_G_024,Walker2011,1077.4
+polyclonal Donor 24,MGRM_G_024,Walker2009a,236
+polyclonal Donor 36,MGRM_G_024,Walker2011,131.5
+polyclonal Donor 39,MGRM_G_024,Walker2011,516
+polyclonal Donor 84,MGRM_G_024,Walker2011,388.2
+polyclonal Donor 17,MGRM_G_025,Walker2011,396.1
+polyclonal Donor 24,MGRM_G_025,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_025,Walker2011,164.2
+polyclonal Donor 39,MGRM_G_025,Walker2011,213
+polyclonal Donor 84,MGRM_G_025,Walker2011,129.5
+polyclonal Donor 17,MGRM_G_027,Walker2011,289
+polyclonal Donor 24,MGRM_G_027,Walker2009a,351
+polyclonal Donor 36,MGRM_G_027,Walker2011,143.4
+polyclonal Donor 39,MGRM_G_027,Walker2011,676
+polyclonal Donor 84,MGRM_G_027,Walker2011,140.8
+polyclonal Donor 17,MGRM_G_028,Walker2011,2769.4
+polyclonal Donor 24,MGRM_G_028,Walker2009a,<100
+polyclonal Donor 36,MGRM_G_028,Walker2011,1201.4
+polyclonal Donor 39,MGRM_G_028,Walker2011,621
+polyclonal Donor 84,MGRM_G_028,Walker2011,522.4
+polyclonal N152,T266_60,Huang2014,14457
+polyclonal NIH45,T266_60,Wu2010,592
+polyclonal N152,T33_7,Huang2014,1731
+polyclonal NIH45,T33_7,Wu2010,109
+Polyclonal AIIMS_329 102-months,ZM109_32,Mishra2019_dataset1,278
+Polyclonal AIIMS_329 112-months,ZM109_32,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 117-months,ZM109_32,Mishra2019_dataset1,124
+Polyclonal AIIMS_329 124-months,ZM109_32,Mishra2019_dataset1,71
+Polyclonal AIIMS_329 131-months,ZM109_32,Mishra2019_dataset1,62
+Polyclonal AIIMS_329 138-months,ZM109_32,Mishra2019_dataset1,161
+Polyclonal AIIMS_329 78-months,ZM109_32,Mishra2019_dataset1,214
+Polyclonal AIIMS_329 82-months,ZM109_32,Mishra2019_dataset1,264
+Polyclonal AIIMS_329 90-months,ZM109_32,Mishra2019_dataset1,266
+Polyclonal AIIMS_330 102-months,ZM109_32,Mishra2019_dataset1,398
+Polyclonal AIIMS_330 112-months,ZM109_32,Mishra2019_dataset1,948
+Polyclonal AIIMS_330 117-months,ZM109_32,Mishra2019_dataset1,1026
+Polyclonal AIIMS_330 124-months,ZM109_32,Mishra2019_dataset1,1169
+Polyclonal AIIMS_330 131-months,ZM109_32,Mishra2019_dataset1,374
+Polyclonal AIIMS_330 138-months,ZM109_32,Mishra2019_dataset1,1348
+Polyclonal AIIMS_330 78-months,ZM109_32,Mishra2019_dataset1,312
+Polyclonal AIIMS_330 82-months,ZM109_32,Mishra2019_dataset1,369
+Polyclonal AIIMS_330 90-months,ZM109_32,Mishra2019_dataset1,388
+polyclonal NIH45,ZM146_7,Wu2010,67
+polyclonal NIH45,ZM181_6,Wu2010,247
