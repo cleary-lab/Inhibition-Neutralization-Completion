@@ -1,5 +1,5 @@
 import numpy as np
-from parse_datasets import load_flat_data, get_value_matrix
+from parse_datasets import load_flat_data, get_value_matrix, load_fonville_table
 from matrix_completion_analysis import calc_unobserved_r2, calc_unobserved_rmse
 import pandas as pd
 from scipy.spatial import distance
@@ -12,6 +12,7 @@ from scipy.cluster.hierarchy import linkage, leaves_list
 from matplotlib.ticker import FormatStrFormatter
 import argparse
 import glob,os
+from scipy.optimize import curve_fit
 
 def get_results(resultspath, dataset_prefix):
 	df = {'value': [], 'observed fraction': [], 'statistic': [], 'X_hat': [], 'mask': []}
@@ -42,18 +43,65 @@ def median_performer(df_results,obs_frac):
 	X_hat = pd.DataFrame(X_hat, index=X.index, columns=X.columns)
 	return X_hat, mask
 
-def plot_results_curves(df,filename):
-	g = sns.FacetGrid(df, col="statistic", col_wrap=1, hue='statistic', sharey=False)
-	g = (g.map_dataframe(sns.lineplot, "observed fraction", "value"))
+def fit_func(x, *coeffs):
+	# multi-exponential model
+	y = coeffs[0]
+	for i in range(1,len(coeffs),2):
+		y += coeffs[i]*np.exp(-coeffs[i+1]*x)
+	return y
+
+def fit_sensitivity_curve(x,y,x1,order=5):
+	original_order = order
+	while True:
+		try:
+			popt, pcov = curve_fit(fit_func, x, y, p0=np.ones(order))
+			break
+		except:
+			order -= 2
+	if order >= 3:
+		return fit_func(x1,*popt)
+	else:
+		# try fitting the inverse
+		order = original_order
+		while True:
+			try:
+				popt, pcov = curve_fit(fit_func, x, 1/y, p0=np.ones(order))
+				break
+			except:
+				order -= 2
+		return 1/fit_func(x1,*popt)
+
+def interpolate_values(df,available_fraction):
+	df_new = df[['observed fraction','value','statistic']]
+	df_new['observed fraction'] = df_new['observed fraction']*available_fraction
+	df_new['extrapolated'] = 'available data'
+	df_r2 = df_new.loc[df_new['statistic'] == 'r^2']
+	x = df_r2['observed fraction']
+	y = df_r2['value']
+	x1 = np.linspace(x.min(),1,50)
+	y1 = fit_sensitivity_curve(x,y,x1,order=9)
+	df_r2 = pd.DataFrame({'observed fraction': x1, 'value': y1, 'statistic': ['r^2']*len(x1), 'extrapolated': ['extrapolated']*len(x1)})
+	df_rmse = df_new.loc[df_new['statistic'] == 'rmse']
+	x = df_rmse['observed fraction']
+	y = df_rmse['value']
+	x1 = np.linspace(x.min(),1,50)
+	y1 = fit_sensitivity_curve(x,y,x1,order=5)
+	df_rmse = pd.DataFrame({'observed fraction': x1, 'value': y1, 'statistic': ['rmse']*len(x1), 'extrapolated': ['extrapolated']*len(x1)})
+	return pd.concat([df_new,df_r2,df_rmse])
+
+def plot_results_curves(df,filename,available_fraction):
+	df_new = interpolate_values(df,available_fraction)
+	g = sns.FacetGrid(df_new, col="statistic", col_wrap=1, hue='statistic', sharey=False)
+	g = (g.map_dataframe(sns.lineplot, "observed fraction", "value", style="extrapolated"))
 	plt.savefig(filename)
 	plt.close()
 
-def plot_heatmap(X,X_hat,mask,filename):
+def plot_heatmap(X,X_hat,mask,filename,data_transform,value_name):
 	available = np.invert(np.isnan(X.values))
 	rmse = calc_unobserved_rmse(X, X_hat.values, mask)
 	r2 = calc_unobserved_r2(X, X_hat.values, mask)
 	u,s,vt = np.linalg.svd(X_hat - X_hat.values.mean())
-	approx_rank = (s > s.max()/100).sum()
+	approx_rank = np.where(np.cumsum(s**2) > (s**2).sum()*0.95)[0][0] + 1
 	correlations = np.asarray(X.corr())
 	correlations[np.isnan(correlations)] = 0
 	col_linkage = linkage(distance.pdist(correlations), method='average')
@@ -65,7 +113,10 @@ def plot_heatmap(X,X_hat,mask,filename):
 	X_reorder = X.reindex(X.index[row_order])[X.columns[col_order]]
 	Xhat_reorder = X_hat.reindex(X.index[row_order])[X.columns[col_order]]
 	df = pd.concat([X_reorder,Xhat_reorder],keys=['original','inferred'])
-	df = df.rename_axis(['Unobserved','Neutralization[Titers]'])
+	try:
+		df = df.rename_axis(['Unobserved','%s %s' % (data_transform,value_name)])
+	except:
+		pass
 	df_mask = np.vstack([mask,mask])
 	fig, ax = plt.subplots(figsize=(8,12))
 	_=plt.title('%.1f%% of entries available; %.1f%% observed; RMSE=%.3f; r^2=%.1f%%\nsize: %d x %d; approx. rank: %d' % (np.average(available)*100, np.average(mask)*100, rmse, r2*100, X.shape[0], X.shape[1], approx_rank), fontsize=10)
@@ -77,13 +128,13 @@ def plot_heatmap(X,X_hat,mask,filename):
 	plt.savefig(filename)
 	plt.close()
 
-def plot_scatter(X,X_hat,mask,filename):
+def plot_scatter(X,X_hat,mask,filename,data_transform,value_name):
 	available = np.invert(np.isnan(X.values))
 	rmse = calc_unobserved_rmse(X, X_hat.values, mask)
 	r2 = calc_unobserved_r2(X, X_hat.values, mask)
-	_=sns.regplot(x=X.values[np.where((1-mask)*available)], y = X_hat.values[np.where((1-mask)*available)], x_jitter=.1, scatter_kws={'alpha': 0.35})
-	_=plt.xlabel('True titer (log10)')
-	_=plt.ylabel('Predicted titer (log10)')
+	_=sns.regplot(x=X.values[np.where((1-mask)*available)], y = X_hat.values[np.where((1-mask)*available)], x_jitter=.1, scatter_kws={'alpha': 0.25})
+	_=plt.xlabel('True titer (%s %s)' % (data_transform, value_name))
+	_=plt.ylabel('Predicted titer (%s %s)' % (data_transform, value_name))
 	_=plt.title('%.1f%% of entries available; %.1f%% observed; RMSE=%.3f; r^2=%.1f%%' % (100*np.average(available), 100*np.average(mask), rmse, 100*r2), fontsize=8)
 	plt.savefig(filename)
 	plt.close()
@@ -122,6 +173,19 @@ def plot_recall(X,df_results,obs_frac,filename,thresh,n=25):
 	plt.savefig(filename)
 	plt.close()
 
+def plot_rank(X_hat,filename):
+	u,s,vt = np.linalg.svd(X_hat - X_hat.values.mean())
+	x = np.arange(len(s))+1
+	y = np.cumsum(s**2)/(s**2).sum()
+	ax=sns.lineplot(x=x, y=y)
+	_=ax.axhline(0.95,ls='--',c='grey')
+	_=ax.axvline(x[np.where(y > 0.95)[0][0]],ls='--',c='grey')
+	_=plt.xlabel('sorted eigenvalues')
+	_=plt.ylabel('cumulative variance')
+	_=plt.tight_layout()
+	plt.savefig(filename)
+	plt.close()
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--resultspath', help='Path to individual trial results')
@@ -130,21 +194,45 @@ if __name__ == '__main__':
 	parser.add_argument('--antibody-col-name', help='Column name for antibodies', default='Antibody')
 	parser.add_argument('--value-name', help='Column name for values (IC50 or titer)', default='IC50 (ug/mL)')
 	parser.add_argument('--data-transform', help='Type of transform to apply to raw data',default='neglog10', choices=('raw','neglog10','log10'))
-	parser.add_argument('--high-titer-thresh', help='Threshold for high titer values (log10 units)',default=2,type=float)
-	parser.add_argument('--example-obs-frac', help='Observed fraction (of available entries) in example plots',default=0.3,type=float)
+	parser.add_argument('--high-titer-thresh', help='Threshold for high titer values (log10 units)',default=1,type=float)
+	parser.add_argument('--example-obs-frac', help='Observed fraction (of available entries) in example plots (comma separated)',default='0.1,0.3,0.5')
+	parser.add_argument('--concat-option', help='Choose the 1st (eg PRE), 2nd (eg POST), or concatenate matrices',default='concat', choices=('concat','pre','post'))
+	parser.add_argument('--min-titer-value', help='Replace eg <10 with min value', default=5,type=float)
+	parser.add_argument('--max-titer-value', help='Replace eg >=1280 with max value', default=2560,type=float)
 	parser.add_argument('--rmse-r2-curves',dest='rmse_r2_curves',help='Plot RMSE and r^2 vs fraction observed', action='store_true')
 	parser.add_argument('--heatmap',dest='heatmap',help='Plot heatmap from an example of matrix completion', action='store_true')
 	parser.add_argument('--scatter',dest='scatter',help='Scatter plot from an example of matrix completion', action='store_true')
 	parser.add_argument('--recall-plot',dest='recall_plot',help='Plot recall curve', action='store_true')
+	parser.add_argument('--rank-plot',dest='rank_plot',help='Plot rank curve', action='store_true')
+	parser.add_argument('--flat-file',dest='flat_file',help='Load dataset as flat file', action='store_true')
+	parser.set_defaults(flat_file=False)
 	parser.set_defaults(rmse_r2_curves=False)
 	parser.set_defaults(heatmap=False)
 	parser.set_defaults(scatter=False)
 	parser.set_defaults(recall_plot=False)
+	parser.set_defaults(rank_plot=False)
 	args,_ = parser.parse_known_args()
 	for key,value in vars(args).items():
 		print('%s\t%s' % (key,str(value)))
-	flat_data = load_flat_data(args.dataset, vals=args.value_name)
-	X = get_value_matrix(flat_data, rows=args.antibody_col_name, vals=args.value_name)
+	dataset_prefix = args.dataset.split('/')[-1]
+	dataset_prefix = dataset_prefix[:dataset_prefix.rfind('.')]
+	if args.flat_file:
+		flat_data = load_flat_data(args.dataset, vals=args.value_name)
+		X = get_value_matrix(flat_data, rows=args.antibody_col_name, vals=args.value_name)
+	else:
+		X = load_fonville_table(args.dataset, min_titer_value=args.min_titer_value, max_titer_value=args.max_titer_value)
+		if isinstance(X,tuple):
+			if args.savepath[-1] == '/':
+				args.savepath = args.savepath[:-1]
+			if args.concat_option == 'concat':
+				X = pd.concat(X,keys=['PRE','POST'])
+				dataset_prefix += '_concatenated'
+			elif args.concat_option == 'pre':
+				X = X[0]
+				dataset_prefix += '_pre'
+			elif args.concat_option == 'post':
+				X = X[1]
+				dataset_prefix += '_post'
 	if args.data_transform == 'raw':
 		def transform(x):
 			return x
@@ -155,18 +243,22 @@ if __name__ == '__main__':
 		def transform(x):
 			return np.log10(x)
 	X = transform(X)
-	dataset_prefix = args.dataset.split('/')[-1]
-	dataset_prefix = dataset_prefix[:dataset_prefix.rfind('.')]
 	savepath_full = '%s/%s' % (args.savepath, dataset_prefix)
 	if not os.path.exists(savepath_full):
 		os.makedirs(savepath_full)
 	df_results = get_results(args.resultspath, dataset_prefix)
-	X_hat, mask = median_performer(df_results, args.example_obs_frac)
 	if args.rmse_r2_curves:
-		plot_results_curves(df_results,'%s/rmse_r2.png' % savepath_full)
-	if args.heatmap:
-		plot_heatmap(X, X_hat, mask,'%s/heatmap.png' % savepath_full)
-	if args.scatter:
-		plot_scatter(X, X_hat, mask,'%s/scatter.png' % savepath_full)
-	if args.recall_plot:
-		plot_recall(X, df_results, args.example_obs_frac,'%s/recall.png' % savepath_full, args.high_titer_thresh)
+		available = np.invert(np.isnan(X.values))
+		available_fraction = np.average(available)
+		plot_results_curves(df_results,'%s/rmse_r2.png' % savepath_full, available_fraction)
+	for o in args.example_obs_frac.split(','):
+		obs_frac = float(o)
+		X_hat, mask = median_performer(df_results, obs_frac)
+		if args.recall_plot:
+			plot_recall(X, df_results, obs_frac,'%s/%d_pct_obs.recall.png' % (savepath_full,np.round(obs_frac*100)), args.high_titer_thresh)
+		if args.heatmap:
+			plot_heatmap(X, X_hat, mask,'%s/%d_pct_obs.heatmap.png' % (savepath_full,np.round(obs_frac*100)), args.data_transform, args.value_name)
+		if args.scatter:
+			plot_scatter(X, X_hat, mask,'%s/%d_pct_obs.scatter.png' % (savepath_full,np.round(obs_frac*100)), args.data_transform, args.value_name)
+		if args.rank_plot:
+			plot_rank(X_hat,'%s/%d_pct_obs.rank.png' % (savepath_full,np.round(obs_frac*100)))

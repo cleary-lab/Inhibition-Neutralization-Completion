@@ -28,12 +28,12 @@ def get_mask(X,observed_fraction):
 	mask = mask.reshape(X.shape)
 	return mask
 
-def complete_matrix(X,mask,offset=True):
+def complete_matrix(X,mask,offset=True,lda=1):
 	if offset:
 		min_val = X.values[np.invert(np.isnan(X.values))].min()
-		X_hat = nuclear_norm_solve(X-min_val,mask) + min_val
+		X_hat = nuclear_norm_solve(X-min_val,mask,mu=lda) + min_val
 	else:
-		X_hat = nuclear_norm_solve(X,mask)
+		X_hat = nuclear_norm_solve(X,mask,mu=lda)
 	return X_hat
 
 # seems to be no better than nuclear_norm_solve (constraint in objective)
@@ -172,7 +172,7 @@ if __name__ == '__main__':
 	parser.add_argument('--savepath', help='Path to save results')
 	parser.add_argument('--antibody-col-name', help='Column name for antibodies', default='Antibody')
 	parser.add_argument('--data-transform', help='Type of transform to apply to raw data',default='neglog10', choices=('raw','neglog10','log10'))
-	parser.add_argument('--high-titer-thresh', help='Threshold for high titer values (log10 units)',default=2,type=float)
+	parser.add_argument('--high-titer-thresh', help='Threshold for high titer values (log10 units)',default=1.6,type=float)
 	parser.add_argument('--example-obs-frac', help='Observed fraction (of available entries) in example plots',default=0.3,type=float)
 	parser.add_argument('--rmse-r2-curves',dest='rmse_r2_curves',help='Plot RMSE and r^2 vs fraction observed', action='store_true')
 	parser.add_argument('--heatmap',dest='heatmap',help='Plot heatmap from an example of matrix completion', action='store_true')
@@ -186,7 +186,7 @@ if __name__ == '__main__':
 	for key,value in vars(args).items():
 		print('%s\t%s' % (key,str(value)))
 	flat_data = load_flat_data(args.dataset)
-	X = get_value_matrix(flat_data, rows=args.antibody_col_name, duplicate_resolution_mode='most_recent')
+	X = get_value_matrix(flat_data, rows=args.antibody_col_name)
 	if args.data_transform == 'raw':
 		def transform(x):
 			return x
