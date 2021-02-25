@@ -8,7 +8,7 @@ import os
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--dataset', help='Dataset (flatfile) to analyze')
-	parser.add_argument('--job-id', help='Task array job id')
+	parser.add_argument('--job-id', help='Task array job id', default=None)
 	parser.add_argument('--savepath', help='Path to save results')
 	parser.add_argument('--antibody-col-name', help='Column name for antibodies', default='Antibody')
 	parser.add_argument('--value-name', help='Column name for values (IC50 or titer)', default='IC50 (ug/mL)')
@@ -57,5 +57,10 @@ if __name__ == '__main__':
 	print('r^2: %.4f' % r2)
 	if not os.path.exists(args.savepath):
 		os.makedirs(args.savepath)
-	np.save('%s/completed.job-%s.obs-%.4f.npy' % (args.savepath, args.job_id, args.obs_frac), X_hat)
-	np.save('%s/mask.job-%s.obs-%.4f.npy' % (args.savepath, args.job_id, args.obs_frac), mask)
+	if args.job_id is not None:
+		np.save('%s/completed.job-%s.obs-%.4f.npy' % (args.savepath, args.job_id, args.obs_frac), X_hat)
+		np.save('%s/mask.job-%s.obs-%.4f.npy' % (args.savepath, args.job_id, args.obs_frac), mask)
+	else:
+		X_hat = pd.DataFrame(X_hat, index=X.index, columns=X.columns)
+		X_hat.to_csv('%s/completed.obs-%.4f.%s.csv' % (args.savepath, args.obs_frac, args.data_transform))
+		np.save('%s/mask.obs-%.4f.npy' % (args.savepath, args.obs_frac), mask)
