@@ -28,6 +28,21 @@ def get_mask(X,observed_fraction):
 	mask = mask.reshape(X.shape)
 	return mask
 
+def get_specific_mask(X,dataset_index_ranges,virus_table_path,job_id):
+	not_available = np.where(np.isnan(X.values))
+	virus_table = pd.read_csv(virus_table_path,index_col=0)
+	available_viruses = np.where(virus_table.values)
+	idx_virus = available_viruses[0][job_id]
+	idx_dataset = available_viruses[1][job_id]
+	virus = virus_table.index[idx_virus]
+	i = np.where(X.columns == virus)[0][0]
+	dataset = virus_table.columns[idx_dataset]
+	dataset_start,dataset_stop = dataset_index_ranges[dataset]
+	mask = np.ones(X.shape,dtype=np.int)
+	mask[not_available] = 0
+	mask[dataset_start:dataset_stop,i] = 0
+	return mask,virus,dataset
+
 def complete_matrix(X,mask,offset=True,lda=1):
 	if offset:
 		min_val = X.values[np.invert(np.isnan(X.values))].min()

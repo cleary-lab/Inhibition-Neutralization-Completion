@@ -14,13 +14,19 @@ import argparse
 import glob,os
 from scipy.optimize import curve_fit
 
-def get_results(resultspath, dataset_prefix):
+def get_results(X, resultspath, dataset_prefix):
 	df = {'value': [], 'observed fraction': [], 'statistic': [], 'X_hat': [], 'mask': []}
-	FP = glob.glob(os.path.join(resultspath, dataset_prefix, 'completed.*.npy'))
+	FP = glob.glob(os.path.join(resultspath, dataset_prefix, 'completed.*'))
 	for fp in FP:
-		X_hat = np.load(fp)
-		mask = np.load(fp.replace('completed','mask'))
-		p = float(fp.split('obs-')[-1].split('.npy')[0])
+		if '.npy' in fp:
+			X_hat = np.load(fp)
+		elif '.csv' in fp:
+			X_hat = pd.read_csv(fp,index_col=0).values
+		mask = np.load(fp.replace('completed','mask').replace('.csv','.npy'))
+		p = fp.split('obs-')[-1].split('.npy')[0]
+		while p.count('.') > 1:
+			p = p[:p.rfind('.')]
+		p = float(p)
 		rmse = calc_unobserved_rmse(X, X_hat, mask)
 		r2 = calc_unobserved_r2(X, X_hat, mask)
 		df['observed fraction'].append(p)
@@ -35,12 +41,12 @@ def get_results(resultspath, dataset_prefix):
 		df['mask'].append(mask)
 	return pd.DataFrame(df)
 
-def median_performer(df_results,obs_frac):
+def median_performer(df_results,obs_frac, index, columns):
 	df_obs_frac = df_results[(df_results['observed fraction'] == obs_frac) & (df_results['statistic'] == 'rmse')].sort_values('value')
 	median_performer_id = df_obs_frac.iloc[int(df_obs_frac.shape[0]/2)].name
 	X_hat = df_results.loc[median_performer_id]['X_hat']
 	mask = df_results.loc[median_performer_id]['mask']
-	X_hat = pd.DataFrame(X_hat, index=X.index, columns=X.columns)
+	X_hat = pd.DataFrame(X_hat, index=index, columns=columns)
 	return X_hat, mask
 
 def fit_func(x, *coeffs):
@@ -52,7 +58,7 @@ def fit_func(x, *coeffs):
 
 def fit_sensitivity_curve(x,y,x1,order=5):
 	original_order = order
-	while True:
+	while order > 0:
 		try:
 			popt, pcov = curve_fit(fit_func, x, y, p0=np.ones(order))
 			break
@@ -63,7 +69,7 @@ def fit_sensitivity_curve(x,y,x1,order=5):
 	else:
 		# try fitting the inverse
 		order = original_order
-		while True:
+		while order > 0:
 			try:
 				popt, pcov = curve_fit(fit_func, x, 1/y, p0=np.ones(order))
 				break
@@ -189,7 +195,7 @@ def plot_rank(X_hat,filename):
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--resultspath', help='Path to individual trial results')
-	parser.add_argument('--dataset', help='Path to dataset csv')
+	parser.add_argument('--dataset', help='Path to dataset csv, comma separated if multiple')
 	parser.add_argument('--savepath', help='Path to save results')
 	parser.add_argument('--antibody-col-name', help='Column name for antibodies', default='Antibody')
 	parser.add_argument('--value-name', help='Column name for values (IC50 or titer)', default='IC50 (ug/mL)')
@@ -220,19 +226,33 @@ if __name__ == '__main__':
 		flat_data = load_flat_data(args.dataset, vals=args.value_name)
 		X = get_value_matrix(flat_data, rows=args.antibody_col_name, vals=args.value_name)
 	else:
-		X = load_fonville_table(args.dataset, min_titer_value=args.min_titer_value, max_titer_value=args.max_titer_value)
-		if isinstance(X,tuple):
-			if args.savepath[-1] == '/':
-				args.savepath = args.savepath[:-1]
+		update_savepath = False
+		args.dataset = args.dataset.split(',')
+		datasets = []
+		for dataset in args.dataset:
+			X = load_fonville_table(dataset, min_titer_value=args.min_titer_value, max_titer_value=args.max_titer_value)
+			if isinstance(X,tuple):
+				if args.concat_option == 'concat':
+					X = pd.concat(X,keys=['PRE','POST'])
+				elif args.concat_option == 'pre':
+					X = X[0]
+				elif args.concat_option == 'post':
+					X = X[1]
+				update_savepath = True
+			X.columns = [x.upper() for x in X.columns]
+			datasets.append(X)
+		X = datasets[0]
+		for x in datasets[1:]:
+			X = X.merge(x,how='outer')
+		if update_savepath and (len(datasets) == 1):
 			if args.concat_option == 'concat':
-				X = pd.concat(X,keys=['PRE','POST'])
-				dataset_prefix += '_concatenated'
+				args.savepath += '_concatenated'
 			elif args.concat_option == 'pre':
-				X = X[0]
-				dataset_prefix += '_pre'
+				args.savepath += '_pre'
 			elif args.concat_option == 'post':
-				X = X[1]
-				dataset_prefix += '_post'
+				args.savepath += '_post'
+		else:
+			dataset_prefix = ''
 	if args.data_transform == 'raw':
 		def transform(x):
 			return x
@@ -244,16 +264,16 @@ if __name__ == '__main__':
 			return np.log10(x)
 	X = transform(X)
 	savepath_full = '%s/%s' % (args.savepath, dataset_prefix)
+	df_results = get_results(X, args.resultspath, dataset_prefix)
 	if not os.path.exists(savepath_full):
 		os.makedirs(savepath_full)
-	df_results = get_results(args.resultspath, dataset_prefix)
 	if args.rmse_r2_curves:
 		available = np.invert(np.isnan(X.values))
 		available_fraction = np.average(available)
 		plot_results_curves(df_results,'%s/rmse_r2.png' % savepath_full, available_fraction)
 	for o in args.example_obs_frac.split(','):
 		obs_frac = float(o)
-		X_hat, mask = median_performer(df_results, obs_frac)
+		X_hat, mask = median_performer(df_results, obs_frac, X.index, X.columns)
 		if args.recall_plot:
 			plot_recall(X, df_results, obs_frac,'%s/%d_pct_obs.recall.png' % (savepath_full,np.round(obs_frac*100)), args.high_titer_thresh)
 		if args.heatmap:
