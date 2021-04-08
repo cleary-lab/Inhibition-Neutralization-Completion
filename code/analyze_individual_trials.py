@@ -22,6 +22,9 @@ def get_results(X, resultspath, dataset_prefix):
 			X_hat = np.load(fp)
 		elif '.csv' in fp:
 			X_hat = pd.read_csv(fp,index_col=0).values
+			# sometimes an extra multiindex to remove
+			if X_hat.shape[1] == X.shape[1]+1:
+				X_hat = X_hat[:,1:].astype('float')
 		mask = np.load(fp.replace('completed','mask').replace('.csv','.npy'))
 		p = fp.split('obs-')[-1].split('.npy')[0]
 		while p.count('.') > 1:
@@ -239,11 +242,11 @@ if __name__ == '__main__':
 				elif args.concat_option == 'post':
 					X = X[1]
 				update_savepath = True
-			X.columns = [x.upper() for x in X.columns]
+			X.columns = [x.upper().replace('_','/') for x in X.columns]
 			datasets.append(X)
 		X = datasets[0]
 		for x in datasets[1:]:
-			X = X.merge(x,how='outer')
+			X = pd.concat([X,x],ignore_index=True)
 		if update_savepath and (len(datasets) == 1):
 			if args.concat_option == 'concat':
 				args.savepath += '_concatenated'

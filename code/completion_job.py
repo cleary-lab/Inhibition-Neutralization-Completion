@@ -44,7 +44,7 @@ if __name__ == '__main__':
 				elif args.concat_option == 'post':
 					X = X[1]
 				update_savepath = True
-			X.columns = [x.upper() for x in X.columns]
+			X.columns = [x.upper().replace('_','/') for x in X.columns]
 			datasets.append(X)
 			table_number = dataset.split('.csv')[-2]
 			table_number = table_number[table_number.rfind('S'):]
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 			counter += X.shape[0]
 		X = datasets[0]
 		for x in datasets[1:]:
-			X = X.merge(x,how='outer')
+			X = pd.concat([X,x])
 		if update_savepath and (len(datasets) == 1):
 			if args.concat_option == 'concat':
 				args.savepath += '_concatenated'
