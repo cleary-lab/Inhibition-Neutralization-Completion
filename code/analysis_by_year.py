@@ -14,30 +14,47 @@ from matplotlib.ticker import FormatStrFormatter
 import argparse
 import os
 
-def plot_recall(X,X_hat,mask,thresh,savepath,max_year,min_year,obs_frac=0):
-	x_label = 'Total fraction of entries from %s and later observed' % min_year
-	y_label = 'Total fraction of high titers > %.2f identified' % (thresh)
+def plot_recall(X,X_hat,mask,thresh,savepath,max_year,min_year,obs_frac=0,as_absolute=False):
+	if as_absolute:
+		x_label = 'Total number of entries from %s and later observed' % min_year
+		y_label = 'Total number of high titers > %.2f identified' % (thresh)
+	else:
+		x_label = 'Total fraction of entries from %s and later observed' % min_year
+		y_label = 'Total fraction of high titers > %.2f identified' % (thresh)
 	available = np.invert(np.isnan(X.values))
 	df = {x_label: [], y_label: []}
 	x = X.values[np.where((1-mask)*available)].flatten()
 	x_hat = X_hat.values[np.where((1-mask)*available)].flatten()
 	xs = np.argsort(-x_hat)
-	x_hat_frac = np.arange(1,len(x)+1)/len(x)*(1-obs_frac) + obs_frac
-	x_frac = np.cumsum((x[xs] >= thresh)/(x >= thresh).sum())
+	total_high = (x >= thresh).sum()
+	if as_absolute:
+		x_hat_frac = np.arange(1,len(x)+1)
+		x_frac = np.cumsum((x[xs] >= thresh))
+		xtick_locs = (obs_frac*len(x),np.where(x_frac > 0.8*total_high)[0][0],np.where(x_frac > 0.9*total_high)[0][0],np.where(x_frac > 0.95*total_high)[0][0],len(x))
+		ytick_locs = (np.rint(0.8*total_high),np.rint(0.9*total_high),np.rint(0.95*total_high),total_high)
+	else:
+		x_hat_frac = np.arange(1,len(x)+1)/len(x)*(1-obs_frac) + obs_frac
+		x_frac = np.cumsum((x[xs] >= thresh)/total_high)
+		xtick_locs = (obs_frac,np.where(x_frac > 0.8)[0][0],np.where(x_frac > 0.9)[0][0],np.where(x_frac > 0.95)[0][0],1)
+		ytick_locs = (0.8,0.9,0.95,1)
 	df[x_label] = x_hat_frac
 	df[y_label] = x_frac
 	df = pd.DataFrame(df)
 	ax=sns.lineplot(data=df,x=x_label, y=y_label, ci=None)
-	_=ax.axhline(0.8,ls='--',c='grey')
-	_=ax.axhline(0.9,ls='--',c='grey')
-	_=ax.axhline(0.95,ls='--',c='grey')
-	_=ax.axvline(x_hat_frac[np.where(x_frac > 0.8)[0][0]],ls='--',c='grey')
-	_=ax.axvline(x_hat_frac[np.where(x_frac > 0.9)[0][0]],ls='--',c='grey')
-	_=ax.axvline(x_hat_frac[np.where(x_frac > 0.95)[0][0]],ls='--',c='grey')
-	_=ax.set_yticks([x_frac.min(),0.8,0.9,0.95,1])
-	_=ax.set_xticks([obs_frac, x_hat_frac[np.where(x_frac > 0.8)[0][0]], x_hat_frac[np.where(x_frac > 0.9)[0][0]], x_hat_frac[np.where(x_frac > 0.95)[0][0]],1])
-	_=ax.xaxis.set_major_formatter(FormatStrFormatter('%.2f'))
-	_=ax.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+	_=ax.axhline(ytick_locs[0],ls='--',c='grey')
+	_=ax.axhline(ytick_locs[1],ls='--',c='grey')
+	_=ax.axhline(ytick_locs[2],ls='--',c='grey')
+	_=ax.axvline(x_hat_frac[xtick_locs[1]],ls='--',c='grey')
+	_=ax.axvline(x_hat_frac[xtick_locs[2]],ls='--',c='grey')
+	_=ax.axvline(x_hat_frac[xtick_locs[3]],ls='--',c='grey')
+	_=ax.set_yticks([x_frac.min(),ytick_locs[0],ytick_locs[1],ytick_locs[2],ytick_locs[3]])
+	_=ax.set_xticks([xtick_locs[0], x_hat_frac[xtick_locs[1]], x_hat_frac[xtick_locs[2]], x_hat_frac[xtick_locs[3]],xtick_locs[4]])
+	if as_absolute:
+		_=ax.xaxis.set_major_formatter(FormatStrFormatter('%d'))
+		_=ax.yaxis.set_major_formatter(FormatStrFormatter('%d'))
+	else:
+		_=ax.xaxis.set_major_formatter(FormatStrFormatter('%.2f'))
+		_=ax.yaxis.set_major_formatter(FormatStrFormatter('%.2f'))
 	_=plt.title('Recall of high titer entries from matrix completion (%s and earlier; ~%.1f%% unobserved)' % (max_year, 100-100*np.average(mask)), fontsize=8)
 	_=plt.tight_layout()
 	plt.savefig(savepath)
@@ -110,6 +127,7 @@ if __name__ == '__main__':
 		_=X_hat.to_csv(path_or_buf='%s/data.predicted.csv' % (savepath_full))
 	if args.recall_plot:
 		plot_recall(X2,X_hat,mask,args.high_titer_thresh,'%s/recall.png' % (savepath_full), args.max_year, args.min_year)
+		plot_recall(X2,X_hat,mask,args.high_titer_thresh,'%s/recall_absolute.png' % (savepath_full), args.max_year, args.min_year, as_absolute=True)
 	if args.scatter:
 		plot_scatter(X2,X_hat,mask,'%s/scatter.png' % (savepath_full), rmse, r2, args.data_transform, args.max_year, args.min_year)
 	if args.heatmap:

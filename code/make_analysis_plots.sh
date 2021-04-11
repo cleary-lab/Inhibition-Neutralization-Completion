@@ -27,3 +27,10 @@ python analyze_individual_trials.py --resultspath ../results/individual_trials/ 
 
 python analyze_individual_trials.py --resultspath ../results/individual_trials/ --savepath ../results/analysis_by_random_sample/ --rank-plot --rmse-r2-curves --heatmap --scatter --recall-plot --dataset ../datasets/CATNAP_Monoclonal_Antibodies.csv --flat-file
 
+
+python analysis_by_year.py --dataset ../datasets/CATNAP_Monoclonal_Antibodies.csv --flat-file --savepath ../results/analysis_by_year --min-year 2017 --max-year 2016 --recall-plot --rank-plot --heatmap --scatter
+
+python analysis_by_year.py --dataset ../datasets/CATNAP_Monoclonal_Antibodies.csv --flat-file --savepath ../results/analysis_by_year --min-year 2018 --max-year 2017 --recall-plot --rank-plot --heatmap --scatter
+
+python analysis_by_year.py --dataset ../datasets/CATNAP_Monoclonal_Antibodies.csv --flat-file --savepath ../results/analysis_by_year --min-year 2019 --max-year 2018 --recall-plot --rank-plot --heatmap --scatter
+
