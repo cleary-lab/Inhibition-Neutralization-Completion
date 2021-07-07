@@ -195,6 +195,51 @@ def plot_rank(X_hat,filename):
 	plt.savefig(filename)
 	plt.close()
 
+def weighted_std(values, weights):
+	average = np.average(values, weights=weights, axis=0)
+	variance = np.average((values-average)**2, weights=weights, axis=0)
+	return np.sqrt(variance)
+
+def plot_variance(X,df_results,filename,ref_obs_frac=0.95):
+	available = np.invert(np.isnan(X.values))
+	df_rmse = df_results[df_results['statistic'] == 'rmse']
+	ObsFrac = sorted(df_rmse['observed fraction'].unique())
+	df = df_rmse[df_rmse['observed fraction'] == ref_obs_frac]
+	xhats = np.array([z for z in df['X_hat'].values])
+	masks = np.array([z for z in df['mask'].values])
+	unobserved = 1-masks
+	unobserved_available = unobserved*available
+	unobserved_available_idx = np.where(unobserved_available.max(0))
+	rmses_ref = np.average((xhats - X.values)**2, weights=unobserved_available + 1e-5, axis=0)**.5
+	R2 = []
+	O = []
+	for obs_frac in ObsFrac:
+		df = df_rmse[df_rmse['observed fraction'] == obs_frac]
+		xhats = np.array([z for z in df['X_hat'].values])
+		masks = np.array([z for z in df['mask'].values])
+		unobserved = 1-masks
+		unobserved_available = unobserved*available
+		xhats_std = np.zeros(xhats.shape)
+		for i in range(xhats.shape[0]):
+			mean_i = xhats[i].mean(0)
+			u,s,vt = np.linalg.svd(xhats[i] - mean_i,full_matrices=False)
+			xhat_rank1 = np.array([np.outer(u[:,j],vt[j])*s[j] for j in range(u.shape[1])]) + mean_i
+			rmse_i = (xhat_rank1 - X.values)**2
+			idx = np.where(unobserved_available[i])
+			rmse_i = np.average(rmse_i[:,idx[0],idx[1]],axis=1)**.5
+			xhats_std[i] = weighted_std(xhat_rank1,1/rmse_i)
+		xhat_std = np.average(xhats_std, weights=unobserved_available + 1e-5, axis=0)
+		x = xhat_std[unobserved_available_idx]
+		y = rmses_ref[unobserved_available_idx]
+		R2.append((1-distance.correlation(x,y))**2)
+		O.append(np.average(masks))
+	ax=sns.lineplot(x=O, y=R2)
+	_=plt.xlabel('Total Fraction of entries observed')
+	_=plt.ylabel('r^2 with RMSE when 95% of available entries are observed', fontsize=8)
+	_=plt.tight_layout()
+	plt.savefig(filename)
+	plt.close()
+
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('--resultspath', help='Path to individual trial results')
@@ -213,6 +258,7 @@ if __name__ == '__main__':
 	parser.add_argument('--scatter',dest='scatter',help='Scatter plot from an example of matrix completion', action='store_true')
 	parser.add_argument('--recall-plot',dest='recall_plot',help='Plot recall curve', action='store_true')
 	parser.add_argument('--rank-plot',dest='rank_plot',help='Plot rank curve', action='store_true')
+	parser.add_argument('--variance-plot',dest='variance_plot',help='Plot variance vs rmse', action='store_true')
 	parser.add_argument('--flat-file',dest='flat_file',help='Load dataset as flat file', action='store_true')
 	parser.set_defaults(flat_file=False)
 	parser.set_defaults(rmse_r2_curves=False)
@@ -220,6 +266,7 @@ if __name__ == '__main__':
 	parser.set_defaults(scatter=False)
 	parser.set_defaults(recall_plot=False)
 	parser.set_defaults(rank_plot=False)
+	parser.set_defaults(variance_plot=False)
 	args,_ = parser.parse_known_args()
 	for key,value in vars(args).items():
 		print('%s\t%s' % (key,str(value)))
@@ -249,12 +296,12 @@ if __name__ == '__main__':
 			X = pd.concat([X,x],ignore_index=True)
 		if update_savepath and (len(datasets) == 1):
 			if args.concat_option == 'concat':
-				args.savepath += '_concatenated'
+				dataset_prefix += '_concatenated'
 			elif args.concat_option == 'pre':
-				args.savepath += '_pre'
+				dataset_prefix += '_pre'
 			elif args.concat_option == 'post':
-				args.savepath += '_post'
-		else:
+				dataset_prefix += '_post'
+		elif len(datasets) > 1:
 			dataset_prefix = ''
 	if args.data_transform == 'raw':
 		def transform(x):
@@ -285,3 +332,5 @@ if __name__ == '__main__':
 			plot_scatter(X, X_hat, mask,'%s/%d_pct_obs.scatter.png' % (savepath_full,np.round(obs_frac*100)), args.data_transform, args.value_name)
 		if args.rank_plot:
 			plot_rank(X_hat,'%s/%d_pct_obs.rank.png' % (savepath_full,np.round(obs_frac*100)))
+	if args.variance_plot:
+		plot_variance(X, df_results, '%s/variance_vs_rmse.png' % (savepath_full))

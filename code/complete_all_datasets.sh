@@ -18,27 +18,27 @@ DATASET=Fonville2014_TableS1
 python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10
 
 DATASET=Fonville2014_TableS13
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option concat
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option pre
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option post
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option concat
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option pre
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option post
 
 DATASET=Fonville2014_TableS14
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option concat
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option pre
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option post
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option concat
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option pre
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option post
 
 DATASET=Fonville2014_TableS3
 python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10
 
 DATASET=Fonville2014_TableS5
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option concat
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option pre
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option post
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option concat
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option pre
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option post
 
 DATASET=Fonville2014_TableS6
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option concat
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option pre
-python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10 --concat-option post
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option concat
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option pre
+python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET --obs-frac 1.0 --data-transform log10 --concat-option post
 
 # concatenate all Fonville tables
 DATASET=$BASE/$DATA/Fonville2014_TableS1.csv,$BASE/$DATA/Fonville2014_TableS3.csv,$BASE/$DATA/Fonville2014_TableS5.csv,$BASE/$DATA/Fonville2014_TableS6.csv,$BASE/$DATA/Fonville2014_TableS13.csv,$BASE/$DATA/Fonville2014_TableS14.csv
