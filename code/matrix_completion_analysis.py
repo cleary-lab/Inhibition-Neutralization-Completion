@@ -1,7 +1,7 @@
 import numpy as np
 from parse_datasets import load_flat_data, get_value_matrix, get_common_subset
-from matrix_completion import nuclear_norm_solve, svt_solve # https://github.com/tonyduan/matrix-completion
 import pandas as pd
+import cvxpy as cp
 from scipy.spatial import distance
 import matplotlib as mpl
 mpl.use('Agg')
@@ -50,6 +50,13 @@ def complete_matrix(X,mask,offset=True,lda=1):
 	else:
 		X_hat = nuclear_norm_solve(X,mask,mu=lda)
 	return X_hat
+
+def nuclear_norm_solve(A, mask, mu=1):
+	X = cp.Variable(shape=A.shape)
+	objective = cp.Minimize(mu * cp.norm(X, "nuc") + cp.sum_squares(cp.multiply(mask, X - A)))
+	problem = cp.Problem(objective, [])
+	problem.solve(solver=cp.SCS) # remove solver=cp.SCS to use default solver if SCS is not available / cannot be installed
+	return X.value
 
 # seems to be no better than nuclear_norm_solve (constraint in objective)
 def cvx_nuc(A,mask):
