@@ -1,5 +1,5 @@
 # Harnessing Matrix Completion to Unify and Extend Viral Serology Studies
-Authors: Tal Einav and Brian Cleary
+**Authors:** Tal Einav and Brian Cleary
 
 Python and Mathematica code for low-rank matrix completion. 
 
