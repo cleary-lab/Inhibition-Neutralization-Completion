@@ -59,11 +59,34 @@ We analyse antibody-virus measurements in the context of influenza (Fonville 201
 ---
 ## Mathematica Implementation
 
+Matrix completion is implemented via a robust PCA algorithm that takes as input a matrix whose entries are either real numbers or <code>Missing[]</code> values. The variable <code>IncompleteMatrix</code> with antibody-virus titer values is completed using:
+
+###
+	RPCA[IncompleteMatrix, "LogData" → True]
+###
+
+The option "LogData" → True indicates that completion is carried out on the Log10[values], rather than directly on the values.
+
 ### Basic Usage in Mathematica
 
-    matrixIncomplete = Import[filename]
-    RPCA[matrixIncomplete, "LogData" -> True]
+All code and data is contained within the single file [Analysis by Mathematica - Matrix Completion.nb](code/Analysis%20by%20Mathematica%20-%20Matrix%20Completion.nb). With the Initialization section loaded, matrix completion of one influenza study would proceed as:
+
+###
+    (* Load measurements from Fonville 2014 Table S1 and matrix complete *)
+    IncompleteMatrix = Table[data[{virus, serum}], {serum, sera["S1"]}, {virus, viruses["S1"]}];
+    CompleteMatrix = RPCA[IncompleteMatrix, "LogData" → True];
+###
+
+Matrix completion of the HIV-1 Catnap monoclonal antibody data would proceed as:
+
+###
+    (* Load measurements of Catnap Monoclonal Antibody data and matrix complete *)
+    IncompleteMatrix = Table[data[{virus, serum}], {serum, sera["Catnap"]}, {virus, viruses["Catnap"]}];
+    CompleteMatrix = RPCA[IncompleteMatrix, "LogData" → True, "InvertData" → True];
+###
+
+The "InvertData" → True option specifies that the matrix values should first be inverted (value→1/value) before matrix completion. This is necessary because the most potent interactions in the pre-completion matrix should be represented by the largest values, and the Catnap monoclonal antibody data measures IC$_{50}$ values where the most potent antibodies have the smallest IC$_{50}$s (hence the need for inversion). Note that all other datasets examined measure serum-virus interactions in dilution units where the strongest sera are represented by the largest dilutions, and hence there is no need to invert the data.
 
 ### Structure of Code
 
-All code and data is contained within the file *code/Analysis By Mathematica.nb*. All plots in the manuscript were created using Mathematica and are reproduced in the *Figures* section. Matrix completion is implemented using robust PCA in the *Initialization* section.
+The *Figures* section of the Mathematica notebook reproduces all plots in the manuscript. The subsection *Accessing the Data* describes how the raw measurements and the matrix-completed values can be accessed for all datasets analyzed in this work. The subsection *Methods of Matrix Completion* gives a primer on the method of matrix completion used. All parts of the notebook are heavily annotated to explain the workflow.
