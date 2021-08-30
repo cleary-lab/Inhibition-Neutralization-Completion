@@ -6,7 +6,30 @@ Python and Mathematica code for low-rank matrix completion.
 ---
 ## Python Implementation
 
-### Basic Usage in Python
+For basic usage, a given dataset can be completed from the command line using the python implementation. For example, to complete either of the following two studies use:
+
+###
+
+	BASE=../
+	DATA=datasets/
+	OUT=results/analysis_by_random_sample/
+
+	DATASET=CATNAP_Monoclonal_Antibodies
+	python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --flat-file --obs-frac 1.0
+
+	DATASET=Fonville2014_TableS1
+	python completion_job.py --dataset $BASE/$DATA/$DATASET.csv --savepath $BASE/$OUT/$DATASET/ --obs-frac 1.0 --data-transform log10
+
+###
+
+The *--obs-frac 1.0* flag indicates that all available data should be used, while *--flat-file* indicates that the first dataset is stored as a flattened array, and *--data-transform log10* in the second is used to alter the default transform, *neglog10*. The corresponding commands for each of the other included datasets are in [complete_all_datasets.sh](code/complete_all_datasets.sh).
+
+
+## Basic Usage in Python
+
+Internally, matrices are completed using the *complete_matrix* function in [matrix_completion_analysis.py](code/matrix_completion_analysis.py). The code below shows how to implement this core matrix completion algorithm based on nuclear norm minimization.
+
+###
 
     import numpy
     import pandas
@@ -23,9 +46,10 @@ Python and Mathematica code for low-rank matrix completion.
     # Matrix completion
     problem.solve(solver=cvxpy.SCS)
 
-### Structure of Code
+###
+## Structure of Code
 
-The *code* folder reproduces the analyses in our manuscript. In particular, the *matrix_completion_analysis.py* file contains the matrix completion algorithm (see *complete_matrix*).
+The [code](code/) folder reproduces the analyses in our manuscript.
 
 We analyse antibody-virus measurements in the context of influenza (Fonville 2014) and HIV-1 (Catnap). The raw measurements are contained in the folder *datasets*. The *results* folder contains:
 * Analysis by Random Sample: This approach (called intra-table completion in our manuscript) withholds a fraction of measurements within a dataset to show how well a subset of data can reconstruct the full suite of measurements. We impute these withheld values via matrix completion and quantify the accuracy of the completion. For each dataset, we show an example completions using 10%, 30%, or 50% of measurements, as well as the r^2 and RMSE curves as this fraction is varied. We also provide the completed matrix using all measurements (i.e., when no values are withheld).
