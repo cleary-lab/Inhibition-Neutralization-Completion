@@ -59,7 +59,7 @@ We analyse antibody-virus measurements in the context of influenza (Fonville 201
 ---
 ## Mathematica Implementation
 
-Matrix completion is implemented via a robust PCA algorithm that takes as input a matrix whose entries are either real numbers or <code>Missing[]</code> values. The variable <code>IncompleteMatrix</code> with antibody-virus titer values is completed using:
+Matrix completion is implemented via robust principal component analysis (RPCA) that takes as input a matrix whose entries are either real numbers or <code>Missing[]</code> values. The variable <code>IncompleteMatrix</code> with antibody-virus titer values is completed using:
 
 ###
 	RPCA[IncompleteMatrix, "LogData" → True]
@@ -85,7 +85,7 @@ Matrix completion of the HIV-1 Catnap monoclonal antibody data would proceed as:
     CompleteMatrix = RPCA[IncompleteMatrix, "LogData" → True, "InvertData" → True];
 ###
 
-The "InvertData" → True option specifies that the matrix values should first be inverted (value→1/value) before matrix completion. This is necessary because the most potent interactions in the pre-completion matrix should be represented by the largest values, and the Catnap monoclonal antibody data measures IC50 values where the most potent antibodies have the smallest IC50s (hence the need for inversion). Note that all other datasets examined measure serum-virus interactions in dilution units where the strongest sera are represented by the largest dilutions, and hence there is no need to invert the data.
+The "InvertData" → True option specifies that the matrix values should first be inverted (value→1/value) before matrix completion. This is necessary because the most potent interactions in the pre-completion matrix should be represented by the largest values, and the Catnap monoclonal antibody data measures IC<sub>50</sub> values (where smaller values represent a more potent antibody), which is the reverse of the Fonville ID<sub>50</sub> data where large values represent potent inhibition.
 
 ### Structure of Code
 
